@@ -1,0 +1,92 @@
+{
+ "selected": {
+  "xz_n0": 100.0,
+  "xz_n0.01": 10.0,
+  "xz_n0.05": 100.0,
+  "pop_n0.01": 100.0
+ },
+ "median_rel_err_rms": {
+  "xz_n0": {
+   "10": 0.03141433284716685,
+   "100": 0.01166937361262053,
+   "1000": 0.01415725695965475
+  },
+  "xz_n0.01": {
+   "10": 0.01308544702373216,
+   "100": 0.055654777431331626,
+   "1000": 0.1432356916518466
+  },
+  "xz_n0.05": {
+   "10": 0.3159152880363655,
+   "100": 0.31180436904316683,
+   "1000": 0.49595332368599643
+  },
+  "pop_n0.01": {
+   "10": 0.5548324764890511,
+   "100": 0.37070292242633035,
+   "1000": 0.5795844969680751
+  }
+ },
+ "rule": "per (design, noise level): the weight with the smallest median over the pilot realisations of the root-mean-square relative parameter error; the selected weight is used for all maps",
+ "timestamp_utc": "2026-10-11T20:56:38+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b7_campaign.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b7_campaign.py": "16e2cad6cc5c12ab"
+ },
+ "seed": null,
+ "config": {
+  "maps": [
+   "lin",
+   "factor",
+   "add"
+  ],
+  "gate": "pow",
+  "network": {
+   "width": 32,
+   "depth": 3,
+   "activation": "tanh",
+   "beta": 5.0
+  },
+  "optimizer": {
+   "adam_iters": 4000,
+   "lr": 0.002,
+   "schedule": "cosine to 5%",
+   "lbfgs_iters": 500
+  },
+  "parametrisation": "alpha = 0.05 + 0.95 sigmoid(a), rates = exp(u); the current alpha is used in the L1 weights and in the gate",
+  "data_weights": [
+   10.0,
+   100.0,
+   1000.0
+  ],
+  "pilot": {
+   "realisations": [
+    100,
+    101,
+    102
+   ],
+   "map": "add",
+   "selection": "per (design, noise level): the weight with the smallest median over the pilot realisations of the root-mean-square relative parameter error; the selected weight is used for all maps"
+  }
+ }
+}

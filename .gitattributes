@@ -1,0 +1,16 @@
+# No end-of-line conversion anywhere: provenance records store fingerprints of the source files, and the
+# aggregation check compares regenerated tables with the stored ones byte for byte.
+* -text
+
+# binary formats
+*.npz binary
+*.npy binary
+*.pdf binary
+*.png binary
+*.pt  binary
+
+# GitHub language statistics: count the code, not the stored results
+results/** linguist-generated
+tables/**  linguist-generated
+figures/** linguist-generated
+results-manifest.csv linguist-generated

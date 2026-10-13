@@ -1,0 +1,27 @@
+# timestamp_utc: 2026-10-11T23:24:01Z
+# command: e4_soe.py dirac
+# python: 3.14.3
+# numpy: 2.4.2
+# scipy: 1.18.1
+# torch: 2.10.0+cpu
+# mpmath: 1.3.0
+# fracsp: 0.1.0
+# blas: scipy-openblas 0.3.31.dev
+# platform: Windows-11-10.0.26200-SP0
+# machine: AMD64
+# cpu: 13th Gen Intel(R) Core(TM) i7-13620H
+# logical_cpus: 16
+# ram_gb: 15.7
+# blas_threads: 1
+# source_sha256_16: {"code/fracsp/__init__.py": "567de9449b4747da", "code/fracsp/dirac.py": "4e7df00a2e046628", "code/fracsp/exact.py": "e0f6dd869518be0f", "code/fracsp/layers.py": "dd6719e5e76155c6", "code/fracsp/mittag.py": "cb91941ac7e48e99", "code/fracsp/operators.py": "36849dcd8853dd3d", "code/fracsp/pinn.py": "b2522136eec04772", "code/fracsp/reference.py": "7ae76a46829a9536", "code/experiments/e4_soe.py": "9beb4ac36128c76c", "code/configs/soe.json": "49e4f28aaae3fbf8", "code/experiments/det_common.py": "043fa9aa83b4dc36"}
+# note: complete solves of the Dirac Bloch equations for K random wave vectors in |kappa_x|,|kappa_y|<=8, zeta=1, valley K, window [-30,30]; first repeat doubles as warm-up (median reported)
+# system_load_percent: 0.0
+solver,N,K,M,soe_rel_kernel_err,n_repeats,wall_median_s,wall_min_s,wall_max_s,microseconds_per_point_step,absdiff_final_bloch_to_full
+full_uniform_tab,2048,256,0,0.000e+00,3,0.4628,0.4561,0.5589,0.8827,0.000e+00
+soe_uniform,2048,256,111,7.312e-11,3,0.4002,0.3962,0.4062,0.7633,6.559e-13
+full_uniform_tab,4096,256,0,0.000e+00,3,1.5281,1.5257,1.5386,1.4573,0.000e+00
+soe_uniform,4096,256,112,7.312e-11,3,0.8164,0.8140,0.8177,0.7786,7.601e-13
+full_uniform_tab,8192,256,0,0.000e+00,3,6.3961,6.3469,6.9923,3.0499,0.000e+00
+soe_uniform,8192,256,114,7.312e-11,3,1.6287,1.6123,1.6346,0.7766,7.784e-13
+full_uniform_tab,16384,256,0,0.000e+00,3,25.5665,25.3535,25.7941,6.0955,0.000e+00
+soe_uniform,16384,256,116,7.312e-11,3,3.2424,3.2323,3.2489,0.7730,6.967e-13

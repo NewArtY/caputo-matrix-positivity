@@ -1,0 +1,267 @@
+{
+ "checks": {
+  "a0.3": {
+   "cond_V": 1.1694536258521149,
+   "eig_residual": 5.885491110159888e-15,
+   "max_diff_to_bloch_exact": 4.440892098500626e-16,
+   "mesh_r": 5.666666666666667,
+   "tau_1": 1.1458915195315707e-12
+  },
+  "a0.3_mixed": {
+   "min_eig_exact": 0.2307417596432745,
+   "max_trace_defect_exact": 2.4801290403684844e-16,
+   "max_herm_defect_exact": 2.1000903724951385e-16
+  },
+  "a0.3_nearly_pure": {
+   "min_eig_exact": 0.0004999999999999272,
+   "max_trace_defect_exact": 2.6295269413407396e-16,
+   "max_herm_defect_exact": 2.2023982425788077e-16
+  },
+  "a0.3_pure": {
+   "min_eig_exact": -1.4068267703109525e-16,
+   "max_trace_defect_exact": 2.606564633423294e-16,
+   "max_herm_defect_exact": 2.1709244012188357e-16
+  },
+  "a0.6": {
+   "cond_V": 1.1694536258521149,
+   "eig_residual": 5.885491110159888e-15,
+   "max_diff_to_bloch_exact": 3.3306690738754696e-16,
+   "mesh_r": 2.3333333333333335,
+   "tau_1": 1.2110908904786669e-05
+  },
+  "a0.6_mixed": {
+   "min_eig_exact": 0.2307417596432745,
+   "max_trace_defect_exact": 2.4808953879835065e-16,
+   "max_herm_defect_exact": 2.306595211858756e-16
+  },
+  "a0.6_nearly_pure": {
+   "min_eig_exact": 0.0004999999999999272,
+   "max_trace_defect_exact": 4.515197075279101e-16,
+   "max_herm_defect_exact": 2.2771483763253797e-16
+  },
+  "a0.6_pure": {
+   "min_eig_exact": -1.4068267703109525e-16,
+   "max_trace_defect_exact": 4.511320133488284e-16,
+   "max_herm_defect_exact": 2.2567759437687363e-16
+  },
+  "a0.9": {
+   "cond_V": 1.1694536258521149,
+   "eig_residual": 5.885491110159888e-15,
+   "max_diff_to_bloch_exact": 1.2490009027033011e-15,
+   "mesh_r": 1.2222222222222223,
+   "tau_1": 0.0026577929690905786
+  },
+  "a0.9_mixed": {
+   "min_eig_exact": 0.2307417596432745,
+   "max_trace_defect_exact": 2.4381015386246492e-16,
+   "max_herm_defect_exact": 2.5758161150233584e-16
+  },
+  "a0.9_nearly_pure": {
+   "min_eig_exact": 0.0004999999999999272,
+   "max_trace_defect_exact": 4.605709136733405e-16,
+   "max_herm_defect_exact": 2.3869542307646745e-16
+  },
+  "a0.9_pure": {
+   "min_eig_exact": -1.4068267703109525e-16,
+   "max_trace_defect_exact": 4.594950388475258e-16,
+   "max_herm_defect_exact": 2.372860391182777e-16
+  }
+ },
+ "timestamp_utc": "2026-10-11T18:55:31+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b2_prepare.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b2_density.json": "52dbdbff85f4ddce",
+  "b2_prepare.py": "0add0bca003d3893"
+ },
+ "seed": null,
+ "config": {
+  "description": "B2 factorial comparison: driven two-level system, D^alpha rho = L[rho] on tau in [0,1] (T_r = tau_c); factors: output map x initial condition x gate, at equal network, optimiser budget and collocation mesh",
+  "phys": {
+   "Omega": 6.283185307179586,
+   "Gdown": 1.0,
+   "Gphi": 0.5
+  },
+  "alphas": [
+   0.3,
+   0.6,
+   0.9
+  ],
+  "initial_states_bloch": {
+   "mixed": [
+    0.3,
+    0.2,
+    0.4
+   ],
+   "nearly_pure": [
+    0.0,
+    0.0446766381904458,
+    0.9980004999998747
+   ],
+   "pure": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "mesh": {
+   "N": 128,
+   "grading": "tau_n = (n/N)^r with r = (2 - alpha)/alpha"
+  },
+  "network": {
+   "width": 32,
+   "depth": 3,
+   "activation": "tanh",
+   "beta": 5.0,
+   "outputs": "2 d^2 real outputs for every map (d^2 - 1 for the minimal 'bloch' head)"
+  },
+  "optimizer": {
+   "adam_iters": 4000,
+   "lr": 0.002,
+   "schedule": "cosine to 5%",
+   "lbfgs_iters": 500
+  },
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "maps": {
+   "hard": [
+    "unc",
+    "herm",
+    "lin",
+    "factor",
+    "add"
+   ],
+   "hard_pure_only": [
+    "gate2",
+    "gate2b"
+   ],
+   "soft": [
+    "unc",
+    "herm",
+    "lin",
+    "factor"
+   ],
+   "note": "gate2 and gate2b coincide with factor when rho0 has full rank (mixed, nearly_pure), so they are run for the pure state only"
+  },
+  "gates": [
+   "exp",
+   "pow"
+  ],
+  "soft_ic": {
+   "weights": [
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+   ],
+   "pilot_seeds": [
+    100,
+    101,
+    102
+   ],
+   "selection": "per (map, alpha): weight with the smallest geometric mean of rel_fro over the three states and the pilot seeds; pilot seeds are disjoint from the reported seeds",
+   "untuned_reference": {
+    "weight": 1.0,
+    "maps": [
+     "unc",
+     "factor"
+    ],
+    "alphas": [
+     0.6
+    ],
+    "note": "soft IC with weight 1 is the baseline of the first campaign (Direct, SP-soft)"
+   }
+  },
+  "extras": {
+   "bloch_head": {
+    "map": "bloch",
+    "ic": "hard",
+    "gate": "pow"
+   },
+   "singular_feature": {
+    "maps": [
+     "lin",
+     "factor",
+     "add"
+    ],
+    "ic": "hard",
+    "gate": "pow",
+    "alphas": [
+     0.3,
+     0.6
+    ]
+   },
+   "long_budget": {
+    "maps": [
+     "unc",
+     "herm",
+     "lin",
+     "factor",
+     "add"
+    ],
+    "ic": "hard",
+    "gate": "pow",
+    "alphas": [
+     0.6
+    ],
+    "seeds": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "adam_iters": 16000,
+    "lbfgs_iters": 2000
+   }
+  },
+  "stepper": {
+   "N": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+   ],
+   "timing_repeats": 20
+  },
+  "test": {
+   "n_uniform": 1000,
+   "log_min": -12,
+   "per_decade": 40,
+   "definition": "tau = 0, the midpoints (j - 1/2)/1000 and 40 log-spaced points per decade on [1e-12, 1]; see fracsp.pinn.test_grid and state_metrics"
+  },
+  "eig_tol": 1e-12,
+  "nearly_pure_note": "|r0| = 0.999 (purity 0.9990005)"
+ }
+}

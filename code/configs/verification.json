@@ -1,0 +1,27 @@
+{
+  "description": "E1-E3: deterministic verification of the discrete Caputo operators and of the implicit L1 reference solver; E5: positivity of the implicit L1 step for GKSL generators. (E4, the SOE study, is configured in soe.json.)",
+  "E1_l1_operator": {
+    "alphas": [0.3, 0.5, 0.8], "T": 1.0, "N_list": [16, 32, 64, 128, 256, 512, 1024, 2048, 4096],
+    "functions": {"smooth": "t^2", "weak": "t^alpha"}, "meshes": {"uniform": 1.0, "graded": "(2-alpha)/alpha"},
+    "metrics": "max over nodes and final node of |D_h f - D^alpha f|, and the weighted maximum max_n t_n^alpha |D_h f(t_n) - D^alpha f(t_n)| that enters the discrete stability bound"
+  },
+  "E1_truncation": {
+    "alphas": [0.3, 0.5, 0.8], "lambda": 1.0, "T": 5.0, "N_list": [16, 32, 64, 128, 256, 512, 1024, 2048, 4096],
+    "function": "u = E_alpha(-lambda t^alpha), the solution of E3: truncation error R^n = D_h u(t_n) + lambda u(t_n)",
+    "meshes": {"uniform": 1.0, "graded": "(2-alpha)/alpha"}
+  },
+  "E2_alpha_gradient": {
+    "alphas": [0.2, 0.4, 0.6, 0.8, 0.95], "N_list": [32, 256, 2048], "fd_step": 1e-6, "test_function": "t^1.5 + sin(3t)",
+    "nonuniform": {"gradings": [3.0, "(2-alpha)/alpha"], "N_list": [32, 128], "mp_dps": 60, "mp_step": 1e-20},
+    "reference": "central difference of the discrete sum evaluated with mpmath (60 digits, step 1e-20) on the same double-precision nodal values"
+  },
+  "E3_mittag_leffler": {
+    "alphas": [0.3, 0.5, 0.8], "lambda": 1.0, "T": 5.0, "N_list": [32, 64, 128, 256, 512, 1024, 2048, 4096],
+    "meshes": {"uniform": 1.0, "graded": "(2-alpha)/alpha"}
+  },
+  "E5_positivity": {
+    "dims": [2, 3, 4], "alphas": [0.3, 0.6, 0.9, 1.0], "strengths": [1.0, 10.0, 40.0], "kinds": ["smooth", "switch", "eigen"],
+    "N": 200, "T": 1.0, "meshes": {"uniform": 1.0, "graded": "(2-alpha)/alpha, 3 for alpha = 1"}, "n_pure": 4, "n_mixed": 2, "seed": 20261011,
+    "soe_tol": 1e-10
+  }
+}

@@ -1,0 +1,6 @@
+0.9 0.05 {'variant': 'factor-fro', 'data_weight': 100.0, 'alpha_hat': 0.91399, 'ell_hat': 0.24388, 'residual_loss': 0.0029017, 'data_misfit': 0.0020771, 'state_rel_fro': 0.012034, 'state_frac_time_not_pd': 0.0, 'wall_s': 32.401}
+0.6 0.05 {'variant': 'factor-fro', 'data_weight': 100.0, 'alpha_hat': 0.60169, 'ell_hat': 0.2449, 'residual_loss': 0.0016758, 'data_misfit': 0.0020418, 'state_rel_fro': 0.013206, 'state_frac_time_not_pd': 0.0, 'wall_s': 33.093}
+0.9 0.01 {'variant': 'factor-fro', 'data_weight': 100.0, 'alpha_hat': 0.90575, 'ell_hat': 0.24866, 'residual_loss': 0.000177, 'data_misfit': 8.142e-05, 'state_rel_fro': 0.0028168, 'state_frac_time_not_pd': 0.0, 'wall_s': 32.208}
+0.9 0.05 {'variant': 'factor-fro', 'data_weight': 1.0, 'alpha_hat': 0.91999, 'ell_hat': 0.24322, 'residual_loss': 4.5605e-05, 'data_misfit': 0.0021858, 'state_rel_fro': 0.010166, 'state_frac_time_not_pd': 0.0, 'wall_s': 27.726}
+0.6 0.05 {'variant': 'factor-fro', 'data_weight': 1.0, 'alpha_hat': 0.60706, 'ell_hat': 0.24458, 'residual_loss': 9.8399e-05, 'data_misfit': 0.0021423, 'state_rel_fro': 0.010789, 'state_frac_time_not_pd': 0.0, 'wall_s': 21.254}
+0.9 0.01 {'variant': 'factor-fro', 'data_weight': 1.0, 'alpha_hat': 0.90241, 'ell_hat': 0.24926, 'residual_loss': 2.7562e-05, 'data_misfit': 8.6386e-05, 'state_rel_fro': 0.0020126, 'state_frac_time_not_pd': 0.0, 'wall_s': 24.222}

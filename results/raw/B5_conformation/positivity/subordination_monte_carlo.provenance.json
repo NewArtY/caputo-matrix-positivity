@@ -1,0 +1,33 @@
+{
+ "timestamp_utc": "2026-10-12T14:51:43+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 10,
+ "dtype": "float64",
+ "driver": "b5_positivity.py",
+ "code_sha256": {
+  "__init__.py": "0daf3c73968308ba",
+  "dirac.py": "4e7df00a2e046628",
+  "dirac_cutoff.py": "20f86201ed615abf",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "spd.py": "f1da1b08bf87de9e",
+  "b5_positivity.py": "226160fe136c6c98"
+ },
+ "seed": 12345,
+ "config": {
+  "monte_carlo_samples": 2000000
+ }
+}

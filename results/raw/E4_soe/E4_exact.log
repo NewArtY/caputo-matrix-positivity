@@ -1,0 +1,3 @@
+[    76.5s] exact solution on uniform_N65536: 65537 nodes, 76.5 s
+[    87.1s] exact solution on graded_N16384: 16385 nodes, 10.6 s
+[    87.1s] done

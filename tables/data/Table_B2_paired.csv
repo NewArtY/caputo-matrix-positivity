@@ -1,0 +1,663 @@
+comparison,metric,alpha,states,a,b,n_pairs,wins_a,gmean_ratio_a_over_b,median_ratio_a_over_b,min_ratio,max_ratio,p_wilcoxon
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,all,unc/hard-exp,unc/soft-tuned,90,69,0.777898,0.848894,0.256909,1.44952,1.9215e-10
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,all,unc/hard-exp,unc/soft-tuned,30,28,0.648445,0.646443,0.256909,1.33827,2.04891e-07
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,all,unc/hard-exp,unc/soft-tuned,30,26,0.745777,0.747257,0.337905,1.44952,4.40758e-05
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,all,unc/hard-exp,unc/soft-tuned,30,15,0.973386,0.99678,0.758905,1.03789,0.262122
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,all,unc/hard-exp,unc/soft-tuned,90,70,0.700253,0.63428,0.342787,1.94421,4.18785e-09
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,all,unc/hard-exp,unc/soft-tuned,30,30,0.472384,0.486408,0.347041,0.584446,1.86265e-09
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,all,unc/hard-exp,unc/soft-tuned,30,26,0.745815,0.756767,0.418517,1.3796,1.82446e-05
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,all,unc/hard-exp,unc/soft-tuned,30,14,0.974626,1.0798,0.342787,1.94421,0.967674
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,all,unc/hard-pow,unc/soft-tuned,90,81,0.394442,0.318898,0.0874435,1.02821,4.95351e-15
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,all,unc/hard-pow,unc/soft-tuned,30,30,0.225387,0.231158,0.0874435,0.603503,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,all,unc/hard-pow,unc/soft-tuned,30,30,0.281503,0.293531,0.124353,0.663683,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,all,unc/hard-pow,unc/soft-tuned,30,21,0.967249,0.98891,0.787699,1.02821,0.00619499
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,all,unc/hard-pow,unc/soft-tuned,90,88,0.247835,0.270305,0.0576075,1.24916,2.52177e-16
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,all,unc/hard-pow,unc/soft-tuned,30,30,0.0954998,0.0975019,0.0576075,0.150035,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,all,unc/hard-pow,unc/soft-tuned,30,30,0.26996,0.278119,0.151827,0.567153,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,all,unc/hard-pow,unc/soft-tuned,30,28,0.590458,0.624152,0.209831,1.24916,1.02445e-07
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,all,herm/hard-exp,herm/soft-tuned,90,54,0.811257,0.969001,0.114954,2.16837,0.00266732
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,all,herm/hard-exp,herm/soft-tuned,30,23,0.56036,0.532833,0.114954,2.16837,0.000123337
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,all,herm/hard-exp,herm/soft-tuned,30,16,0.95817,0.957044,0.446959,1.92239,0.715133
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,all,herm/hard-exp,herm/soft-tuned,30,15,0.994408,0.99742,0.919658,1.05746,0.556113
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,all,herm/hard-exp,herm/soft-tuned,90,44,0.995297,1.01579,0.365289,2.70421,0.867383
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,all,herm/hard-exp,herm/soft-tuned,30,14,0.99105,1.0793,0.432756,1.72866,0.967674
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,all,herm/hard-exp,herm/soft-tuned,30,16,0.951297,0.996627,0.477626,1.84112,0.542528
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,all,herm/hard-exp,herm/soft-tuned,30,14,1.04579,1.05212,0.365289,2.70421,0.464545
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,all,herm/hard-pow,herm/soft-tuned,90,79,0.390668,0.356963,0.0425311,1.03646,1.70444e-14
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,all,herm/hard-pow,herm/soft-tuned,30,30,0.206298,0.22746,0.0425311,0.658176,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,all,herm/hard-pow,herm/soft-tuned,30,30,0.293522,0.30667,0.110292,0.725598,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,all,herm/hard-pow,herm/soft-tuned,30,19,0.984669,0.992736,0.84865,1.03646,0.0605652
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,all,herm/hard-pow,herm/soft-tuned,90,87,0.303157,0.292932,0.0539396,1.21633,2.98024e-16
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,all,herm/hard-pow,herm/soft-tuned,30,30,0.171189,0.171638,0.0539396,0.388623,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,all,herm/hard-pow,herm/soft-tuned,30,30,0.283542,0.289826,0.108814,0.842802,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,all,herm/hard-pow,herm/soft-tuned,30,27,0.573997,0.59263,0.159337,1.21633,2.55182e-07
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,all,lin/hard-exp,lin/soft-tuned,90,49,0.964744,0.99691,0.344444,2.67749,0.392532
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,all,lin/hard-exp,lin/soft-tuned,30,18,0.930163,0.915695,0.344444,2.67749,0.477106
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,all,lin/hard-exp,lin/soft-tuned,30,15,0.975122,1.02476,0.505291,1.8513,0.776569
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,all,lin/hard-exp,lin/soft-tuned,30,16,0.989961,0.99864,0.805228,1.06904,0.502761
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,all,lin/hard-exp,lin/soft-tuned,90,44,0.982133,1.01597,0.406596,2.12785,0.736887
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,all,lin/hard-exp,lin/soft-tuned,30,2,1.31496,1.27717,0.77799,1.88814,1.99117e-06
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,all,lin/hard-exp,lin/soft-tuned,30,19,0.904335,0.911409,0.508744,1.75519,0.140283
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,all,lin/hard-exp,lin/soft-tuned,30,23,0.796651,0.752374,0.406596,2.12785,0.00171859
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,all,lin/hard-pow,lin/soft-tuned,90,82,0.402252,0.373958,0.101297,1.03105,5.11453e-15
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,all,lin/hard-pow,lin/soft-tuned,30,30,0.227804,0.215325,0.101297,0.741996,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,all,lin/hard-pow,lin/soft-tuned,30,30,0.292615,0.2953,0.141288,0.633885,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,all,lin/hard-pow,lin/soft-tuned,30,22,0.97642,0.992356,0.774802,1.03105,0.00663954
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,all,lin/hard-pow,lin/soft-tuned,90,90,0.262016,0.257264,0.102521,0.809575,1.74379e-16
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,all,lin/hard-pow,lin/soft-tuned,30,30,0.163048,0.159332,0.102521,0.279615,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,all,lin/hard-pow,lin/soft-tuned,30,30,0.252238,0.263272,0.123303,0.488764,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,all,lin/hard-pow,lin/soft-tuned,30,30,0.437377,0.429002,0.121639,0.809575,1.86265e-09
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,all,factor/hard-exp,factor/soft-tuned,90,59,0.993159,0.872895,0.149738,5.07266,0.605125
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,all,factor/hard-exp,factor/soft-tuned,30,1,2.49138,2.80345,0.692963,5.07266,9.31323e-09
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,all,factor/hard-exp,factor/soft-tuned,30,28,0.465697,0.47012,0.149738,1.55969,2.6077e-08
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,all,factor/hard-exp,factor/soft-tuned,30,30,0.844331,0.863202,0.673734,0.962018,1.86265e-09
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,all,factor/hard-exp,factor/soft-tuned,90,70,0.293725,0.427364,0.00759435,1.68752,4.43424e-11
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,all,factor/hard-exp,factor/soft-tuned,30,11,1.16216,1.21851,0.626614,1.68752,0.00403179
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,all,factor/hard-exp,factor/soft-tuned,30,29,0.410949,0.417402,0.190735,1.17411,3.72529e-09
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,all,factor/hard-exp,factor/soft-tuned,30,30,0.0530601,0.032295,0.00759435,0.57831,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,all,factor/hard-pow,factor/soft-tuned,90,90,0.215056,0.14196,0.0256535,0.956964,1.74379e-16
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,all,factor/hard-pow,factor/soft-tuned,30,30,0.129089,0.131693,0.0256535,0.343353,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,all,factor/hard-pow,factor/soft-tuned,30,30,0.0914565,0.088301,0.0443282,0.212833,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,all,factor/hard-pow,factor/soft-tuned,30,30,0.842461,0.86276,0.674107,0.956964,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,all,factor/hard-pow,factor/soft-tuned,90,90,0.0602879,0.0709747,0.0137483,0.301033,1.74379e-16
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,all,factor/hard-pow,factor/soft-tuned,30,30,0.0707201,0.0815986,0.025083,0.166092,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,all,factor/hard-pow,factor/soft-tuned,30,30,0.0668801,0.0756811,0.0178501,0.126874,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,all,factor/hard-pow,factor/soft-tuned,30,30,0.0463288,0.0283672,0.0137483,0.301033,1.86265e-09
+gate: pow vs exp,rel_fro,all,all,unc/hard-pow,unc/hard-exp,90,77,0.507062,0.462565,0.126973,1.0591,7.31725e-14
+gate: pow vs exp,rel_fro,0.3,all,unc/hard-pow,unc/hard-exp,30,29,0.34758,0.365659,0.126973,1.04065,3.72529e-09
+gate: pow vs exp,rel_fro,0.6,all,unc/hard-pow,unc/hard-exp,30,30,0.377463,0.387825,0.135571,0.848218,1.86265e-09
+gate: pow vs exp,rel_fro,0.9,all,unc/hard-pow,unc/hard-exp,30,18,0.993695,0.994725,0.955658,1.0591,0.134735
+gate: pow vs exp,node_rms_fro_to_l1,all,all,unc/hard-pow,unc/hard-exp,90,88,0.353923,0.346743,0.123417,1.38048,3.6398e-16
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,unc/hard-pow,unc/hard-exp,30,30,0.202165,0.202096,0.123417,0.358104,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,unc/hard-pow,unc/hard-exp,30,30,0.361966,0.362806,0.150829,0.880391,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,unc/hard-pow,unc/hard-exp,30,28,0.60583,0.565214,0.297457,1.38048,5.71832e-07
+gate: pow vs exp,rel_fro,all,all,herm/hard-pow,herm/hard-exp,90,80,0.48156,0.434194,0.116585,1.04332,1.65178e-14
+gate: pow vs exp,rel_fro,0.3,all,herm/hard-pow,herm/hard-exp,30,29,0.368152,0.373876,0.155328,1.00827,3.72529e-09
+gate: pow vs exp,rel_fro,0.6,all,herm/hard-pow,herm/hard-exp,30,30,0.306336,0.28993,0.116585,0.782456,1.86265e-09
+gate: pow vs exp,rel_fro,0.9,all,herm/hard-pow,herm/hard-exp,30,21,0.990206,0.992345,0.922789,1.04332,0.0234101
+gate: pow vs exp,node_rms_fro_to_l1,all,all,herm/hard-pow,herm/hard-exp,90,87,0.30459,0.285789,0.117451,1.17912,2.43879e-16
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,herm/hard-pow,herm/hard-exp,30,30,0.172735,0.166953,0.117451,0.390732,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,herm/hard-pow,herm/hard-exp,30,30,0.298058,0.286332,0.127367,0.601469,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,herm/hard-pow,herm/hard-exp,30,27,0.548862,0.560677,0.239869,1.17912,8.00937e-08
+gate: pow vs exp,rel_fro,all,all,lin/hard-pow,lin/hard-exp,90,81,0.416952,0.348166,0.111072,1.02038,5.28069e-15
+gate: pow vs exp,rel_fro,0.3,all,lin/hard-pow,lin/hard-exp,30,30,0.244907,0.25399,0.111072,0.645635,1.86265e-09
+gate: pow vs exp,rel_fro,0.6,all,lin/hard-pow,lin/hard-exp,30,30,0.30008,0.308598,0.13503,0.606051,1.86265e-09
+gate: pow vs exp,rel_fro,0.9,all,lin/hard-pow,lin/hard-exp,30,21,0.986321,0.994621,0.914392,1.02038,0.00711146
+gate: pow vs exp,node_rms_fro_to_l1,all,all,lin/hard-pow,lin/hard-exp,90,88,0.266783,0.255046,0.0730265,1.63237,3.08134e-16
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,lin/hard-pow,lin/hard-exp,30,30,0.123995,0.123503,0.0730265,0.221241,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,lin/hard-pow,lin/hard-exp,30,30,0.278921,0.275478,0.133727,0.561556,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,lin/hard-pow,lin/hard-exp,30,28,0.54902,0.528959,0.180361,1.63237,3.85568e-07
+gate: pow vs exp,rel_fro,all,all,factor/hard-pow,factor/hard-exp,90,77,0.216537,0.218389,0.0175628,1.00546,2.72389e-14
+gate: pow vs exp,rel_fro,0.3,all,factor/hard-pow,factor/hard-exp,30,30,0.0518142,0.0487649,0.0175628,0.134587,1.86265e-09
+gate: pow vs exp,rel_fro,0.6,all,factor/hard-pow,factor/hard-exp,30,30,0.196386,0.218389,0.0483056,0.677746,1.86265e-09
+gate: pow vs exp,rel_fro,0.9,all,factor/hard-pow,factor/hard-exp,30,17,0.997785,0.999132,0.974331,1.00546,0.119077
+gate: pow vs exp,node_rms_fro_to_l1,all,all,factor/hard-pow,factor/hard-exp,90,78,0.205253,0.173074,0.0245409,2.73713,3.71589e-14
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,factor/hard-pow,factor/hard-exp,30,30,0.0608524,0.0651565,0.0245409,0.120316,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,factor/hard-pow,factor/hard-exp,30,30,0.162746,0.173074,0.0426344,0.470241,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,factor/hard-pow,factor/hard-exp,30,18,0.873138,0.888873,0.279553,2.73713,0.170598
+gate: pow vs exp,rel_fro,all,all,add/hard-pow,add/hard-exp,90,54,0.618652,0.97327,0.0739068,1.89521,2.36949e-05
+gate: pow vs exp,rel_fro,0.3,all,add/hard-pow,add/hard-exp,30,30,0.244581,0.257139,0.0739068,0.870312,1.86265e-09
+gate: pow vs exp,rel_fro,0.6,all,add/hard-pow,add/hard-exp,30,17,0.96401,0.976546,0.609365,1.89521,0.439967
+gate: pow vs exp,rel_fro,0.9,all,add/hard-pow,add/hard-exp,30,7,1.00423,1.003,0.980601,1.02574,0.000666553
+gate: pow vs exp,node_rms_fro_to_l1,all,all,add/hard-pow,add/hard-exp,90,50,0.779367,0.907294,0.100836,4.8526,0.0205783
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,add/hard-pow,add/hard-exp,30,30,0.299245,0.30092,0.100836,0.741541,1.86265e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,add/hard-pow,add/hard-exp,30,17,0.920495,0.918143,0.533886,1.89906,0.19093
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,add/hard-pow,add/hard-exp,30,3,1.71861,1.71769,0.837557,4.8526,6.14673e-08
+gate: pow vs exp,rel_fro,all,all,gate2/hard-pow,gate2/hard-exp,30,20,0.881276,0.997701,0.426254,1.78087,0.0497101
+gate: pow vs exp,rel_fro,0.3,all,gate2/hard-pow,gate2/hard-exp,10,5,1.04669,0.967107,0.752318,1.78087,0.921875
+gate: pow vs exp,rel_fro,0.6,all,gate2/hard-pow,gate2/hard-exp,10,9,0.653438,0.590923,0.426254,1.25494,0.00976562
+gate: pow vs exp,rel_fro,0.9,all,gate2/hard-pow,gate2/hard-exp,10,6,1.00072,0.999302,0.997087,1.00853,1
+gate: pow vs exp,node_rms_fro_to_l1,all,all,gate2/hard-pow,gate2/hard-exp,30,17,0.89114,0.911815,0.419781,1.97664,0.236652
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,gate2/hard-pow,gate2/hard-exp,10,6,0.948464,0.919672,0.656698,1.27146,0.492188
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,gate2/hard-pow,gate2/hard-exp,10,9,0.57602,0.481873,0.419781,1.13343,0.00390625
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,gate2/hard-pow,gate2/hard-exp,10,2,1.29532,1.26533,0.792034,1.97664,0.0644531
+gate: pow vs exp,rel_fro,all,all,gate2b/hard-pow,gate2b/hard-exp,30,21,0.290864,0.588658,0.0201399,1.66348,0.0001886
+gate: pow vs exp,rel_fro,0.3,all,gate2b/hard-pow,gate2b/hard-exp,10,10,0.0420153,0.0439577,0.0201399,0.0774442,0.00195312
+gate: pow vs exp,rel_fro,0.6,all,gate2b/hard-pow,gate2b/hard-exp,10,9,0.582712,0.588658,0.231563,1.66348,0.0136719
+gate: pow vs exp,rel_fro,0.9,all,gate2b/hard-pow,gate2b/hard-exp,10,2,1.00509,1.00507,0.995276,1.01386,0.0488281
+gate: pow vs exp,node_rms_fro_to_l1,all,all,gate2b/hard-pow,gate2b/hard-exp,30,20,0.37445,0.516579,0.0293116,6.5036,0.0105983
+gate: pow vs exp,node_rms_fro_to_l1,0.3,all,gate2b/hard-pow,gate2b/hard-exp,10,10,0.046089,0.0474398,0.0293116,0.0608546,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,all,gate2b/hard-pow,gate2b/hard-exp,10,9,0.52976,0.516579,0.261,1.27224,0.00585938
+gate: pow vs exp,node_rms_fro_to_l1,0.9,all,gate2b/hard-pow,gate2b/hard-exp,10,1,2.15033,1.93891,0.955538,6.5036,0.00390625
+map vs unconstrained (hard-exp),rel_fro,all,all,herm/hard-exp,unc/hard-exp,90,55,0.92767,0.980797,0.349553,1.8879,0.038813
+map vs unconstrained (hard-exp),rel_fro,0.3,all,herm/hard-exp,unc/hard-exp,30,19,0.831648,0.901901,0.349553,1.77686,0.0277414
+map vs unconstrained (hard-exp),rel_fro,0.6,all,herm/hard-exp,unc/hard-exp,30,14,0.976443,1.04294,0.365707,1.8879,0.80783
+map vs unconstrained (hard-exp),rel_fro,0.9,all,herm/hard-exp,unc/hard-exp,30,22,0.983094,0.988914,0.936759,1.04506,0.00322299
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,all,herm/hard-exp,unc/hard-exp,90,59,0.81891,0.849898,0.255822,1.72154,2.54479e-05
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,all,herm/hard-exp,unc/hard-exp,30,17,0.963144,0.96594,0.77945,1.26163,0.170598
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,all,herm/hard-exp,unc/hard-exp,30,14,0.953224,1.04007,0.444014,1.72154,0.670181
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,all,herm/hard-exp,unc/hard-exp,30,28,0.598166,0.578555,0.255822,1.10881,4.65661e-08
+map vs unconstrained (hard-exp),rel_fro,all,all,lin/hard-exp,unc/hard-exp,90,66,0.856034,0.947489,0.351393,1.97185,1.06309e-05
+map vs unconstrained (hard-exp),rel_fro,0.3,all,lin/hard-exp,unc/hard-exp,30,20,0.795895,0.833395,0.369654,1.72427,0.0128337
+map vs unconstrained (hard-exp),rel_fro,0.6,all,lin/hard-exp,unc/hard-exp,30,24,0.798383,0.779838,0.351393,1.97185,0.00186401
+map vs unconstrained (hard-exp),rel_fro,0.9,all,lin/hard-exp,unc/hard-exp,30,22,0.987202,0.982365,0.932857,1.06368,0.026229
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,all,lin/hard-exp,unc/hard-exp,90,64,0.744127,0.857245,0.204411,2.05282,1.34179e-07
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,all,lin/hard-exp,unc/hard-exp,30,14,0.994764,1.01622,0.706936,1.29268,0.983834
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,all,lin/hard-exp,unc/hard-exp,30,24,0.802886,0.799041,0.362042,2.05282,0.00103817
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,all,lin/hard-exp,unc/hard-exp,30,26,0.515902,0.514773,0.204411,1.18582,2.55182e-07
+map vs unconstrained (hard-exp),rel_fro,all,all,factor/hard-exp,unc/hard-exp,90,46,1.3017,0.994923,0.43797,5.20609,0.00855154
+map vs unconstrained (hard-exp),rel_fro,0.3,all,factor/hard-exp,unc/hard-exp,30,0,2.34821,2.64629,1.00794,5.20609,1.86265e-09
+map vs unconstrained (hard-exp),rel_fro,0.6,all,factor/hard-exp,unc/hard-exp,30,18,0.970292,0.839921,0.43797,4.77874,0.427955
+map vs unconstrained (hard-exp),rel_fro,0.9,all,factor/hard-exp,unc/hard-exp,30,28,0.968044,0.968791,0.908729,1.00514,1.30385e-08
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,all,factor/hard-exp,unc/hard-exp,90,55,0.552864,0.844934,0.0323623,3.90084,0.00337593
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,all,factor/hard-exp,unc/hard-exp,30,7,1.32132,1.40763,0.8717,1.8252,5.14463e-06
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,all,factor/hard-exp,unc/hard-exp,30,18,0.998052,0.844934,0.579892,3.90084,0.569858
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,all,factor/hard-exp,unc/hard-exp,30,30,0.128143,0.121651,0.0323623,0.787006,1.86265e-09
+map vs unconstrained (hard-exp),rel_fro,all,all,add/hard-exp,unc/hard-exp,90,67,0.682804,0.957567,0.146568,4.52186,0.000146842
+map vs unconstrained (hard-exp),rel_fro,0.3,all,add/hard-exp,unc/hard-exp,30,7,1.3689,1.23178,0.562863,4.52186,0.000505488
+map vs unconstrained (hard-exp),rel_fro,0.6,all,add/hard-exp,unc/hard-exp,30,30,0.240955,0.232429,0.146568,0.505856,1.86265e-09
+map vs unconstrained (hard-exp),rel_fro,0.9,all,add/hard-exp,unc/hard-exp,30,30,0.965118,0.970587,0.893154,0.998266,1.86265e-09
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,all,add/hard-exp,unc/hard-exp,90,81,0.283413,0.25426,0.0562712,1.72821,2.07588e-15
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,all,add/hard-exp,unc/hard-exp,30,21,0.778966,0.744018,0.402625,1.72821,0.000729602
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,all,add/hard-exp,unc/hard-exp,30,30,0.234416,0.24272,0.131558,0.541534,1.86265e-09
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,all,add/hard-exp,unc/hard-exp,30,30,0.124668,0.125064,0.0562712,0.300492,1.86265e-09
+map vs map (hard-exp),rel_fro,all,all,factor/hard-exp,lin/hard-exp,90,34,1.52062,1.19595,0.470365,7.73965,4.76239e-07
+map vs map (hard-exp),rel_fro,0.3,all,factor/hard-exp,lin/hard-exp,30,0,2.95041,2.5748,1.17345,7.73965,1.86265e-09
+map vs map (hard-exp),rel_fro,0.6,all,factor/hard-exp,lin/hard-exp,30,7,1.21532,1.23763,0.470365,2.97677,0.0136632
+map vs map (hard-exp),rel_fro,0.9,all,factor/hard-exp,lin/hard-exp,30,27,0.980593,0.986826,0.909432,1.01539,9.98378e-07
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,factor/hard-exp,lin/hard-exp,90,43,0.74297,1.08053,0.0677258,2.85921,0.186241
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,factor/hard-exp,lin/hard-exp,30,6,1.32828,1.32664,0.757758,2.06555,1.06096e-05
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,factor/hard-exp,lin/hard-exp,30,7,1.24308,1.27696,0.582994,2.85921,0.00322299
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,factor/hard-exp,lin/hard-exp,30,30,0.248386,0.220584,0.0677258,0.894756,1.86265e-09
+map vs map (hard-exp),rel_fro,all,all,add/hard-exp,lin/hard-exp,90,61,0.797636,0.981263,0.119498,8.05581,0.00341992
+map vs map (hard-exp),rel_fro,0.3,all,add/hard-exp,lin/hard-exp,30,4,1.71995,1.76166,0.641605,8.05581,5.9735e-06
+map vs map (hard-exp),rel_fro,0.6,all,add/hard-exp,lin/hard-exp,30,30,0.301803,0.286387,0.119498,0.576981,1.86265e-09
+map vs map (hard-exp),rel_fro,0.9,all,add/hard-exp,lin/hard-exp,30,27,0.977629,0.986314,0.912519,1.0069,3.85568e-07
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,add/hard-exp,lin/hard-exp,90,82,0.380867,0.378812,0.0814697,1.64796,1.94546e-15
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,add/hard-exp,lin/hard-exp,30,22,0.783066,0.757024,0.475198,1.64796,0.000608409
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,add/hard-exp,lin/hard-exp,30,30,0.291966,0.291694,0.116668,0.597495,1.86265e-09
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,add/hard-exp,lin/hard-exp,30,30,0.24165,0.213897,0.0814697,0.558586,1.86265e-09
+map vs map (hard-exp),rel_fro,all,all,add/hard-exp,factor/hard-exp,90,69,0.524546,0.57691,0.0607735,1.66136,2.91735e-10
+map vs map (hard-exp),rel_fro,0.3,all,add/hard-exp,factor/hard-exp,30,21,0.582953,0.553242,0.182678,1.66136,7.05682e-05
+map vs map (hard-exp),rel_fro,0.6,all,add/hard-exp,factor/hard-exp,30,30,0.248332,0.260085,0.0607735,0.594554,1.86265e-09
+map vs map (hard-exp),rel_fro,0.9,all,add/hard-exp,factor/hard-exp,30,18,0.996978,0.999017,0.975063,1.0093,0.220647
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,add/hard-exp,factor/hard-exp,90,71,0.512627,0.460349,0.0744609,3.43567,1.68615e-09
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,add/hard-exp,factor/hard-exp,30,25,0.589536,0.605264,0.292991,1.21183,1.99117e-06
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,add/hard-exp,factor/hard-exp,30,30,0.234873,0.234184,0.0744609,0.489968,1.86265e-09
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,add/hard-exp,factor/hard-exp,30,16,0.972884,0.895656,0.196863,3.43567,0.935399
+map vs map (hard-exp),rel_fro,all,all,gate2/hard-exp,factor/hard-exp,30,22,0.485712,0.493697,0.125426,1.01296,2.68854e-05
+map vs map (hard-exp),rel_fro,0.3,all,gate2/hard-exp,factor/hard-exp,10,10,0.233069,0.216636,0.125426,0.437591,0.00195312
+map vs map (hard-exp),rel_fro,0.6,all,gate2/hard-exp,factor/hard-exp,10,9,0.491327,0.493697,0.184314,1.01296,0.00390625
+map vs map (hard-exp),rel_fro,0.9,all,gate2/hard-exp,factor/hard-exp,10,3,1.00065,1.00053,0.997384,1.00663,0.625
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,gate2/hard-exp,factor/hard-exp,30,22,0.589544,0.55624,0.187207,2.58263,0.000797898
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,gate2/hard-exp,factor/hard-exp,10,10,0.327578,0.302114,0.2387,0.623327,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,gate2/hard-exp,factor/hard-exp,10,10,0.466412,0.487784,0.187207,0.732283,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,gate2/hard-exp,factor/hard-exp,10,2,1.3411,1.49041,0.582487,2.58263,0.0644531
+map vs map (hard-exp),rel_fro,all,all,gate2b/hard-exp,factor/hard-exp,30,12,0.867469,1.00142,0.207121,2.31835,0.919297
+map vs map (hard-exp),rel_fro,0.3,all,gate2b/hard-exp,factor/hard-exp,10,1,1.18939,1.11896,0.692719,2.31835,0.0644531
+map vs map (hard-exp),rel_fro,0.6,all,gate2b/hard-exp,factor/hard-exp,10,9,0.548059,0.510531,0.207121,1.29273,0.00976562
+map vs map (hard-exp),rel_fro,0.9,all,gate2b/hard-exp,factor/hard-exp,10,2,1.00141,1.00142,0.999213,1.00448,0.0136719
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,gate2b/hard-exp,factor/hard-exp,30,11,0.997794,1.11091,0.206018,3.46622,0.745655
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,gate2b/hard-exp,factor/hard-exp,10,0,1.20514,1.11371,1.01577,1.9285,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,gate2b/hard-exp,factor/hard-exp,10,9,0.526063,0.484094,0.206018,1.10963,0.00390625
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,gate2b/hard-exp,factor/hard-exp,10,2,1.56692,1.45102,0.669362,3.46622,0.0273438
+map vs map (hard-exp),rel_fro,all,all,gate2b/hard-exp,add/hard-exp,30,3,1.85513,1.60951,0.997027,6.84024,3.85568e-07
+map vs map (hard-exp),rel_fro,0.3,all,gate2b/hard-exp,add/hard-exp,10,0,2.88568,3.01782,1.23746,6.84024,0.00195312
+map vs map (hard-exp),rel_fro,0.6,all,gate2b/hard-exp,add/hard-exp,10,0,2.21099,2.1746,1.36246,4.91507,0.00195312
+map vs map (hard-exp),rel_fro,0.9,all,gate2b/hard-exp,add/hard-exp,10,3,1.00067,1.00082,0.997027,1.00449,0.322266
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,gate2b/hard-exp,add/hard-exp,30,5,1.88548,1.8311,0.470262,5.94653,9.22009e-06
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,gate2b/hard-exp,add/hard-exp,10,0,2.73865,3.09116,1.47185,4.43839,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,gate2b/hard-exp,add/hard-exp,10,0,2.41319,2.49184,1.353,5.94653,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,gate2b/hard-exp,add/hard-exp,10,5,1.01423,1.0042,0.470262,1.73165,0.921875
+map vs map (hard-exp),rel_fro,all,all,gate2b/hard-exp,lin/hard-exp,30,16,1.4572,0.994342,0.432534,8.43931,0.280087
+map vs map (hard-exp),rel_fro,0.3,all,gate2b/hard-exp,lin/hard-exp,10,0,4.28902,4.28407,2.54085,8.43931,0.00195312
+map vs map (hard-exp),rel_fro,0.6,all,gate2b/hard-exp,lin/hard-exp,10,8,0.727967,0.682456,0.432534,1.49901,0.0488281
+map vs map (hard-exp),rel_fro,0.9,all,gate2b/hard-exp,lin/hard-exp,10,8,0.991039,0.991039,0.975152,1.0023,0.00976562
+map vs map (hard-exp),node_rms_fro_to_l1,all,all,gate2b/hard-exp,lin/hard-exp,30,18,0.742127,0.689681,0.0838294,2.20616,0.124134
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,all,gate2b/hard-exp,lin/hard-exp,10,0,1.85204,1.81545,1.49776,2.20616,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,all,gate2b/hard-exp,lin/hard-exp,10,8,0.721223,0.689681,0.402588,1.29984,0.0371094
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,all,gate2b/hard-exp,lin/hard-exp,10,10,0.305994,0.316656,0.0838294,0.571358,0.00195312
+map vs unconstrained (hard-pow),rel_fro,all,all,herm/hard-pow,unc/hard-pow,90,68,0.881014,0.936788,0.282906,2.48505,6.28432e-06
+map vs unconstrained (hard-pow),rel_fro,0.3,all,herm/hard-pow,unc/hard-pow,30,19,0.880868,0.788588,0.282906,2.48505,0.0732441
+map vs unconstrained (hard-pow),rel_fro,0.6,all,herm/hard-pow,unc/hard-pow,30,25,0.792448,0.7681,0.434531,1.5105,0.000418397
+map vs unconstrained (hard-pow),rel_fro,0.9,all,herm/hard-pow,unc/hard-pow,30,24,0.979641,0.983211,0.920341,1.01445,2.07983e-05
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,all,herm/hard-pow,unc/hard-pow,90,76,0.704762,0.732334,0.242582,1.5181,7.16356e-12
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,all,herm/hard-pow,unc/hard-pow,30,24,0.822932,0.827382,0.391532,1.5181,0.000505488
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,all,herm/hard-pow,unc/hard-pow,30,24,0.784925,0.776136,0.411438,1.40056,0.0001886
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,all,herm/hard-pow,unc/hard-pow,30,28,0.541919,0.52022,0.242582,1.03342,1.30385e-08
+map vs unconstrained (hard-pow),rel_fro,all,all,lin/hard-pow,unc/hard-pow,90,84,0.703908,0.828746,0.168687,1.17104,3.28244e-14
+map vs unconstrained (hard-pow),rel_fro,0.3,all,lin/hard-pow,unc/hard-pow,30,28,0.560792,0.5794,0.168687,1.17104,6.14673e-08
+map vs unconstrained (hard-pow),rel_fro,0.6,all,lin/hard-pow,unc/hard-pow,30,28,0.634709,0.652543,0.331293,1.12296,6.14673e-08
+map vs unconstrained (hard-pow),rel_fro,0.9,all,lin/hard-pow,unc/hard-pow,30,28,0.979876,0.987603,0.93136,1.01666,6.91041e-07
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,all,lin/hard-pow,unc/hard-pow,90,87,0.560914,0.569097,0.170936,1.09393,2.28084e-16
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,all,lin/hard-pow,unc/hard-pow,30,30,0.610122,0.626472,0.340256,0.907609,1.86265e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,all,lin/hard-pow,unc/hard-pow,30,28,0.618682,0.621867,0.313134,1.02867,9.31323e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,all,lin/hard-pow,unc/hard-pow,30,29,0.467525,0.468913,0.170936,1.09393,3.72529e-09
+map vs unconstrained (hard-pow),rel_fro,all,all,factor/hard-pow,unc/hard-pow,90,86,0.555883,0.642282,0.0638277,1.7236,2.33074e-14
+map vs unconstrained (hard-pow),rel_fro,0.3,all,factor/hard-pow,unc/hard-pow,30,27,0.350051,0.356284,0.0638277,1.7236,3.85568e-07
+map vs unconstrained (hard-pow),rel_fro,0.6,all,factor/hard-pow,unc/hard-pow,30,29,0.504824,0.532807,0.216225,1.0374,3.72529e-09
+map vs unconstrained (hard-pow),rel_fro,0.9,all,factor/hard-pow,unc/hard-pow,30,30,0.972028,0.980499,0.901645,0.999355,1.86265e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,all,factor/hard-pow,unc/hard-pow,90,86,0.320627,0.310398,0.061224,1.12191,3.18582e-16
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,all,factor/hard-pow,unc/hard-pow,30,27,0.397722,0.467571,0.0835124,1.07247,6.14673e-08
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,all,factor/hard-pow,unc/hard-pow,30,29,0.44874,0.521088,0.169583,1.12191,5.58794e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,all,factor/hard-pow,unc/hard-pow,30,30,0.184683,0.172177,0.061224,0.710229,1.86265e-09
+map vs unconstrained (hard-pow),rel_fro,all,all,add/hard-pow,unc/hard-pow,90,72,0.83307,0.947801,0.314106,3.73028,5.6059e-06
+map vs unconstrained (hard-pow),rel_fro,0.3,all,add/hard-pow,unc/hard-pow,30,14,0.963251,1.05699,0.314106,3.73028,0.730342
+map vs unconstrained (hard-pow),rel_fro,0.6,all,add/hard-pow,unc/hard-pow,30,29,0.615379,0.624573,0.341141,1.09883,5.58794e-09
+map vs unconstrained (hard-pow),rel_fro,0.9,all,add/hard-pow,unc/hard-pow,30,29,0.975353,0.983819,0.890859,1.00822,3.53903e-08
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,all,add/hard-pow,unc/hard-pow,90,72,0.624098,0.641938,0.16908,2.32249,7.11971e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,all,add/hard-pow,unc/hard-pow,30,13,1.15303,1.17863,0.5451,2.32249,0.0840655
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,all,add/hard-pow,unc/hard-pow,30,29,0.596128,0.641938,0.32762,1.06887,3.72529e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,all,add/hard-pow,unc/hard-pow,30,30,0.353656,0.370091,0.16908,0.910292,1.86265e-09
+map vs map (hard-pow),rel_fro,all,all,factor/hard-pow,lin/hard-pow,90,67,0.789709,0.978647,0.159168,3.08398,5.39578e-06
+map vs map (hard-pow),rel_fro,0.3,all,factor/hard-pow,lin/hard-pow,30,22,0.624208,0.599076,0.159168,3.08398,0.00577649
+map vs map (hard-pow),rel_fro,0.6,all,factor/hard-pow,lin/hard-pow,30,22,0.795363,0.9003,0.458486,1.4651,0.00276632
+map vs map (hard-pow),rel_fro,0.9,all,factor/hard-pow,lin/hard-pow,30,23,0.991991,0.993026,0.949667,1.0097,0.000283264
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,factor/hard-pow,lin/hard-pow,90,67,0.571615,0.656614,0.129829,2.54026,1.48862e-09
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,factor/hard-pow,lin/hard-pow,30,20,0.651873,0.765607,0.200267,2.54026,0.00433823
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,factor/hard-pow,lin/hard-pow,30,20,0.725316,0.801727,0.248834,1.5501,0.00538278
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,factor/hard-pow,lin/hard-pow,30,27,0.395022,0.399625,0.129829,1.43976,1.63913e-07
+map vs map (hard-pow),rel_fro,all,all,add/hard-pow,lin/hard-pow,90,40,1.18349,1.00175,0.508175,5.83279,0.0278818
+map vs map (hard-pow),rel_fro,0.3,all,add/hard-pow,lin/hard-pow,30,5,1.71766,1.62234,0.560471,5.83279,1.39661e-05
+map vs map (hard-pow),rel_fro,0.6,all,add/hard-pow,lin/hard-pow,30,17,0.969545,0.892993,0.508175,2.01239,0.439967
+map vs map (hard-pow),rel_fro,0.9,all,add/hard-pow,lin/hard-pow,30,18,0.995384,0.997669,0.938307,1.02387,0.140283
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,add/hard-pow,lin/hard-pow,90,40,1.11265,1.06768,0.246355,3.45204,0.117062
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,add/hard-pow,lin/hard-pow,30,2,1.88983,1.84169,0.844719,3.45204,2.6077e-08
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,add/hard-pow,lin/hard-pow,30,17,0.963545,0.904776,0.487727,2.0761,0.359878
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,add/hard-pow,lin/hard-pow,30,21,0.756443,0.748683,0.246355,2.33414,0.00577649
+map vs map (hard-pow),rel_fro,all,all,add/hard-pow,factor/hard-pow,90,20,1.49864,1.11616,0.688354,10.2961,3.53153e-09
+map vs map (hard-pow),rel_fro,0.3,all,add/hard-pow,factor/hard-pow,30,2,2.75175,2.89356,0.688354,10.2961,8.00937e-08
+map vs map (hard-pow),rel_fro,0.6,all,add/hard-pow,factor/hard-pow,30,9,1.219,1.24077,0.729983,1.78256,0.0012321
+map vs map (hard-pow),rel_fro,0.9,all,add/hard-pow,factor/hard-pow,30,9,1.00342,1.00336,0.980191,1.01715,0.0164312
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,add/hard-pow,factor/hard-pow,90,11,1.94649,1.89839,0.605402,8.14734,7.54475e-14
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,add/hard-pow,factor/hard-pow,30,0,2.89907,2.76399,1.35893,8.14734,1.86265e-09
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,add/hard-pow,factor/hard-pow,30,7,1.32845,1.29833,0.605402,3.23435,0.000729602
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,add/hard-pow,factor/hard-pow,30,4,1.91494,1.89839,0.621343,6.9561,1.68383e-06
+map vs map (hard-pow),rel_fro,all,all,gate2/hard-pow,factor/hard-pow,30,10,1.60715,1.2067,0.748347,6.41585,0.000729602
+map vs map (hard-pow),rel_fro,0.3,all,gate2/hard-pow,factor/hard-pow,10,0,3.48442,3.19609,1.77251,6.41585,0.00195312
+map vs map (hard-pow),rel_fro,0.6,all,gate2/hard-pow,factor/hard-pow,10,4,1.19011,1.2067,0.748347,1.98558,0.160156
+map vs map (hard-pow),rel_fro,0.9,all,gate2/hard-pow,factor/hard-pow,10,6,1.00103,0.999656,0.997898,1.00595,0.625
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,gate2/hard-pow,factor/hard-pow,30,6,1.91032,1.74457,0.647279,5.84549,5.9735e-06
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,gate2/hard-pow,factor/hard-pow,10,0,3.68785,3.72169,2.38653,5.84549,0.00195312
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,gate2/hard-pow,factor/hard-pow,10,5,1.12121,1.1571,0.694023,1.81361,0.375
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,gate2/hard-pow,factor/hard-pow,10,1,1.68599,1.68192,0.647279,3.13914,0.0136719
+map vs map (hard-pow),rel_fro,all,all,gate2b/hard-pow,factor/hard-pow,30,13,0.947346,1.00408,0.265263,2.24763,0.919297
+map vs map (hard-pow),rel_fro,0.3,all,gate2b/hard-pow,factor/hard-pow,10,7,0.713772,0.670105,0.265263,1.56275,0.105469
+map vs map (hard-pow),rel_fro,0.6,all,gate2b/hard-pow,factor/hard-pow,10,4,1.18384,1.05958,0.723074,2.24763,0.375
+map vs map (hard-pow),rel_fro,0.9,all,gate2b/hard-pow,factor/hard-pow,10,2,1.00617,1.00624,0.993616,1.01639,0.0488281
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,gate2b/hard-pow,factor/hard-pow,30,14,1.35856,1.01528,0.402172,6.68695,0.140283
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,gate2b/hard-pow,factor/hard-pow,10,9,0.659285,0.684113,0.402172,1.01341,0.00390625
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,gate2b/hard-pow,factor/hard-pow,10,5,1.16305,1.00636,0.820912,2.05826,0.431641
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,gate2b/hard-pow,factor/hard-pow,10,0,3.27013,3.38746,1.71277,6.68695,0.00195312
+map vs map (hard-pow),rel_fro,all,all,gate2b/hard-pow,add/hard-pow,30,18,0.784222,0.994456,0.104411,2.98041,0.10484
+map vs map (hard-pow),rel_fro,0.3,all,gate2b/hard-pow,add/hard-pow,10,9,0.413009,0.407255,0.104411,1.38675,0.00585938
+map vs map (hard-pow),rel_fro,0.6,all,gate2b/hard-pow,add/hard-pow,10,5,1.16491,1.03822,0.523721,2.98041,0.625
+map vs map (hard-pow),rel_fro,0.9,all,gate2b/hard-pow,add/hard-pow,10,4,1.00246,1.00207,0.99337,1.01104,0.322266
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,gate2b/hard-pow,add/hard-pow,30,18,0.822012,0.82304,0.194321,3.09663,0.212933
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,gate2b/hard-pow,add/hard-pow,10,10,0.323529,0.327092,0.194321,0.51768,0.00195312
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,gate2b/hard-pow,add/hard-pow,10,5,1.11527,0.965223,0.555444,3.07245,0.921875
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,gate2b/hard-pow,add/hard-pow,10,3,1.53936,1.54514,0.636441,3.09663,0.0839844
+map vs map (hard-pow),rel_fro,all,all,gate2b/hard-pow,lin/hard-pow,30,13,0.964057,1.00381,0.318924,2.60359,0.839393
+map vs map (hard-pow),rel_fro,0.3,all,gate2b/hard-pow,lin/hard-pow,10,4,0.818655,1.01721,0.318924,1.62265,0.556641
+map vs map (hard-pow),rel_fro,0.6,all,gate2b/hard-pow,lin/hard-pow,10,6,1.09395,0.916269,0.693029,2.60359,0.921875
+map vs map (hard-pow),rel_fro,0.9,all,gate2b/hard-pow,lin/hard-pow,10,3,1.00049,1.00381,0.985409,1.00652,0.695312
+map vs map (hard-pow),node_rms_fro_to_l1,all,all,gate2b/hard-pow,lin/hard-pow,30,16,0.979554,0.972097,0.466116,2.58192,0.745655
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,all,gate2b/hard-pow,lin/hard-pow,10,6,0.811117,0.9167,0.466116,1.12418,0.193359
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,gate2b/hard-pow,lin/hard-pow,10,5,1.12374,0.998003,0.759369,2.58192,0.845703
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,all,gate2b/hard-pow,lin/hard-pow,10,5,1.03118,1.11465,0.492563,1.7075,0.921875
+first campaign: SP-fPINN vs Direct,rel_fro,all,all,factor/hard-exp,unc/soft-w1,30,30,0.277543,0.280644,0.108295,0.88291,1.86265e-09
+first campaign: SP-fPINN vs Direct,rel_fro,0.6,all,factor/hard-exp,unc/soft-w1,30,30,0.277543,0.280644,0.108295,0.88291,1.86265e-09
+first campaign: SP-fPINN vs Direct,node_rms_fro_to_l1,all,all,factor/hard-exp,unc/soft-w1,30,30,0.141558,0.141697,0.05978,0.43897,1.86265e-09
+first campaign: SP-fPINN vs Direct,node_rms_fro_to_l1,0.6,all,factor/hard-exp,unc/soft-w1,30,30,0.141558,0.141697,0.05978,0.43897,1.86265e-09
+first campaign: SP-soft vs Direct,rel_fro,all,all,factor/soft-w1,unc/soft-w1,30,7,1.24841,1.26165,0.235528,2.52847,0.0013406
+first campaign: SP-soft vs Direct,rel_fro,0.6,all,factor/soft-w1,unc/soft-w1,30,7,1.24841,1.26165,0.235528,2.52847,0.0013406
+first campaign: SP-soft vs Direct,node_rms_fro_to_l1,all,all,factor/soft-w1,unc/soft-w1,30,6,1.22525,1.2745,0.224329,2.70123,0.00113145
+first campaign: SP-soft vs Direct,node_rms_fro_to_l1,0.6,all,factor/soft-w1,unc/soft-w1,30,6,1.22525,1.2745,0.224329,2.70123,0.00113145
+soft IC: tuned vs weight 1,rel_fro,all,all,unc/soft-tuned,unc/soft-w1,30,30,0.383547,0.379186,0.199537,0.710336,1.86265e-09
+soft IC: tuned vs weight 1,rel_fro,0.6,all,unc/soft-tuned,unc/soft-w1,30,30,0.383547,0.379186,0.199537,0.710336,1.86265e-09
+soft IC: tuned vs weight 1,node_rms_fro_to_l1,all,all,unc/soft-tuned,unc/soft-w1,30,30,0.190173,0.18495,0.0911214,0.370442,1.86265e-09
+soft IC: tuned vs weight 1,node_rms_fro_to_l1,0.6,all,unc/soft-tuned,unc/soft-w1,30,30,0.190173,0.18495,0.0911214,0.370442,1.86265e-09
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,pure,unc/hard-exp,unc/soft-tuned,30,23,0.803128,0.828436,0.490632,1.44952,9.90257e-05
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,pure,unc/hard-exp,unc/soft-tuned,10,10,0.638693,0.63689,0.490632,0.820514,0.00195312
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,pure,unc/hard-exp,unc/soft-tuned,10,9,0.808361,0.824534,0.587079,1.44952,0.0371094
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,pure,unc/hard-exp,unc/soft-tuned,10,4,1.00336,1.01028,0.972421,1.03014,0.492188
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,pure,unc/hard-exp,unc/soft-tuned,30,23,0.775612,0.763515,0.455552,1.86097,0.00256009
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,unc/hard-exp,unc/soft-tuned,10,10,0.512916,0.519124,0.455552,0.584446,0.00195312
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,unc/hard-exp,unc/soft-tuned,10,9,0.808449,0.809365,0.625739,1.32668,0.0273438
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,unc/hard-exp,unc/soft-tuned,10,4,1.12521,1.14787,0.552687,1.86097,0.375
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,pure,unc/hard-pow,unc/soft-tuned,30,26,0.373513,0.298448,0.0874435,1.02821,5.71832e-07
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,pure,unc/hard-pow,unc/soft-tuned,10,10,0.182065,0.22307,0.0874435,0.267625,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,pure,unc/hard-pow,unc/soft-tuned,10,10,0.28858,0.298448,0.15651,0.663683,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,pure,unc/hard-pow,unc/soft-tuned,10,6,0.991798,0.996084,0.934983,1.02821,0.431641
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,pure,unc/hard-pow,unc/soft-tuned,30,30,0.242896,0.279125,0.0576075,0.858996,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,unc/hard-pow,unc/soft-tuned,10,10,0.0833235,0.0907966,0.0576075,0.105738,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,unc/hard-pow,unc/soft-tuned,10,10,0.268852,0.279125,0.15244,0.530947,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,unc/hard-pow,unc/soft-tuned,10,10,0.639702,0.70236,0.368138,0.858996,0.00195312
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,pure,herm/hard-exp,herm/soft-tuned,30,16,0.846431,0.992936,0.348836,1.92239,0.157948
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,pure,herm/hard-exp,herm/soft-tuned,10,8,0.621743,0.652435,0.348836,1.11348,0.0195312
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,pure,herm/hard-exp,herm/soft-tuned,10,5,0.967855,1.0126,0.446959,1.92239,0.921875
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,pure,herm/hard-exp,herm/soft-tuned,10,3,1.00775,1.00829,0.965012,1.05746,0.275391
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,pure,herm/hard-exp,herm/soft-tuned,30,11,1.08849,1.14076,0.365289,2.70421,0.129353
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,herm/hard-exp,herm/soft-tuned,10,3,1.1038,1.16968,0.817577,1.33136,0.130859
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,herm/hard-exp,herm/soft-tuned,10,5,0.983411,1.06465,0.477626,1.84112,1
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,herm/hard-exp,herm/soft-tuned,10,3,1.18809,1.17349,0.365289,2.70421,0.275391
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,pure,herm/hard-pow,herm/soft-tuned,30,26,0.381199,0.310526,0.098199,1.02301,1.41934e-06
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,pure,herm/hard-pow,herm/soft-tuned,10,10,0.19524,0.191666,0.098199,0.451584,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,pure,herm/hard-pow,herm/soft-tuned,10,10,0.284467,0.294905,0.129282,0.567996,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,pure,herm/hard-pow,herm/soft-tuned,10,6,0.997367,0.998886,0.957313,1.02301,0.769531
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,pure,herm/hard-pow,herm/soft-tuned,30,29,0.319264,0.286648,0.11492,1.02755,5.58794e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,herm/hard-pow,herm/soft-tuned,10,10,0.169313,0.157161,0.11492,0.258496,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,herm/hard-pow,herm/soft-tuned,10,10,0.275506,0.286648,0.148353,0.483649,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,herm/hard-pow,herm/soft-tuned,10,9,0.697637,0.72451,0.43072,1.02755,0.00585938
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,pure,lin/hard-exp,lin/soft-tuned,30,17,0.984929,0.99691,0.500329,2.67749,0.655438
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,pure,lin/hard-exp,lin/soft-tuned,10,5,1.08283,1.15486,0.500329,2.67749,0.769531
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,pure,lin/hard-exp,lin/soft-tuned,10,6,0.885822,0.937059,0.528369,1.19174,0.322266
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,pure,lin/hard-exp,lin/soft-tuned,10,6,0.996114,0.99691,0.975439,1.01643,0.431641
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,pure,lin/hard-exp,lin/soft-tuned,30,15,0.984936,0.994917,0.447992,2.12785,0.855272
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,lin/hard-exp,lin/soft-tuned,10,0,1.42384,1.44693,1.08719,1.83938,0.00195312
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,lin/hard-exp,lin/soft-tuned,10,6,0.859012,0.941897,0.512603,1.32329,0.275391
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,lin/hard-exp,lin/soft-tuned,10,9,0.781206,0.752345,0.447992,2.12785,0.0644531
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,pure,lin/hard-pow,lin/soft-tuned,30,28,0.433024,0.43099,0.111756,1.01341,8.00937e-08
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,pure,lin/hard-pow,lin/soft-tuned,10,10,0.238354,0.184675,0.111756,0.741996,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,pure,lin/hard-pow,lin/soft-tuned,10,10,0.343492,0.361064,0.180836,0.569774,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,pure,lin/hard-pow,lin/soft-tuned,10,8,0.991736,0.989938,0.975854,1.01341,0.0839844
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,pure,lin/hard-pow,lin/soft-tuned,30,30,0.279416,0.322788,0.102521,0.809575,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,lin/hard-pow,lin/soft-tuned,10,10,0.149839,0.147164,0.102521,0.279615,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,lin/hard-pow,lin/soft-tuned,10,10,0.292067,0.322788,0.14835,0.43783,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,lin/hard-pow,lin/soft-tuned,10,10,0.498481,0.463401,0.391819,0.809575,0.00195312
+initial condition: hard(exp) vs soft(tuned),rel_fro,all,pure,factor/hard-exp,factor/soft-tuned,30,19,1.02437,0.827052,0.157058,4.00333,0.983834
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.3,pure,factor/hard-exp,factor/soft-tuned,10,0,3.07702,3.14767,1.6319,4.00333,0.00195312
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.6,pure,factor/hard-exp,factor/soft-tuned,10,9,0.434803,0.438555,0.157058,1.00178,0.00390625
+initial condition: hard(exp) vs soft(tuned),rel_fro,0.9,pure,factor/hard-exp,factor/soft-tuned,10,10,0.803428,0.806235,0.673734,0.941732,0.00195312
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,all,pure,factor/hard-exp,factor/soft-tuned,30,21,0.238035,0.412459,0.0109168,1.68752,8.85651e-05
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,factor/hard-exp,factor/soft-tuned,10,1,1.39755,1.40299,0.907059,1.68752,0.00390625
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,factor/hard-exp,factor/soft-tuned,10,10,0.392582,0.412459,0.222961,0.583809,0.00195312
+initial condition: hard(exp) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,factor/hard-exp,factor/soft-tuned,10,10,0.0245823,0.0262321,0.0109168,0.106667,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,all,pure,factor/hard-pow,factor/soft-tuned,30,30,0.27283,0.205395,0.0690909,0.943989,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.3,pure,factor/hard-pow,factor/soft-tuned,10,10,0.215428,0.197621,0.118285,0.343353,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.6,pure,factor/hard-pow,factor/soft-tuned,10,10,0.117295,0.124736,0.0690909,0.212833,0.00195312
+initial condition: hard(pow) vs soft(tuned),rel_fro,0.9,pure,factor/hard-pow,factor/soft-tuned,10,10,0.803695,0.805965,0.674107,0.943989,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,all,pure,factor/hard-pow,factor/soft-tuned,30,30,0.0654631,0.0912623,0.014479,0.166092,1.86265e-09
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.3,pure,factor/hard-pow,factor/soft-tuned,10,10,0.117742,0.110123,0.0921723,0.166092,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.6,pure,factor/hard-pow,factor/soft-tuned,10,10,0.0940697,0.0973343,0.0657646,0.121978,0.00195312
+initial condition: hard(pow) vs soft(tuned),node_rms_fro_to_l1,0.9,pure,factor/hard-pow,factor/soft-tuned,10,10,0.0253284,0.021591,0.014479,0.0552628,0.00195312
+gate: pow vs exp,rel_fro,all,pure,unc/hard-pow,unc/hard-exp,30,28,0.465072,0.399353,0.126973,1.01448,6.14673e-08
+gate: pow vs exp,rel_fro,0.3,pure,unc/hard-pow,unc/hard-exp,10,10,0.285058,0.314182,0.126973,0.518045,0.00195312
+gate: pow vs exp,rel_fro,0.6,pure,unc/hard-pow,unc/hard-exp,10,10,0.356994,0.374452,0.187116,0.709025,0.00195312
+gate: pow vs exp,rel_fro,0.9,pure,unc/hard-pow,unc/hard-exp,10,8,0.988478,0.989829,0.961501,1.01448,0.0644531
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,unc/hard-pow,unc/hard-exp,30,29,0.313166,0.357983,0.123417,1.38048,9.31323e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,unc/hard-pow,unc/hard-exp,10,10,0.162451,0.166722,0.123417,0.20226,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,unc/hard-pow,unc/hard-exp,10,10,0.332553,0.357983,0.182717,0.575618,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,unc/hard-pow,unc/hard-exp,10,9,0.568516,0.478424,0.403637,1.38048,0.00976562
+gate: pow vs exp,rel_fro,all,pure,herm/hard-pow,herm/hard-exp,30,28,0.450361,0.424638,0.155328,1.01698,2.04891e-07
+gate: pow vs exp,rel_fro,0.3,pure,herm/hard-pow,herm/hard-exp,10,10,0.31402,0.290171,0.155328,0.851164,0.00195312
+gate: pow vs exp,rel_fro,0.6,pure,herm/hard-pow,herm/hard-exp,10,10,0.293915,0.251084,0.165027,0.640173,0.00195312
+gate: pow vs exp,rel_fro,0.9,pure,herm/hard-pow,herm/hard-exp,10,8,0.989694,0.992518,0.949743,1.01698,0.193359
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,herm/hard-pow,herm/hard-exp,30,27,0.293309,0.246355,0.117451,1.17912,2.6077e-08
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,herm/hard-pow,herm/hard-exp,10,10,0.153391,0.137732,0.117451,0.272959,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,herm/hard-pow,herm/hard-exp,10,10,0.280154,0.244839,0.157459,0.600944,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,herm/hard-pow,herm/hard-exp,10,7,0.587193,0.654195,0.239869,1.17912,0.0273438
+gate: pow vs exp,rel_fro,all,pure,lin/hard-pow,lin/hard-exp,30,26,0.43965,0.428886,0.111072,1.00908,4.71249e-07
+gate: pow vs exp,rel_fro,0.3,pure,lin/hard-pow,lin/hard-exp,10,10,0.220122,0.236632,0.111072,0.415539,0.00195312
+gate: pow vs exp,rel_fro,0.6,pure,lin/hard-pow,lin/hard-exp,10,10,0.387766,0.395957,0.236577,0.606051,0.00195312
+gate: pow vs exp,rel_fro,0.9,pure,lin/hard-pow,lin/hard-exp,10,6,0.995605,0.996857,0.974311,1.00908,0.375
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,lin/hard-pow,lin/hard-exp,30,29,0.28369,0.344531,0.0730265,1.13642,5.58794e-09
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,lin/hard-pow,lin/hard-exp,10,10,0.105236,0.102558,0.0730265,0.16184,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,lin/hard-pow,lin/hard-exp,10,10,0.340003,0.344531,0.210744,0.561556,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,lin/hard-pow,lin/hard-exp,10,9,0.638092,0.671434,0.380467,1.13642,0.00585938
+gate: pow vs exp,rel_fro,all,pure,factor/hard-pow,factor/hard-exp,30,23,0.266339,0.283546,0.0360144,1.0024,5.9735e-06
+gate: pow vs exp,rel_fro,0.3,pure,factor/hard-pow,factor/hard-exp,10,10,0.0700119,0.0750049,0.0360144,0.121463,0.00195312
+gate: pow vs exp,rel_fro,0.6,pure,factor/hard-pow,factor/hard-exp,10,10,0.269766,0.283546,0.138708,0.677746,0.00195312
+gate: pow vs exp,rel_fro,0.9,pure,factor/hard-pow,factor/hard-exp,10,3,1.00033,1.00059,0.998707,1.0024,0.625
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,factor/hard-pow,factor/hard-exp,30,25,0.275015,0.248222,0.0651241,2.10623,3.23914e-06
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,factor/hard-pow,factor/hard-exp,10,10,0.0842487,0.080696,0.0651241,0.120316,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,factor/hard-pow,factor/hard-exp,10,10,0.239618,0.248222,0.140604,0.470241,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,factor/hard-pow,factor/hard-exp,10,5,1.03035,1.04745,0.466985,2.10623,0.921875
+gate: pow vs exp,rel_fro,all,pure,add/hard-pow,add/hard-exp,30,15,0.688059,0.99917,0.128026,1.89521,0.114177
+gate: pow vs exp,rel_fro,0.3,pure,add/hard-pow,add/hard-exp,10,10,0.293559,0.274567,0.128026,0.870312,0.00195312
+gate: pow vs exp,rel_fro,0.6,pure,add/hard-pow,add/hard-exp,10,4,1.10599,1.16718,0.674051,1.89521,0.322266
+gate: pow vs exp,rel_fro,0.9,pure,add/hard-pow,add/hard-exp,10,1,1.0033,1.00259,0.998223,1.012,0.0136719
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,add/hard-pow,add/hard-exp,30,16,0.85889,0.947771,0.20939,4.8526,0.404495
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,add/hard-pow,add/hard-exp,10,10,0.39014,0.407648,0.20939,0.741541,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,add/hard-pow,add/hard-exp,10,3,1.14628,1.19911,0.59633,1.89906,0.275391
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,add/hard-pow,add/hard-exp,10,3,1.41678,1.20509,0.837557,4.8526,0.0488281
+gate: pow vs exp,rel_fro,all,pure,gate2/hard-pow,gate2/hard-exp,30,20,0.881276,0.997701,0.426254,1.78087,0.0497101
+gate: pow vs exp,rel_fro,0.3,pure,gate2/hard-pow,gate2/hard-exp,10,5,1.04669,0.967107,0.752318,1.78087,0.921875
+gate: pow vs exp,rel_fro,0.6,pure,gate2/hard-pow,gate2/hard-exp,10,9,0.653438,0.590923,0.426254,1.25494,0.00976562
+gate: pow vs exp,rel_fro,0.9,pure,gate2/hard-pow,gate2/hard-exp,10,6,1.00072,0.999302,0.997087,1.00853,1
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,gate2/hard-pow,gate2/hard-exp,30,17,0.89114,0.911815,0.419781,1.97664,0.236652
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,gate2/hard-pow,gate2/hard-exp,10,6,0.948464,0.919672,0.656698,1.27146,0.492188
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,gate2/hard-pow,gate2/hard-exp,10,9,0.57602,0.481873,0.419781,1.13343,0.00390625
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,gate2/hard-pow,gate2/hard-exp,10,2,1.29532,1.26533,0.792034,1.97664,0.0644531
+gate: pow vs exp,rel_fro,all,pure,gate2b/hard-pow,gate2b/hard-exp,30,21,0.290864,0.588658,0.0201399,1.66348,0.0001886
+gate: pow vs exp,rel_fro,0.3,pure,gate2b/hard-pow,gate2b/hard-exp,10,10,0.0420153,0.0439577,0.0201399,0.0774442,0.00195312
+gate: pow vs exp,rel_fro,0.6,pure,gate2b/hard-pow,gate2b/hard-exp,10,9,0.582712,0.588658,0.231563,1.66348,0.0136719
+gate: pow vs exp,rel_fro,0.9,pure,gate2b/hard-pow,gate2b/hard-exp,10,2,1.00509,1.00507,0.995276,1.01386,0.0488281
+gate: pow vs exp,node_rms_fro_to_l1,all,pure,gate2b/hard-pow,gate2b/hard-exp,30,20,0.37445,0.516579,0.0293116,6.5036,0.0105983
+gate: pow vs exp,node_rms_fro_to_l1,0.3,pure,gate2b/hard-pow,gate2b/hard-exp,10,10,0.046089,0.0474398,0.0293116,0.0608546,0.00195312
+gate: pow vs exp,node_rms_fro_to_l1,0.6,pure,gate2b/hard-pow,gate2b/hard-exp,10,9,0.52976,0.516579,0.261,1.27224,0.00585938
+gate: pow vs exp,node_rms_fro_to_l1,0.9,pure,gate2b/hard-pow,gate2b/hard-exp,10,1,2.15033,1.93891,0.955538,6.5036,0.00390625
+map vs unconstrained (hard-exp),rel_fro,all,pure,herm/hard-exp,unc/hard-exp,30,18,0.948805,0.985915,0.419632,1.8879,0.271006
+map vs unconstrained (hard-exp),rel_fro,0.3,pure,herm/hard-exp,unc/hard-exp,10,6,0.852397,0.93561,0.419632,1.40009,0.275391
+map vs unconstrained (hard-exp),rel_fro,0.6,pure,herm/hard-exp,unc/hard-exp,10,5,1.0141,0.956864,0.494542,1.8879,0.845703
+map vs unconstrained (hard-exp),rel_fro,0.9,pure,herm/hard-exp,unc/hard-exp,10,7,0.988121,0.992533,0.953447,1.03693,0.105469
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,pure,herm/hard-exp,unc/hard-exp,30,21,0.794181,0.886967,0.255822,1.696,0.014538
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,pure,herm/hard-exp,unc/hard-exp,10,8,0.923019,0.929658,0.80036,1.12064,0.0644531
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,pure,herm/hard-exp,unc/hard-exp,10,5,1.0011,0.961529,0.511554,1.696,1
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,pure,herm/hard-exp,unc/hard-exp,10,8,0.542089,0.544038,0.255822,1.10881,0.0195312
+map vs unconstrained (hard-exp),rel_fro,all,pure,lin/hard-exp,unc/hard-exp,30,24,0.8312,0.947898,0.351393,1.72427,0.00403179
+map vs unconstrained (hard-exp),rel_fro,0.3,pure,lin/hard-exp,unc/hard-exp,10,6,0.811347,0.81213,0.378204,1.72427,0.275391
+map vs unconstrained (hard-exp),rel_fro,0.6,pure,lin/hard-exp,unc/hard-exp,10,9,0.720556,0.776789,0.351393,1.17036,0.0136719
+map vs unconstrained (hard-exp),rel_fro,0.9,pure,lin/hard-exp,unc/hard-exp,10,9,0.982295,0.981969,0.960954,1.01941,0.0273438
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,pure,lin/hard-exp,unc/hard-exp,30,24,0.666437,0.78539,0.235971,1.18195,6.28661e-05
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,pure,lin/hard-exp,unc/hard-exp,10,6,0.977193,0.977301,0.810007,1.18195,0.625
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,pure,lin/hard-exp,unc/hard-exp,10,8,0.734232,0.712699,0.362042,1.0755,0.0371094
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,pure,lin/hard-exp,unc/hard-exp,10,10,0.412537,0.361167,0.235971,0.894207,0.00195312
+map vs unconstrained (hard-exp),rel_fro,all,pure,factor/hard-exp,unc/hard-exp,30,16,1.39628,0.987992,0.584511,4.11361,0.0767212
+map vs unconstrained (hard-exp),rel_fro,0.3,pure,factor/hard-exp,unc/hard-exp,10,0,2.92577,2.94136,1.66072,4.11361,0.00195312
+map vs unconstrained (hard-exp),rel_fro,0.6,pure,factor/hard-exp,unc/hard-exp,10,6,0.957087,0.870983,0.584511,2.00631,0.845703
+map vs unconstrained (hard-exp),rel_fro,0.9,pure,factor/hard-exp,unc/hard-exp,10,10,0.972127,0.974212,0.953164,0.994228,0.00195312
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,pure,factor/hard-exp,unc/hard-exp,30,17,0.495674,0.886042,0.0359664,1.87888,0.177193
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,pure,factor/hard-exp,unc/hard-exp,10,1,1.50173,1.62011,0.926631,1.7699,0.00390625
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,pure,factor/hard-exp,unc/hard-exp,10,6,1.00662,0.895199,0.625087,1.87888,1
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,pure,factor/hard-exp,unc/hard-exp,10,10,0.0805621,0.0733091,0.0359664,0.19207,0.00195312
+map vs unconstrained (hard-exp),rel_fro,all,pure,add/hard-exp,unc/hard-exp,30,23,0.652905,0.966427,0.156656,2.15407,0.0105983
+map vs unconstrained (hard-exp),rel_fro,0.3,pure,add/hard-exp,unc/hard-exp,10,3,1.20591,1.19496,0.562863,2.15407,0.160156
+map vs unconstrained (hard-exp),rel_fro,0.6,pure,add/hard-exp,unc/hard-exp,10,10,0.237242,0.240122,0.156656,0.340324,0.00195312
+map vs unconstrained (hard-exp),rel_fro,0.9,pure,add/hard-exp,unc/hard-exp,10,10,0.972842,0.973322,0.955346,0.992113,0.00195312
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,all,pure,add/hard-exp,unc/hard-exp,30,28,0.26231,0.249597,0.0728508,1.3374,1.30385e-08
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.3,pure,add/hard-exp,unc/hard-exp,10,8,0.660838,0.591631,0.402625,1.3374,0.0136719
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.6,pure,add/hard-exp,unc/hard-exp,10,10,0.219437,0.217398,0.135395,0.309368,0.00195312
+map vs unconstrained (hard-exp),node_rms_fro_to_l1,0.9,pure,add/hard-exp,unc/hard-exp,10,10,0.124463,0.122982,0.0728508,0.278681,0.00195312
+map vs map (hard-exp),rel_fro,all,pure,factor/hard-exp,lin/hard-exp,30,10,1.67983,1.49299,0.68638,7.61917,0.00087182
+map vs map (hard-exp),rel_fro,0.3,pure,factor/hard-exp,lin/hard-exp,10,0,3.60607,3.4366,2.14371,7.61917,0.00195312
+map vs map (hard-exp),rel_fro,0.6,pure,factor/hard-exp,lin/hard-exp,10,2,1.32826,1.49299,0.68638,2.30691,0.0195312
+map vs map (hard-exp),rel_fro,0.9,pure,factor/hard-exp,lin/hard-exp,10,8,0.989649,0.990015,0.975296,1.00073,0.00976562
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,factor/hard-exp,lin/hard-exp,30,12,0.743768,1.3899,0.0930321,1.9592,0.542528
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,factor/hard-exp,lin/hard-exp,10,0,1.53678,1.54864,1.11769,1.9592,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,factor/hard-exp,lin/hard-exp,10,2,1.37098,1.46465,0.707869,1.95414,0.0136719
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,factor/hard-exp,lin/hard-exp,10,10,0.195285,0.178084,0.0930321,0.395754,0.00195312
+map vs map (hard-exp),rel_fro,all,pure,add/hard-exp,lin/hard-exp,30,22,0.785498,0.984236,0.186123,3.55889,0.0345367
+map vs map (hard-exp),rel_fro,0.3,pure,add/hard-exp,lin/hard-exp,10,3,1.48631,1.50869,0.82884,3.55889,0.0371094
+map vs map (hard-exp),rel_fro,0.6,pure,add/hard-exp,lin/hard-exp,10,10,0.329249,0.35644,0.186123,0.476785,0.00195312
+map vs map (hard-exp),rel_fro,0.9,pure,add/hard-exp,lin/hard-exp,10,9,0.990377,0.991301,0.973222,1.00358,0.00585938
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,add/hard-exp,lin/hard-exp,30,28,0.393601,0.447502,0.0814697,1.13728,1.30385e-08
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,add/hard-exp,lin/hard-exp,10,8,0.676262,0.581301,0.475198,1.13728,0.0136719
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,add/hard-exp,lin/hard-exp,10,10,0.298867,0.304444,0.132089,0.5262,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,add/hard-exp,lin/hard-exp,10,10,0.301701,0.332677,0.0814697,0.529099,0.00195312
+map vs map (hard-exp),rel_fro,all,pure,add/hard-exp,factor/hard-exp,30,24,0.467604,0.409714,0.140119,1.00433,1.21836e-05
+map vs map (hard-exp),rel_fro,0.3,pure,add/hard-exp,factor/hard-exp,10,10,0.412169,0.372587,0.272007,0.786395,0.00195312
+map vs map (hard-exp),rel_fro,0.6,pure,add/hard-exp,factor/hard-exp,10,10,0.24788,0.261083,0.140119,0.535313,0.00195312
+map vs map (hard-exp),rel_fro,0.9,pure,add/hard-exp,factor/hard-exp,10,4,1.00074,1.00033,0.99709,1.00433,0.322266
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,add/hard-exp,factor/hard-exp,30,23,0.529199,0.411833,0.128036,3.43567,0.0012321
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,add/hard-exp,factor/hard-exp,10,10,0.440051,0.411833,0.292991,0.755639,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,add/hard-exp,factor/hard-exp,10,10,0.217995,0.204678,0.128036,0.378212,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,add/hard-exp,factor/hard-exp,10,3,1.54493,1.93353,0.469348,3.43567,0.0839844
+map vs map (hard-exp),rel_fro,all,pure,gate2/hard-exp,factor/hard-exp,30,22,0.485712,0.493697,0.125426,1.01296,2.68854e-05
+map vs map (hard-exp),rel_fro,0.3,pure,gate2/hard-exp,factor/hard-exp,10,10,0.233069,0.216636,0.125426,0.437591,0.00195312
+map vs map (hard-exp),rel_fro,0.6,pure,gate2/hard-exp,factor/hard-exp,10,9,0.491327,0.493697,0.184314,1.01296,0.00390625
+map vs map (hard-exp),rel_fro,0.9,pure,gate2/hard-exp,factor/hard-exp,10,3,1.00065,1.00053,0.997384,1.00663,0.625
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,gate2/hard-exp,factor/hard-exp,30,22,0.589544,0.55624,0.187207,2.58263,0.000797898
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,gate2/hard-exp,factor/hard-exp,10,10,0.327578,0.302114,0.2387,0.623327,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,gate2/hard-exp,factor/hard-exp,10,10,0.466412,0.487784,0.187207,0.732283,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,gate2/hard-exp,factor/hard-exp,10,2,1.3411,1.49041,0.582487,2.58263,0.0644531
+map vs map (hard-exp),rel_fro,all,pure,gate2b/hard-exp,factor/hard-exp,30,12,0.867469,1.00142,0.207121,2.31835,0.919297
+map vs map (hard-exp),rel_fro,0.3,pure,gate2b/hard-exp,factor/hard-exp,10,1,1.18939,1.11896,0.692719,2.31835,0.0644531
+map vs map (hard-exp),rel_fro,0.6,pure,gate2b/hard-exp,factor/hard-exp,10,9,0.548059,0.510531,0.207121,1.29273,0.00976562
+map vs map (hard-exp),rel_fro,0.9,pure,gate2b/hard-exp,factor/hard-exp,10,2,1.00141,1.00142,0.999213,1.00448,0.0136719
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,gate2b/hard-exp,factor/hard-exp,30,11,0.997794,1.11091,0.206018,3.46622,0.745655
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,gate2b/hard-exp,factor/hard-exp,10,0,1.20514,1.11371,1.01577,1.9285,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,gate2b/hard-exp,factor/hard-exp,10,9,0.526063,0.484094,0.206018,1.10963,0.00390625
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,gate2b/hard-exp,factor/hard-exp,10,2,1.56692,1.45102,0.669362,3.46622,0.0273438
+map vs map (hard-exp),rel_fro,all,pure,gate2b/hard-exp,add/hard-exp,30,3,1.85513,1.60951,0.997027,6.84024,3.85568e-07
+map vs map (hard-exp),rel_fro,0.3,pure,gate2b/hard-exp,add/hard-exp,10,0,2.88568,3.01782,1.23746,6.84024,0.00195312
+map vs map (hard-exp),rel_fro,0.6,pure,gate2b/hard-exp,add/hard-exp,10,0,2.21099,2.1746,1.36246,4.91507,0.00195312
+map vs map (hard-exp),rel_fro,0.9,pure,gate2b/hard-exp,add/hard-exp,10,3,1.00067,1.00082,0.997027,1.00449,0.322266
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,gate2b/hard-exp,add/hard-exp,30,5,1.88548,1.8311,0.470262,5.94653,9.22009e-06
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,gate2b/hard-exp,add/hard-exp,10,0,2.73865,3.09116,1.47185,4.43839,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,gate2b/hard-exp,add/hard-exp,10,0,2.41319,2.49184,1.353,5.94653,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,gate2b/hard-exp,add/hard-exp,10,5,1.01423,1.0042,0.470262,1.73165,0.921875
+map vs map (hard-exp),rel_fro,all,pure,gate2b/hard-exp,lin/hard-exp,30,16,1.4572,0.994342,0.432534,8.43931,0.280087
+map vs map (hard-exp),rel_fro,0.3,pure,gate2b/hard-exp,lin/hard-exp,10,0,4.28902,4.28407,2.54085,8.43931,0.00195312
+map vs map (hard-exp),rel_fro,0.6,pure,gate2b/hard-exp,lin/hard-exp,10,8,0.727967,0.682456,0.432534,1.49901,0.0488281
+map vs map (hard-exp),rel_fro,0.9,pure,gate2b/hard-exp,lin/hard-exp,10,8,0.991039,0.991039,0.975152,1.0023,0.00976562
+map vs map (hard-exp),node_rms_fro_to_l1,all,pure,gate2b/hard-exp,lin/hard-exp,30,18,0.742127,0.689681,0.0838294,2.20616,0.124134
+map vs map (hard-exp),node_rms_fro_to_l1,0.3,pure,gate2b/hard-exp,lin/hard-exp,10,0,1.85204,1.81545,1.49776,2.20616,0.00195312
+map vs map (hard-exp),node_rms_fro_to_l1,0.6,pure,gate2b/hard-exp,lin/hard-exp,10,8,0.721223,0.689681,0.402588,1.29984,0.0371094
+map vs map (hard-exp),node_rms_fro_to_l1,0.9,pure,gate2b/hard-exp,lin/hard-exp,10,10,0.305994,0.316656,0.0838294,0.571358,0.00195312
+map vs unconstrained (hard-pow),rel_fro,all,pure,herm/hard-pow,unc/hard-pow,30,23,0.918791,0.957898,0.503256,2.48505,0.00619499
+map vs unconstrained (hard-pow),rel_fro,0.3,pure,herm/hard-pow,unc/hard-pow,10,6,0.939001,0.846035,0.503256,2.48505,0.556641
+map vs unconstrained (hard-pow),rel_fro,0.6,pure,herm/hard-pow,unc/hard-pow,10,9,0.834911,0.833333,0.697326,1.027,0.00390625
+map vs unconstrained (hard-pow),rel_fro,0.9,pure,herm/hard-pow,unc/hard-pow,10,8,0.989337,0.988552,0.973261,1.00679,0.0195312
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,pure,herm/hard-pow,unc/hard-pow,30,27,0.743824,0.786511,0.258445,1.47236,2.7623e-06
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,pure,herm/hard-pow,unc/hard-pow,10,8,0.871545,0.870716,0.637807,1.47236,0.0839844
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,pure,herm/hard-pow,unc/hard-pow,10,9,0.84336,0.849586,0.650662,1.0728,0.00585938
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,pure,herm/hard-pow,unc/hard-pow,10,10,0.559897,0.631723,0.258445,0.847074,0.00195312
+map vs unconstrained (hard-pow),rel_fro,all,pure,lin/hard-pow,unc/hard-pow,30,27,0.785763,0.91651,0.309049,1.17104,2.36668e-05
+map vs unconstrained (hard-pow),rel_fro,0.3,pure,lin/hard-pow,unc/hard-pow,10,9,0.626523,0.598321,0.309049,1.17104,0.00585938
+map vs unconstrained (hard-pow),rel_fro,0.6,pure,lin/hard-pow,unc/hard-pow,10,8,0.782666,0.775731,0.533015,1.12296,0.0195312
+map vs unconstrained (hard-pow),rel_fro,0.9,pure,lin/hard-pow,unc/hard-pow,10,10,0.989378,0.990412,0.978108,0.997602,0.00195312
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,pure,lin/hard-pow,unc/hard-pow,30,28,0.603709,0.622774,0.349734,1.02867,9.31323e-09
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,pure,lin/hard-pow,unc/hard-pow,10,10,0.63303,0.662139,0.391836,0.907609,0.00195312
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,pure,lin/hard-pow,unc/hard-pow,10,8,0.750682,0.778828,0.488825,1.02867,0.00976562
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,pure,lin/hard-pow,unc/hard-pow,10,10,0.463023,0.464591,0.349734,0.644936,0.00195312
+map vs unconstrained (hard-pow),rel_fro,all,pure,factor/hard-pow,unc/hard-pow,30,27,0.799624,0.905391,0.352437,1.7236,9.90257e-05
+map vs unconstrained (hard-pow),rel_fro,0.3,pure,factor/hard-pow,unc/hard-pow,10,8,0.718586,0.726726,0.352437,1.7236,0.0839844
+map vs unconstrained (hard-pow),rel_fro,0.6,pure,factor/hard-pow,unc/hard-pow,10,9,0.723233,0.646051,0.615735,1.0374,0.00390625
+map vs unconstrained (hard-pow),rel_fro,0.9,pure,factor/hard-pow,unc/hard-pow,10,10,0.983786,0.985564,0.966546,0.991727,0.00195312
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,pure,factor/hard-pow,unc/hard-pow,30,26,0.435289,0.612415,0.0727196,1.12191,4.71249e-07
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,pure,factor/hard-pow,unc/hard-pow,10,7,0.778815,0.726902,0.577264,1.07247,0.0644531
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,pure,factor/hard-pow,unc/hard-pow,10,9,0.72531,0.659582,0.588527,1.12191,0.00585938
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,pure,factor/hard-pow,unc/hard-pow,10,10,0.146007,0.142767,0.0727196,0.251041,0.00195312
+map vs unconstrained (hard-pow),rel_fro,all,pure,add/hard-pow,unc/hard-pow,30,21,0.965952,0.986434,0.495358,3.73028,0.183969
+map vs unconstrained (hard-pow),rel_fro,0.3,pure,add/hard-pow,unc/hard-pow,10,2,1.24188,1.11392,0.52496,3.73028,0.130859
+map vs unconstrained (hard-pow),rel_fro,0.6,pure,add/hard-pow,unc/hard-pow,10,9,0.734989,0.73423,0.495358,1.09883,0.00390625
+map vs unconstrained (hard-pow),rel_fro,0.9,pure,add/hard-pow,unc/hard-pow,10,10,0.987432,0.990257,0.972408,0.995818,0.00195312
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,all,pure,add/hard-pow,unc/hard-pow,30,19,0.719412,0.762161,0.16908,2.32249,0.0384184
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.3,pure,add/hard-pow,unc/hard-pow,10,0,1.58707,1.51701,1.13117,2.32249,0.00195312
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.6,pure,add/hard-pow,unc/hard-pow,10,9,0.756379,0.762161,0.454342,1.06887,0.00390625
+map vs unconstrained (hard-pow),node_rms_fro_to_l1,0.9,pure,add/hard-pow,unc/hard-pow,10,10,0.31017,0.295372,0.16908,0.638287,0.00195312
+map vs map (hard-pow),rel_fro,all,pure,factor/hard-pow,lin/hard-pow,30,19,1.01764,0.99243,0.582282,3.08398,0.318396
+map vs map (hard-pow),rel_fro,0.3,pure,factor/hard-pow,lin/hard-pow,10,5,1.14694,1.08246,0.582282,3.08398,0.845703
+map vs map (hard-pow),rel_fro,0.6,pure,factor/hard-pow,lin/hard-pow,10,6,0.924064,0.941145,0.65323,1.15837,0.322266
+map vs map (hard-pow),rel_fro,0.9,pure,factor/hard-pow,lin/hard-pow,10,8,0.994348,0.993893,0.984727,1.00245,0.0195312
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,factor/hard-pow,lin/hard-pow,30,18,0.721025,0.841886,0.195363,2.54026,0.0449072
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,factor/hard-pow,lin/hard-pow,10,3,1.2303,1.24589,0.808313,2.54026,0.0839844
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,factor/hard-pow,lin/hard-pow,10,5,0.966203,0.9946,0.722251,1.25442,0.625
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,factor/hard-pow,lin/hard-pow,10,10,0.315335,0.314967,0.195363,0.539736,0.00195312
+map vs map (hard-pow),rel_fro,all,pure,add/hard-pow,lin/hard-pow,30,14,1.22932,1.00045,0.629937,5.83279,0.427955
+map vs map (hard-pow),rel_fro,0.3,pure,add/hard-pow,lin/hard-pow,10,2,1.98217,2.01059,0.729475,5.83279,0.0136719
+map vs map (hard-pow),rel_fro,0.6,pure,add/hard-pow,lin/hard-pow,10,6,0.939083,0.928632,0.629937,1.86512,0.275391
+map vs map (hard-pow),rel_fro,0.9,pure,add/hard-pow,lin/hard-pow,10,6,0.998034,0.998695,0.9907,1.00587,0.322266
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,add/hard-pow,lin/hard-pow,30,13,1.19165,1.05295,0.454237,3.45204,0.262122
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,add/hard-pow,lin/hard-pow,10,0,2.5071,2.79576,1.64217,3.45204,0.00195312
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,add/hard-pow,lin/hard-pow,10,5,1.00759,1.02184,0.660273,1.87577,0.921875
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,add/hard-pow,lin/hard-pow,10,8,0.669879,0.72795,0.454237,1.04101,0.00976562
+map vs map (hard-pow),rel_fro,all,pure,add/hard-pow,factor/hard-pow,30,9,1.20801,1.00757,0.729983,6.2419,0.0247861
+map vs map (hard-pow),rel_fro,0.3,pure,add/hard-pow,factor/hard-pow,10,1,1.72822,1.5133,0.814907,6.2419,0.00976562
+map vs map (hard-pow),rel_fro,0.6,pure,add/hard-pow,factor/hard-pow,10,6,1.01625,0.940425,0.729983,1.7299,0.845703
+map vs map (hard-pow),rel_fro,0.9,pure,add/hard-pow,factor/hard-pow,10,2,1.00371,1.0029,0.99922,1.01097,0.0371094
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,add/hard-pow,factor/hard-pow,30,4,1.65272,1.75549,0.605402,5.09745,1.99117e-06
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,add/hard-pow,factor/hard-pow,10,0,2.03779,1.98913,1.35893,4.00063,0.00195312
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,add/hard-pow,factor/hard-pow,10,4,1.04284,1.09358,0.605402,1.74755,0.492188
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,add/hard-pow,factor/hard-pow,10,0,2.12434,2.00508,1.18402,5.09745,0.00195312
+map vs map (hard-pow),rel_fro,all,pure,gate2/hard-pow,factor/hard-pow,30,10,1.60715,1.2067,0.748347,6.41585,0.000729602
+map vs map (hard-pow),rel_fro,0.3,pure,gate2/hard-pow,factor/hard-pow,10,0,3.48442,3.19609,1.77251,6.41585,0.00195312
+map vs map (hard-pow),rel_fro,0.6,pure,gate2/hard-pow,factor/hard-pow,10,4,1.19011,1.2067,0.748347,1.98558,0.160156
+map vs map (hard-pow),rel_fro,0.9,pure,gate2/hard-pow,factor/hard-pow,10,6,1.00103,0.999656,0.997898,1.00595,0.625
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,gate2/hard-pow,factor/hard-pow,30,6,1.91032,1.74457,0.647279,5.84549,5.9735e-06
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,gate2/hard-pow,factor/hard-pow,10,0,3.68785,3.72169,2.38653,5.84549,0.00195312
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,gate2/hard-pow,factor/hard-pow,10,5,1.12121,1.1571,0.694023,1.81361,0.375
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,gate2/hard-pow,factor/hard-pow,10,1,1.68599,1.68192,0.647279,3.13914,0.0136719
+map vs map (hard-pow),rel_fro,all,pure,gate2b/hard-pow,factor/hard-pow,30,13,0.947346,1.00408,0.265263,2.24763,0.919297
+map vs map (hard-pow),rel_fro,0.3,pure,gate2b/hard-pow,factor/hard-pow,10,7,0.713772,0.670105,0.265263,1.56275,0.105469
+map vs map (hard-pow),rel_fro,0.6,pure,gate2b/hard-pow,factor/hard-pow,10,4,1.18384,1.05958,0.723074,2.24763,0.375
+map vs map (hard-pow),rel_fro,0.9,pure,gate2b/hard-pow,factor/hard-pow,10,2,1.00617,1.00624,0.993616,1.01639,0.0488281
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,gate2b/hard-pow,factor/hard-pow,30,14,1.35856,1.01528,0.402172,6.68695,0.140283
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,gate2b/hard-pow,factor/hard-pow,10,9,0.659285,0.684113,0.402172,1.01341,0.00390625
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,gate2b/hard-pow,factor/hard-pow,10,5,1.16305,1.00636,0.820912,2.05826,0.431641
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,gate2b/hard-pow,factor/hard-pow,10,0,3.27013,3.38746,1.71277,6.68695,0.00195312
+map vs map (hard-pow),rel_fro,all,pure,gate2b/hard-pow,add/hard-pow,30,18,0.784222,0.994456,0.104411,2.98041,0.10484
+map vs map (hard-pow),rel_fro,0.3,pure,gate2b/hard-pow,add/hard-pow,10,9,0.413009,0.407255,0.104411,1.38675,0.00585938
+map vs map (hard-pow),rel_fro,0.6,pure,gate2b/hard-pow,add/hard-pow,10,5,1.16491,1.03822,0.523721,2.98041,0.625
+map vs map (hard-pow),rel_fro,0.9,pure,gate2b/hard-pow,add/hard-pow,10,4,1.00246,1.00207,0.99337,1.01104,0.322266
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,gate2b/hard-pow,add/hard-pow,30,18,0.822012,0.82304,0.194321,3.09663,0.212933
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,gate2b/hard-pow,add/hard-pow,10,10,0.323529,0.327092,0.194321,0.51768,0.00195312
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,gate2b/hard-pow,add/hard-pow,10,5,1.11527,0.965223,0.555444,3.07245,0.921875
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,gate2b/hard-pow,add/hard-pow,10,3,1.53936,1.54514,0.636441,3.09663,0.0839844
+map vs map (hard-pow),rel_fro,all,pure,gate2b/hard-pow,lin/hard-pow,30,13,0.964057,1.00381,0.318924,2.60359,0.839393
+map vs map (hard-pow),rel_fro,0.3,pure,gate2b/hard-pow,lin/hard-pow,10,4,0.818655,1.01721,0.318924,1.62265,0.556641
+map vs map (hard-pow),rel_fro,0.6,pure,gate2b/hard-pow,lin/hard-pow,10,6,1.09395,0.916269,0.693029,2.60359,0.921875
+map vs map (hard-pow),rel_fro,0.9,pure,gate2b/hard-pow,lin/hard-pow,10,3,1.00049,1.00381,0.985409,1.00652,0.695312
+map vs map (hard-pow),node_rms_fro_to_l1,all,pure,gate2b/hard-pow,lin/hard-pow,30,16,0.979554,0.972097,0.466116,2.58192,0.745655
+map vs map (hard-pow),node_rms_fro_to_l1,0.3,pure,gate2b/hard-pow,lin/hard-pow,10,6,0.811117,0.9167,0.466116,1.12418,0.193359
+map vs map (hard-pow),node_rms_fro_to_l1,0.6,pure,gate2b/hard-pow,lin/hard-pow,10,5,1.12374,0.998003,0.759369,2.58192,0.845703
+map vs map (hard-pow),node_rms_fro_to_l1,0.9,pure,gate2b/hard-pow,lin/hard-pow,10,5,1.03118,1.11465,0.492563,1.7075,0.921875
+first campaign: SP-fPINN vs Direct,rel_fro,all,pure,factor/hard-exp,unc/soft-w1,10,10,0.298857,0.290096,0.126656,0.88291,0.00195312
+first campaign: SP-fPINN vs Direct,rel_fro,0.6,pure,factor/hard-exp,unc/soft-w1,10,10,0.298857,0.290096,0.126656,0.88291,0.00195312
+first campaign: SP-fPINN vs Direct,node_rms_fro_to_l1,all,pure,factor/hard-exp,unc/soft-w1,10,10,0.164708,0.148406,0.0858239,0.43897,0.00195312
+first campaign: SP-fPINN vs Direct,node_rms_fro_to_l1,0.6,pure,factor/hard-exp,unc/soft-w1,10,10,0.164708,0.148406,0.0858239,0.43897,0.00195312
+first campaign: SP-soft vs Direct,rel_fro,all,pure,factor/soft-w1,unc/soft-w1,10,1,1.43973,1.40199,0.989067,2.18417,0.00390625
+first campaign: SP-soft vs Direct,rel_fro,0.6,pure,factor/soft-w1,unc/soft-w1,10,1,1.43973,1.40199,0.989067,2.18417,0.00390625
+first campaign: SP-soft vs Direct,node_rms_fro_to_l1,all,pure,factor/soft-w1,unc/soft-w1,10,1,1.33612,1.30658,0.855894,1.80153,0.00585938
+first campaign: SP-soft vs Direct,node_rms_fro_to_l1,0.6,pure,factor/soft-w1,unc/soft-w1,10,1,1.33612,1.30658,0.855894,1.80153,0.00585938
+soft IC: tuned vs weight 1,rel_fro,all,pure,unc/soft-tuned,unc/soft-w1,10,10,0.386283,0.383564,0.199537,0.710336,0.00195312
+soft IC: tuned vs weight 1,rel_fro,0.6,pure,unc/soft-tuned,unc/soft-w1,10,10,0.386283,0.383564,0.199537,0.710336,0.00195312
+soft IC: tuned vs weight 1,node_rms_fro_to_l1,all,pure,unc/soft-tuned,unc/soft-w1,10,10,0.202393,0.215842,0.0970782,0.370442,0.00195312
+soft IC: tuned vs weight 1,node_rms_fro_to_l1,0.6,pure,unc/soft-tuned,unc/soft-w1,10,10,0.202393,0.215842,0.0970782,0.370442,0.00195312
+minimal Bloch head vs projected linear head (hard-pow),rel_fro,all,all,bloch/hard-pow,lin/hard-pow,90,49,0.991999,0.995345,0.420095,2.84122,0.712748
+minimal Bloch head vs projected linear head (hard-pow),rel_fro,0.3,all,bloch/hard-pow,lin/hard-pow,30,16,0.973418,0.95908,0.420095,2.84122,0.776569
+minimal Bloch head vs projected linear head (hard-pow),rel_fro,0.6,all,bloch/hard-pow,lin/hard-pow,30,14,1.00865,1.07595,0.516188,2.13417,0.776569
+minimal Bloch head vs projected linear head (hard-pow),rel_fro,0.9,all,bloch/hard-pow,lin/hard-pow,30,19,0.994249,0.995345,0.933623,1.01786,0.0666647
+minimal Bloch head vs projected linear head (hard-pow),node_rms_fro_to_l1,all,all,bloch/hard-pow,lin/hard-pow,90,55,0.93069,0.91615,0.244994,2.13603,0.0891293
+minimal Bloch head vs projected linear head (hard-pow),node_rms_fro_to_l1,0.3,all,bloch/hard-pow,lin/hard-pow,30,17,0.986556,0.9863,0.631783,1.64862,0.612006
+minimal Bloch head vs projected linear head (hard-pow),node_rms_fro_to_l1,0.6,all,bloch/hard-pow,lin/hard-pow,30,16,0.979413,0.938184,0.498371,2.0662,0.730342
+minimal Bloch head vs projected linear head (hard-pow),node_rms_fro_to_l1,0.9,all,bloch/hard-pow,lin/hard-pow,30,22,0.834309,0.85532,0.244994,2.13603,0.0549216
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,all,all,lin/hard-pow/singular,lin/hard-pow,60,54,0.402823,0.491107,0.104214,1.20935,6.92003e-11
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,0.3,all,lin/hard-pow/singular,lin/hard-pow,30,30,0.228494,0.207499,0.104214,0.568671,1.86265e-09
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,0.6,all,lin/hard-pow/singular,lin/hard-pow,30,24,0.710155,0.746206,0.392882,1.20935,3.23914e-06
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,all,all,lin/hard-pow/singular,lin/hard-pow,60,55,0.337284,0.339263,0.0856031,1.20197,4.43889e-11
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,0.3,all,lin/hard-pow/singular,lin/hard-pow,30,30,0.189156,0.182969,0.0856031,0.453663,1.86265e-09
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,0.6,all,lin/hard-pow/singular,lin/hard-pow,30,25,0.601412,0.571384,0.271569,1.20197,6.91041e-07
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,all,all,factor/hard-pow/singular,factor/hard-pow,60,46,0.461673,0.653262,0.0323172,2.75442,2.77089e-07
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,0.3,all,factor/hard-pow/singular,factor/hard-pow,30,26,0.258275,0.226862,0.0323172,2.75442,5.71832e-07
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,0.6,all,factor/hard-pow/singular,factor/hard-pow,30,20,0.82525,0.812845,0.397097,2.13588,0.0128337
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,all,all,factor/hard-pow/singular,factor/hard-pow,60,49,0.368059,0.412692,0.0356761,1.67013,1.63891e-08
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,0.3,all,factor/hard-pow/singular,factor/hard-pow,30,27,0.225202,0.200913,0.0356761,1.62759,2.04891e-07
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,0.6,all,factor/hard-pow/singular,factor/hard-pow,30,22,0.601536,0.62987,0.185899,1.67013,0.000729602
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,all,all,add/hard-pow/singular,add/hard-pow,60,53,0.36439,0.555854,0.0327296,1.81215,2.06837e-09
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,0.3,all,add/hard-pow/singular,add/hard-pow,30,30,0.157413,0.150672,0.0327296,0.599306,1.86265e-09
+"input: (tau, tau^alpha) vs tau (hard-pow)",rel_fro,0.6,all,add/hard-pow/singular,add/hard-pow,30,23,0.843512,0.798576,0.451601,1.81215,0.00501261
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,all,all,add/hard-pow/singular,add/hard-pow,60,54,0.307538,0.399989,0.0450743,2.05519,1.2529e-09
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,0.3,all,add/hard-pow/singular,add/hard-pow,30,30,0.121944,0.12317,0.0450743,0.42231,1.86265e-09
+"input: (tau, tau^alpha) vs tau (hard-pow)",node_rms_fro_to_l1,0.6,all,add/hard-pow/singular,add/hard-pow,30,24,0.775598,0.75222,0.274219,2.05519,0.00256009
+long budget: map vs map (hard-pow),rel_fro,all,all,factor/hard-pow,lin/hard-pow,15,12,0.803145,0.820704,0.514396,1.10656,0.00335693
+long budget: map vs map (hard-pow),rel_fro,0.6,all,factor/hard-pow,lin/hard-pow,15,12,0.803145,0.820704,0.514396,1.10656,0.00335693
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,all,all,factor/hard-pow,lin/hard-pow,15,12,0.437426,0.345867,0.159985,1.35496,0.00262451
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,factor/hard-pow,lin/hard-pow,15,12,0.437426,0.345867,0.159985,1.35496,0.00262451
+long budget: map vs map (hard-pow),rel_fro,all,all,add/hard-pow,lin/hard-pow,15,14,0.844723,0.900501,0.500857,1.0148,0.000305176
+long budget: map vs map (hard-pow),rel_fro,0.6,all,add/hard-pow,lin/hard-pow,15,14,0.844723,0.900501,0.500857,1.0148,0.000305176
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,all,all,add/hard-pow,lin/hard-pow,15,14,0.652576,0.73474,0.269429,1.06988,0.000183105
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,add/hard-pow,lin/hard-pow,15,14,0.652576,0.73474,0.269429,1.06988,0.000183105
+long budget: map vs map (hard-pow),rel_fro,all,all,lin/hard-pow,unc/hard-pow,15,15,0.734526,0.695142,0.565276,0.974231,6.10352e-05
+long budget: map vs map (hard-pow),rel_fro,0.6,all,lin/hard-pow,unc/hard-pow,15,15,0.734526,0.695142,0.565276,0.974231,6.10352e-05
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,all,all,lin/hard-pow,unc/hard-pow,15,15,0.585505,0.59898,0.377215,0.870309,6.10352e-05
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,lin/hard-pow,unc/hard-pow,15,15,0.585505,0.59898,0.377215,0.870309,6.10352e-05
+long budget: map vs map (hard-pow),rel_fro,all,all,factor/hard-pow,unc/hard-pow,15,15,0.589931,0.604256,0.391451,0.841036,6.10352e-05
+long budget: map vs map (hard-pow),rel_fro,0.6,all,factor/hard-pow,unc/hard-pow,15,15,0.589931,0.604256,0.391451,0.841036,6.10352e-05
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,all,all,factor/hard-pow,unc/hard-pow,15,15,0.256115,0.270823,0.0800003,0.611155,6.10352e-05
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,factor/hard-pow,unc/hard-pow,15,15,0.256115,0.270823,0.0800003,0.611155,6.10352e-05
+long budget: map vs map (hard-pow),rel_fro,all,all,add/hard-pow,factor/hard-pow,15,6,1.05177,1.06919,0.826244,1.23201,0.120544
+long budget: map vs map (hard-pow),rel_fro,0.6,all,add/hard-pow,factor/hard-pow,15,6,1.05177,1.06919,0.826244,1.23201,0.120544
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,all,all,add/hard-pow,factor/hard-pow,15,6,1.49185,1.08943,0.702198,4.59255,0.106995
+long budget: map vs map (hard-pow),node_rms_fro_to_l1,0.6,all,add/hard-pow,factor/hard-pow,15,6,1.49185,1.08943,0.702198,4.59255,0.106995

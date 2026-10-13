@@ -1,0 +1,51 @@
+{
+  "title": "Code and data for: Positivity preservation in matrix-valued Caputo evolution equations: continuous problem, L1 time stepping, and residual-based neural networks",
+  "upload_type": "software",
+  "description": "<p>Source code, configuration files, raw numerical results, tables and figures for the article Positivity preservation in matrix-valued Caputo evolution equations: continuous problem, L1 time stepping, and residual-based neural networks: Caputo time-fractional evolution of positive-semidefinite matrix states, L1 time stepping on uniform and graded meshes, sum-of-exponentials history, and physics-informed networks with admissible output maps.</p><p>Benchmarks: verification experiments E1-E5; scalar and matrix-valued forward and inverse problems B1, B2, B6 and B7 and a parametric surrogate; the laser-driven massive-Dirac model B3 and B4; the conformation tensor of a viscoelastic fluid B5.</p><p>The archive contains the Python package <code>fracsp</code> with its tests, the experiment drivers and their configurations, every raw result with a provenance record, and the scripts that regenerate all tables and figures from the raw results in about two minutes. See README.md for the layout, the installation and the commands.</p><p>Licences: source code MIT; data and figures CC BY 4.0.</p>",
+  "creators": [
+    {
+      "name": "Akintsov, Nikolai S.",
+      "affiliation": "School of Artificial Intelligence and Computer Science, Nantong University, Nantong 226019, China",
+      "orcid": "0000-0002-1040-1292"
+    },
+    {
+      "name": "Nevecheria, Artem P.",
+      "affiliation": "Department of Mathematical and Computer Methods, Kuban State University, Krasnodar 350040, Russia",
+      "orcid": "0000-0001-6736-4691"
+    },
+    {
+      "name": "Andreev, Stepan N.",
+      "affiliation": "Joint-Stock Company \"Center for Research and Development\", Moscow 101000, Russia",
+      "orcid": "0000-0003-3588-2894"
+    },
+    {
+      "name": "Qin, Qing-Hua",
+      "affiliation": "Institute of Advanced Interdisciplinary Technology, Shenzhen MSU-BIT University, Shenzhen 518172, China",
+      "orcid": "0000-0003-0948-784X"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "Caputo derivative",
+    "time-fractional evolution equations",
+    "L1 scheme",
+    "sum-of-exponentials approximation",
+    "physics-informed neural networks",
+    "positive semidefinite matrices",
+    "density matrix",
+    "conformation tensor",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.0000/ARTICLE-DOI-TO-BE-INSERTED",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "PLACEHOLDERS to be replaced before the deposit: the article title in \"title\" and \"description\" and the DOI of the article in \"related_identifiers\". Licences: the source code (code/, scripts/) is released under the MIT License; the data and figures (results/, tables/, figures/) under CC BY 4.0."
+}

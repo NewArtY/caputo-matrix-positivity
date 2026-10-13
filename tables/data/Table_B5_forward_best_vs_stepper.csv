@@ -1,0 +1,25 @@
+flow,Wi,alpha,frame,"stepper e_F, %",best network variant,"its median e_F, %",ratio network / stepper,wall-time ratio network / stepper
+shear,1,0.6,aligned,0.051,exp(Psi) / Frobenius,0.076,1.51,3577
+shear,1,0.6,rotated,0.051,exp(Psi) / Frobenius,0.089,1.76,3462
+shear,1,0.9,aligned,0.218,factor T T^T / affine-invariant,0.214,0.98,2796
+shear,1,0.9,rotated,0.218,exp(Psi) / Frobenius,0.221,1.01,3730
+shear,10,0.6,aligned,0.100,unconstrained / component-scaled,0.219,2.20,2300
+shear,10,0.6,rotated,0.100,exp(Psi) / affine-invariant,0.489,4.89,4429
+shear,10,0.9,aligned,0.419,unconstrained / component-scaled,0.436,1.04,2418
+shear,10,0.9,rotated,0.419,exp(Psi) / affine-invariant,0.683,1.63,4127
+shear,100,0.6,aligned,0.101,unconstrained / component-scaled,0.194,1.92,2537
+shear,100,0.6,rotated,0.101,C0 + g B B^T / Frobenius,41.549,411.94,2669
+shear,100,0.9,aligned,0.423,unconstrained / component-scaled,0.444,1.05,2385
+shear,100,0.9,rotated,0.423,factor T T^T / affine-invariant,17.347,41.04,2632
+uniaxial,0.3,0.6,aligned,0.024,unconstrained / component-scaled,0.048,2.02,2304
+uniaxial,0.3,0.6,rotated,0.024,unconstrained / component-scaled,0.047,1.95,2473
+uniaxial,0.3,0.9,aligned,0.080,unconstrained / component-scaled,0.081,1.01,2487
+uniaxial,0.3,0.9,rotated,0.080,unconstrained / relative,0.081,1.01,1467
+uniaxial,1,0.6,aligned,0.386,unconstrained / Frobenius,0.372,0.97,2377
+uniaxial,1,0.6,rotated,0.386,unconstrained / component-scaled,0.367,0.95,2260
+uniaxial,1,0.9,aligned,0.770,unconstrained / component-scaled,0.750,0.97,2056
+uniaxial,1,0.9,rotated,0.770,exp(Psi) / Frobenius,0.753,0.98,3446
+uniaxial,1.5,0.6,aligned,7.184,exp(Psi) / affine-invariant,7.899,1.10,3958
+uniaxial,1.5,0.6,rotated,7.184,exp(Psi) / affine-invariant,7.803,1.09,3901
+uniaxial,1.5,0.9,aligned,4.596,factor T T^T / Frobenius,4.479,0.97,2328
+uniaxial,1.5,0.9,rotated,4.596,factor T T^T / Frobenius,4.544,0.99,2237

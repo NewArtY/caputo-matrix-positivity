@@ -1,0 +1,36 @@
+{
+ "description": "Reduced configuration of b7_inverse.json for scripts/smoke_test.py: 10 observations, 32 collocation nodes, 150 + 20 optimiser iterations, two realisations, two least-squares starts. The numbers obtained with it are not reported anywhere. The mesh keys of the least-squares fits keep their names (N128, N512) because the drivers refer to them; their sizes are reduced.",
+ "phys_true": {"Omega": 6.283185307179586, "Gdown": 1.0, "Gphi": 0.5},
+ "alpha_true": 0.6,
+ "unknowns": ["alpha", "Gdown", "Gphi"],
+ "designs": {
+  "xz": {"rho0_bloch": [0.6, 0.0, 0.8], "observables": ["sx", "sz"], "noise_sd": [0.0, 0.01]},
+  "pop": {"rho0_bloch": [0.0, 0.0, 1.0], "observables": ["pe"], "noise_sd": [0.01]}
+ },
+ "n_obs": 10,
+ "obs_seed": 2024,
+ "realisations": [0, 1],
+ "init": {"alpha": [0.3, 0.95], "Gdown_log_uniform": [0.3, 3.0], "Gphi_log_uniform": [0.15, 1.5]},
+ "mesh": {"N": 32, "r": 3.0},
+ "pinn": {
+  "maps": ["lin", "add"],
+  "gate": "pow",
+  "network": {"width": 32, "depth": 3, "activation": "tanh", "beta": 5.0},
+  "optimizer": {"adam_iters": 150, "lr": 0.002, "schedule": "cosine to 5%", "lbfgs_iters": 20},
+  "data_weights": [10.0, 100.0],
+  "pilot": {"realisations": [100], "map": "add",
+            "selection": "per (design, noise level): the weight with the smallest median over the pilot realisations of the root-mean-square relative parameter error"}
+ },
+ "nls": {
+  "starts": 2,
+  "bounds": {"alpha": [0.05, 1.0], "Gdown": [0.001, 50.0], "Gphi": [0.001, 50.0]},
+  "meshes": {
+   "N128_interp": {"N": 32, "obs_nodes": false},
+   "N128": {"N": 32, "obs_nodes": true},
+   "N512": {"N": 64, "obs_nodes": true}
+  }
+ },
+ "crb": {"N": 128},
+ "test": {"n_uniform": 100, "log_min": -6, "per_decade": 5},
+ "eig_tol": 1e-12
+}

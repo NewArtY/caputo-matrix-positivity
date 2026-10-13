@@ -1,0 +1,33 @@
+Wi,alpha,method,runs,"median e_F, %","min e_F, %","max e_F, %",runs inadmissible,median fraction of time inadmissible,median min eig,reference min eig,median max trace,median log-Euclid rms (PD runs),"median wall, s",reference: e_F between N = 2048 and N = 4096
+2,0.6,"implicit L1 time stepper, same mesh",1,0.12,0.12,0.12,0/1,0.000,0.2248,0.2247,37.23,2.83e-03,0.082,1.58e-05
+2,0.6,unconstrained / Frobenius,5,101.45,101.41,101.52,5/5,0.706,-0.6126,0.2247,3.00,n/a,15.9,
+2,0.6,unconstrained / component-scaled,5,101.42,101.22,101.51,5/5,0.710,-0.6314,0.2247,3.00,n/a,15.1,
+2,0.6,unconstrained / relative,5,0.43,0.39,0.46,0/5,0.000,0.1267,0.2247,37.13,2.01e-01,14.7,
+2,0.6,exp(Psi) / affine-invariant,5,0.28,0.27,0.30,0/5,0.000,0.2240,0.2247,37.23,5.70e-03,23.6,
+2,0.6,bounded-trace factor / Frobenius,5,99.80,99.17,99.92,0/5,0.000,0.0000,0.2247,3.00,7.60e+00,15.2,
+2,0.6,bounded-trace factor / affine-invariant,5,4.44,2.15,66.86,0/5,0.000,0.2277,0.2247,37.32,6.57e-02,17.1,
+2,0.6,bounded-trace exp / affine-invariant,5,0.15,0.12,0.21,0/5,0.000,0.2244,0.2247,37.23,4.15e-03,24.3,
+2,0.9,"implicit L1 time stepper, same mesh",1,0.85,0.85,0.85,0/1,0.000,0.1822,0.1821,38.04,1.37e-02,0.080,2.03e-04
+2,0.9,unconstrained / Frobenius,5,100.65,100.54,100.78,5/5,0.628,-0.3294,0.1821,3.00,n/a,13.8,
+2,0.9,unconstrained / component-scaled,5,100.85,100.68,100.92,5/5,0.620,-0.3509,0.1821,3.00,n/a,13.9,
+2,0.9,unconstrained / relative,5,0.84,0.83,0.86,0/5,0.000,0.1371,0.1821,38.02,9.46e-02,14.3,
+2,0.9,exp(Psi) / affine-invariant,5,0.86,0.83,0.92,0/5,0.000,0.1822,0.1821,38.06,1.39e-02,23.7,
+2,0.9,bounded-trace factor / Frobenius,5,79.31,78.41,89.61,0/5,0.000,0.1460,0.1821,28.60,2.49e+00,16.3,
+2,0.9,bounded-trace factor / affine-invariant,5,6.39,4.08,63.34,0/5,0.000,0.1761,0.1821,38.83,8.90e-02,18.0,
+2,0.9,bounded-trace exp / affine-invariant,5,0.84,0.83,0.85,0/5,0.000,0.1821,0.1821,38.04,1.35e-02,25.5,
+5,0.6,"implicit L1 time stepper, same mesh",1,0.26,0.26,0.26,0/1,0.000,0.0873,0.0873,45.17,6.38e-03,0.069,3.73e-05
+5,0.6,unconstrained / Frobenius,5,100.38,100.38,100.39,5/5,0.778,-0.3863,0.0873,3.00,n/a,15.3,
+5,0.6,unconstrained / component-scaled,5,100.39,100.34,100.41,5/5,0.782,-0.3419,0.0873,3.00,n/a,15.1,
+5,0.6,unconstrained / relative,5,2.18,0.96,399.84,5/5,0.498,-0.3960,0.0873,45.23,n/a,16.2,
+5,0.6,exp(Psi) / affine-invariant,5,1.54,0.97,2.98,0/5,0.000,0.0875,0.0873,45.25,5.11e-02,28.6,
+5,0.6,bounded-trace factor / Frobenius,5,99.97,99.97,99.97,0/5,0.000,0.0000,0.0873,3.00,1.07e+01,16.2,
+5,0.6,bounded-trace factor / affine-invariant,5,6.25,5.70,20.65,0/5,0.000,0.0896,0.0873,45.59,1.86e-01,17.8,
+5,0.6,bounded-trace exp / affine-invariant,5,0.32,0.27,0.36,0/5,0.000,0.0874,0.0873,45.15,7.93e-03,26.3,
+5,0.9,"implicit L1 time stepper, same mesh",1,1.68,1.68,1.68,0/1,0.000,0.0708,0.0708,45.28,3.26e-02,0.065,4.12e-04
+5,0.9,unconstrained / Frobenius,5,100.25,100.24,100.26,5/5,0.720,-0.3215,0.0708,3.00,n/a,15.1,
+5,0.9,unconstrained / component-scaled,5,100.25,100.24,100.25,5/5,0.730,-0.1689,0.0708,3.00,n/a,15.1,
+5,0.9,unconstrained / relative,5,597.08,525.73,658.24,5/5,0.710,-341.6092,0.0708,32.79,n/a,15.6,
+5,0.9,exp(Psi) / affine-invariant,5,4.50,0.91,5792280367.55,1/5,0.000,0.0701,0.0708,45.70,1.59e-01,27.7,
+5,0.9,bounded-trace factor / Frobenius,5,99.96,99.96,99.97,0/5,0.000,0.0000,0.0708,3.00,9.32e+00,18.6,
+5,0.9,bounded-trace factor / affine-invariant,5,17.08,6.74,136.09,0/5,0.000,0.0069,0.0708,45.64,1.34e+00,17.9,
+5,0.9,bounded-trace exp / affine-invariant,5,1.67,1.67,1.67,0/5,0.000,0.0708,0.0708,45.28,3.21e-02,27.1,

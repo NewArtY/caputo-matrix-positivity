@@ -1,0 +1,23 @@
+{
+ "description": "Reduced configuration of b5_forward.json for scripts/smoke_test.py: two cases, 32 collocation nodes, 150 + 20 optimiser iterations, one seed. The numbers obtained with it are not reported anywhere.",
+ "law": "ucm",
+ "cases": [
+  {"flow": "shear", "Wi": 1.0, "Theta": 4.0},
+  {"flow": "uniaxial", "Wi": 1.0, "Theta": 2.0}
+ ],
+ "frames": {
+  "aligned": [0.0, 0.0, 0.0],
+  "rotated": [30.0, 20.0, 40.0],
+  "definition": "Q = Rz(a) Ry(b) Rx(c), angles in degrees; Ghat' = Q Ghat Q^T, C' = Q C Q^T"
+ },
+ "alphas": [0.6, 0.9],
+ "variants": [["sym", "fro"], ["sym", "comp"], ["factor", "fro"], ["factor", "nat"], ["anchor", "fro"], ["logm", "fro"], ["logm", "nat"]],
+ "mesh": {"N": 32},
+ "network": {"width": 32, "depth": 3},
+ "hard_ic": {"beta": 5.0},
+ "scale": {"N": 16},
+ "optimizer": {"adam_iters": 150, "lr": 0.002, "lbfgs_iters": 20},
+ "seeds": [0],
+ "test": {"n_uniform": 40, "n_layer": 10, "layer": [1e-06, 0.01]},
+ "pd_tolerance": 0.0
+}

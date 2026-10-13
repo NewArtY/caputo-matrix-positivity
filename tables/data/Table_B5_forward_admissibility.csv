@@ -1,0 +1,9 @@
+output / residual norm,runs,runs indefinite,% indefinite,"runs singular to round-off (min eig <= 0, not indefinite)",runs with e_F < 10 %,% with e_F < 10 %,runs with e_F < 10 % and log-Euclid rms < 0.1,% with both,"median wall, s"
+unconstrained / Frobenius,120,30,25.0,0,79,65.8,75,62.5,14.1
+unconstrained / component-scaled,120,27,22.5,0,90,75.0,81,67.5,14.1
+unconstrained / relative,120,30,25.0,0,81,67.5,62,51.7,8.8
+factor T T^T / Frobenius,120,0,0.0,0,89,74.2,88,73.3,14.8
+factor T T^T / affine-invariant,120,0,0.0,0,80,66.7,77,64.2,17.0
+C0 + g B B^T / Frobenius,120,0,0.0,0,40,33.3,0,0.0,14.7
+exp(Psi) / Frobenius,120,0,0.0,19,79,65.8,72,60.0,22.9
+exp(Psi) / affine-invariant,120,0,0.0,0,100,83.3,100,83.3,24.8

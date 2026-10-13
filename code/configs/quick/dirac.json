@@ -1,0 +1,79 @@
+{
+ "description": "Reduced configuration of dirac.json (B3, B4, tail) for scripts/smoke_test.py: a 28-point momentum grid per valley, a few hundred time steps. The numbers obtained with it are not converged and are not reported anywhere.",
+ "pulse": {"a0": 1.0, "sp": 6.0, "cep": 0.0, "chi": 0.0},
+ "delta": 0.5,
+ "taubar_c": 1.0,
+ "Gdown": 0.02,
+ "Gup": 0.0,
+ "Gphi": 0.05,
+ "window": [-30.0, 30.0],
+ "soe_tol": 1e-10,
+ "B3": {
+  "kappa": [0.0, 0.0],
+  "xi": 1,
+  "a0_list": [0.2],
+  "zeta": 0.0,
+  "alphas": [1.0, 0.9],
+  "N_soe": [256, 512, 1024],
+  "N_full": [256],
+  "N_pi": [256, 512],
+  "N_euler": [256, 512, 1024],
+  "ode_rtols": [1e-06, 1e-08],
+  "n_output": 64
+ },
+ "B4": {
+  "alphas": [1.0, 0.9],
+  "zetas": [1.0],
+  "levels": [
+   {"kappa_max": 2.0, "spacing": 1.0},
+   {"kappa_max": 4.0, "spacing": 2.0}
+  ],
+  "kappa_c_list": [1.0, 2.0, 4.0],
+  "N_list": [128, 256],
+  "n_output": 32,
+  "chunk": 8,
+  "ode_rtol": 1e-06,
+  "ode_atol": 1e-08
+ },
+ "B4check": {
+  "grid": {
+   "cases": [
+    {"alpha": 0.9, "zeta": 1.0, "levels": "all"},
+    {"alpha": 1.0, "zeta": 1.0, "levels": "inner"}
+   ],
+   "N": 128
+  },
+  "time": {
+   "levels": [
+    {"kappa_max": 2.0, "spacing": 1.0},
+    {"kappa_max": 4.0, "spacing": 2.0}
+   ],
+   "kappa_c_list": [2.0, 4.0],
+   "alphas": [0.9],
+   "zetas": [1.0],
+   "N_l1": [128, 256],
+   "N_pi": [128]
+  },
+  "soe": {"grid_n": 2, "kappa_max": 3.0, "N": 256, "alphas": [0.9]},
+  "ode": {"rtols": [1e-06, 1e-08]}
+ },
+ "tail": {
+  "alphas": [0.9],
+  "K_list": [2.0, 4.0],
+  "rays": [
+   {"zeta": 1.0, "phi_deg": 0.0, "label": "circular, kappa || x"},
+   {"zeta": 0.0, "phi_deg": 90.0, "label": "linear, kappa perpendicular to the polarisation"}
+  ],
+  "N_pi": [128, 256],
+  "N_l1": [128, 256, 512],
+  "dissipation_cases": {
+   "paper": {},
+   "no_dissipation": {"Gdown": 0.0, "Gphi": 0.0}
+  },
+  "tf_list": [30.0, 60.0],
+  "tf_step": 0.46875,
+  "alpha1_K_list": [4.0, 8.0],
+  "alpha1_rtol": 1e-08,
+  "constant_alphas": [0.8, 0.9]
+ }
+}

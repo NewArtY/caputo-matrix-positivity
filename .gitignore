@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# local artefacts that are not part of the archive
+*.zip
+*.tmp
+*.bak
+previous_timing_*/
+kaggle.json
+kaggle.txt
+.env

@@ -1,0 +1,32 @@
+{
+  "description": "Reduced configuration of soe.json (E4) for scripts/smoke_test.py: short histories, two repeats. The times obtained with it are meaningless.",
+  "kernel": {
+    "alphas": [0.6, 0.9],
+    "tols": [1e-6, 1e-10],
+    "T_over_delta": [1e3, 1e4],
+    "T_list": [1.0, 60.0],
+    "n_check": 500,
+    "dirac_windows": [[0.8, 60.0, 256], [0.6, 10.0, 512]]
+  },
+  "solver": {
+    "alpha": 0.6,
+    "phys": {"Omega": 6.283185307179586, "Gdown": 1.0, "Gphi": 0.5},
+    "T": 10.0,
+    "K": 4,
+    "initial_state_seed": 123,
+    "soe_tol": 1e-10,
+    "grading_r": 2.3333333333333335,
+    "uniform_N": [64, 128],
+    "uniform_row_N_max": 128,
+    "graded_N": [64, 128],
+    "graded_table_N_max": 128,
+    "repeats": 2,
+    "repeats_slow": 2,
+    "slow_threshold_s": 8.0,
+    "warmup_N": 64,
+    "memory_N": [64],
+    "timing_protocol": "reduced configuration: one fresh process per (solver, N), one untimed warm-up solve, two timed solves"
+  },
+  "residual": {"alpha": 0.6, "N_list": [64, 128], "channels": 2, "soe_tol": 1e-10, "repeats": 2},
+  "dirac_step_cost": {"alpha": 0.8, "K": 8, "N_list": [128, 256], "repeats": 2, "soe_tol": 1e-10}
+}

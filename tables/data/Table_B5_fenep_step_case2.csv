@@ -1,0 +1,28 @@
+item,quantity,value
+parameters,Wi,20
+parameters,alpha,0.9
+parameters,b,10
+parameters,Theta,2
+parameters,N,512
+mesh,step_condition_lhs,0.252342
+mesh,theta_star,9.82633
+"Newton iteration, full steps",converged_at_every_step,True
+"Newton iteration, full steps",first_inadmissible_step,9
+"Newton iteration, full steps",first_inadmissible_kind,tr C >= b
+"Newton iteration, full steps",iterate before that step: C11,7.92621
+"Newton iteration, full steps",iterate before that step: C22,0.431413
+"Newton iteration, full steps",iterate before that step: trace,8.78904
+"Newton iteration, full steps",iterate at that step: C11,10.757
+"Newton iteration, full steps",iterate at that step: C22,0.411664
+"Newton iteration, full steps",iterate at that step: trace,11.5803
+"Newton iteration, full steps",admissible solution of that step: C11,8.89797
+"Newton iteration, full steps",admissible solution of that step: C22,0.362622
+"Newton iteration, full steps",admissible solution of that step: trace,9.62322
+"Newton iteration, full steps",rel_diff_to_root_before_that_step,1.1e-16
+"Newton iteration, full steps",inadmissible_steps,504
+"Newton iteration, full steps",steps_computed,512
+"Newton iteration, full steps",max_residual,1.08328e-16
+"Newton iteration, halved steps",admissible_at_every_step,True
+"Newton iteration, halved steps",rel_diff_to_root,3.6e-16
+admissible iterates (root solver),min_eig,0.0175959
+admissible iterates (root solver),max_tr,9.82522

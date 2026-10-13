@@ -1,0 +1,36 @@
+{
+ "stepper_wall_s_median": 0.001108350115828216,
+ "stepper_wall_s_min": 0.001065900083631277,
+ "n_identical": 18,
+ "n_runs": 18,
+ "timestamp_utc": "2026-10-11T23:23:58+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b2_timing.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b2_timing.py": "6c65c1ab191bec29"
+ },
+ "seed": 0,
+ "config": {
+  "alpha": 0.6,
+  "state": "pure"
+ }
+}

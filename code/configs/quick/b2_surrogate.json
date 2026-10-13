@@ -1,0 +1,32 @@
+{
+ "description": "Reduced configuration of b2_surrogate.json for scripts/smoke_test.py: pool of 16 parameter points, 100 + 10 optimiser iterations, a 2 x 2 test grid. The numbers obtained with it are not reported anywhere.",
+ "phys": {"Omega": 6.283185307179586, "Gphi": 0.5},
+ "rho0_bloch": [0.0, 0.0, 1.0],
+ "ranges": {"alpha": [0.4, 0.8], "Gdown": [0.5, 2.0]},
+ "train": {
+  "pool": 16,
+  "pool_seed": 7,
+  "N": 32,
+  "batch": 8,
+  "adam_iters": 100,
+  "lr": 0.002,
+  "schedule": "cosine to 5%",
+  "lbfgs_iters": 10
+ },
+ "network": {"width": 16, "depth": 2, "activation": "tanh", "beta": 5.0},
+ "maps": ["add", "lin"],
+ "gate": "pow",
+ "seeds": [0],
+ "test": {
+  "n_alpha": 2,
+  "n_Gdown": 2,
+  "n_uniform": 20,
+  "log_min": -4,
+  "per_decade": 3,
+  "random_params": 120,
+  "random_seed": 11,
+  "inference_batch": 100
+ },
+ "stepper": {"N": [16, 32], "timing_repeats": 2},
+ "eig_tol": 1e-12
+}

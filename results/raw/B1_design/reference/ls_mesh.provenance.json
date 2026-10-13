@@ -1,0 +1,137 @@
+{
+ "timestamp_utc": "2026-10-13T06:18:40+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b1_ls_mesh.py",
+ "code_sha256": {
+  "__init__.py": "0daf3c73968308ba",
+  "dirac.py": "4e7df00a2e046628",
+  "dirac_cutoff.py": "20f86201ed615abf",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "spd.py": "f1da1b08bf87de9e",
+  "b1_scalar.json": "a7202e9ac84a413d",
+  "b1_floor.py": "a9c83f4d6aa06f19",
+  "b1_ls_mesh.py": "4db40b11df79a628"
+ },
+ "seed": null,
+ "config": {
+  "description": "B1 scalar Caputo relaxation D^alpha u = -lambda u, u(0)=1, tau in [0,1] (T_r = tau_c); 2 x 2 design {network input: tau | (tau, tau^alpha)} x {gate of the hard initial condition: 1-exp(-beta tau) | 1-exp(-beta tau^alpha)}, forward and inverse (identification of alpha) on one common mesh",
+  "lambda": 4.0,
+  "alphas_true": [
+   0.3,
+   0.5,
+   0.8
+  ],
+  "mesh": {
+   "N": 128,
+   "r": 3.0,
+   "grading": "tau_n = (n/N)^r, the same mesh for the forward and the inverse problem (alpha is unknown in the latter)"
+  },
+  "mesh_sensitivity": {
+   "r": [
+    1.5,
+    2.3333333333333335,
+    5.0
+   ],
+   "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "note": "inverse problem, noise-free data"
+  },
+  "network": {
+   "width": 32,
+   "depth": 3,
+   "activation": "tanh",
+   "beta": 5.0
+  },
+  "inputs": [
+   "plain",
+   "singular"
+  ],
+  "gates": [
+   "exp",
+   "pow"
+  ],
+  "first_campaign_variants": {
+   "plain": "input plain, gate exp",
+   "singular": "input singular, gate pow"
+  },
+  "optimizer": {
+   "adam_iters": 4000,
+   "lr": 0.002,
+   "schedule": "cosine to 5%",
+   "lbfgs_iters": 500
+  },
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "inverse": {
+   "n_obs": 20,
+   "obs_seed": 2024,
+   "obs_times": "sorted uniform sample of [0.02, 1]",
+   "noise_sd": [
+    0.0,
+    0.01
+   ],
+   "noise_seed": "1000 + seed",
+   "alpha_param": "alpha = 0.05 + 0.95*sigmoid(a)",
+   "alpha_init_range": [
+    0.2,
+    0.95
+   ],
+   "data_weight": 100.0
+  },
+  "discrete_optimum": {
+   "alpha_bounds": [
+    0.06,
+    0.999
+   ],
+   "definitions": {
+    "alpha_res": "argmin over alpha of the mean squared L1 residual of the exact solution (order alpha_true) on the mesh",
+    "alpha_ls": "argmin over alpha of the data misfit of the L1 time-stepper solution (piecewise-linear interpolation to the observation times): the classical least-squares estimate",
+    "alpha_joint": "argmin over alpha and over all nodal values of the training objective (mean squared residual + data_weight * mean squared misfit) with a piecewise-linear trial function: what a perfect optimiser with a perfectly flexible network would return"
+   }
+  },
+  "test": {
+   "n_uniform": 1000,
+   "log_min": -12,
+   "per_decade": 40
+  },
+  "ls_mesh": {
+   "factors": [
+    1,
+    4,
+    16
+   ],
+   "noisy_up_to": 4
+  }
+ }
+}

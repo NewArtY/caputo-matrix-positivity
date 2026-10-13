@@ -1,0 +1,17 @@
+Wi,alpha,N (graded mesh),left-hand side of the step bound of the linear law,Newton iterates admissible,smallest eigenvalue,largest tr C / b,relative difference Newton - root solver,safeguarded solver identical to Newton,stored reference file against the root solver (relative difference)
+2,0.6,64,0.5497,True,0.22473,0.74459,2.9e-16,True,2.5e-15
+2,0.6,128,0.3638,True,0.22469,0.74459,3.9e-16,True,2.5e-15
+2,0.6,2048,0.0691,True,0.22468,0.74458,1.4e-15,True,2.5e-15
+2,0.6,4096,0.0456,True,0.22468,0.74458,2.1e-15,True,2.5e-15
+2,0.9,64,0.1509,True,0.18221,0.76083,3.8e-16,True,4.5e-14
+2,0.9,128,0.0809,True,0.18215,0.76080,5.7e-16,True,4.5e-14
+2,0.9,2048,0.0067,True,0.18210,0.76078,7.4e-15,True,4.5e-14
+2,0.9,4096,0.0036,True,0.18210,0.76078,2.1e-14,True,4.5e-14
+5,0.6,64,1.6492,True,0.08732,0.90333,3.2e-16,True,9.0e-15
+5,0.6,128,1.0915,True,0.08732,0.90333,7.1e-16,True,9.0e-15
+5,0.6,2048,0.2074,True,0.08732,0.90333,2.3e-15,True,9.0e-15
+5,0.6,4096,0.1368,True,0.08732,0.90333,6.4e-15,True,9.0e-15
+5,0.9,64,0.4526,True,0.07081,0.90562,2.4e-16,True,1.1e-14
+5,0.9,128,0.2427,True,0.07081,0.90562,4.7e-16,True,1.1e-14
+5,0.9,2048,0.0200,True,0.07081,0.90562,8.0e-15,True,1.1e-14
+5,0.9,4096,0.0107,True,0.07081,0.90562,9.3e-15,True,1.1e-14

@@ -1,0 +1,8 @@
+2026-10-11T22:36:21 [surrogate] 6 jobs, 0 already done, 6 to run, 1 workers
+2026-10-11T22:46:16 [surrogate] 1/6 surrogate_add_s0 588.8 s ok J=6.299e-03 median rel_fro=4.053e-03 wall=580s
+2026-10-11T22:55:21 [surrogate] 2/6 surrogate_add_s1 544.9 s ok J=6.346e-03 median rel_fro=6.318e-03 wall=540s
+2026-10-11T23:04:31 [surrogate] 3/6 surrogate_add_s2 550.5 s ok J=6.505e-03 median rel_fro=4.723e-03 wall=546s
+2026-10-11T23:14:20 [surrogate] 4/6 surrogate_lin_s0 588.5 s ok J=4.457e-03 median rel_fro=3.895e-03 wall=584s
+2026-10-11T23:23:54 [surrogate] 5/6 surrogate_lin_s1 574.0 s ok J=4.383e-03 median rel_fro=4.026e-03 wall=569s
+2026-10-11T23:32:59 [surrogate] 6/6 surrogate_lin_s2 545.5 s ok J=4.514e-03 median rel_fro=3.690e-03 wall=541s
+2026-10-11T23:33:01 [surrogate] finished: 6 run, 0 skipped, 0 FAILED, wall 3399.8 s

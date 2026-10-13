@@ -1,0 +1,17 @@
+example,quantity,value
+"coherence factor |E_alpha(-i x)|, alpha = 0.8 (non-divisibility)",x at the local minimum,7.269058645978604
+"coherence factor |E_alpha(-i x)|, alpha = 0.8 (non-divisibility)",modulus at the local minimum,0.016656867605339732
+"coherence factor |E_alpha(-i x)|, alpha = 0.8 (non-divisibility)",x at the next maximum,8.54035036175585
+"coherence factor |E_alpha(-i x)|, alpha = 0.8 (non-divisibility)",modulus at the next maximum,0.02864832207225126
+"coherence factor |E_alpha(-i x)|, alpha = 0.8 (non-divisibility)",ratio maximum / minimum,1.7199105348635537
+"dephasing with rate 3 on [0, 1) and -0.05 on [1, 40]: coherence factor y(40)",alpha = 0.5,1.3444011470580894
+"dephasing with rate 3 on [0, 1) and -0.05 on [1, 40]: coherence factor y(40)",alpha = 0.8,1.6966743391687769
+"dephasing with rate 3 on [0, 1) and -0.05 on [1, 40]: coherence factor y(40)",alpha = 1 (exp(-1.05)),0.3499377491111553
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(1), alpha = 0.5",0.17900115118138996
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(40), alpha = 0.5",0.9233698106033129
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(400), alpha = 0.5",0.9758769626810505
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(1), alpha = 0.8",0.1129201986822174
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(40), alpha = 0.8",0.6258285510584063
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(400), alpha = 0.8",0.764266349826437
+"dephasing with rate 3 on [0, 1), switched off afterwards: coherence factor","y(1), alpha = 1 (exp(-3)); constant afterwards",0.049787068367863944
+"graded mesh tau_n = (n/N)^r, N = 128, r = 3",number of nodes with 0 < tau_n < 0.01,27.0

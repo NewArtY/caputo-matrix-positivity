@@ -1,0 +1,64 @@
+# PLACEHOLDERS to be replaced before the deposit: the article title (two places: title and
+# preferred-citation), the DOI of this archive (doi), the DOI of the article (preferred-citation),
+# and the release date (date-released).
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article given under preferred-citation and this archive."
+type: software
+title: "Code and data for: Positivity preservation in matrix-valued Caputo evolution equations: continuous problem, L1 time stepping, and residual-based neural networks"
+abstract: >-
+  Source code, configuration files, raw numerical results, tables and figures for Caputo
+  time-fractional evolution of positive-semidefinite matrix states: L1 time stepping on uniform and
+  graded meshes, sum-of-exponentials history, and physics-informed networks with admissible output
+  maps. Benchmarks: verification experiments E1-E5, scalar and matrix-valued forward and inverse
+  problems B1, B2, B6 and B7, a parametric surrogate, the laser-driven massive-Dirac model B3 and
+  B4, and the conformation tensor of a viscoelastic fluid B5.
+authors:
+  - family-names: Akintsov
+    given-names: "Nikolai S."
+    affiliation: "School of Artificial Intelligence and Computer Science, Nantong University, Nantong 226019, China"
+    orcid: "https://orcid.org/0000-0002-1040-1292"
+  - family-names: Nevecheria
+    given-names: "Artem P."
+    affiliation: "Department of Mathematical and Computer Methods, Kuban State University, Krasnodar 350040, Russia"
+    orcid: "https://orcid.org/0000-0001-6736-4691"
+  - family-names: Andreev
+    given-names: "Stepan N."
+    affiliation: "Joint-Stock Company \"Center for Research and Development\", Moscow 101000, Russia"
+    orcid: "https://orcid.org/0000-0003-3588-2894"
+  - family-names: Qin
+    given-names: "Qing-Hua"
+    affiliation: "Institute of Advanced Interdisciplinary Technology, Shenzhen MSU-BIT University, Shenzhen 518172, China"
+    orcid: "https://orcid.org/0000-0003-0948-784X"
+version: "1.0.0"
+date-released: "2026-01-01"            # PLACEHOLDER: date of the deposit
+doi: "10.5281/zenodo.0000000"          # PLACEHOLDER: DOI of this archive, assigned by Zenodo
+license:
+  - MIT                                # source code
+  - CC-BY-4.0                          # data and figures
+keywords:
+  - Caputo derivative
+  - time-fractional evolution equations
+  - L1 scheme
+  - sum-of-exponentials approximation
+  - physics-informed neural networks
+  - positive semidefinite matrices
+  - density matrix
+  - conformation tensor
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Positivity preservation in matrix-valued Caputo evolution equations: continuous problem, L1 time stepping, and residual-based neural networks"
+  authors:
+    - family-names: Akintsov
+      given-names: "Nikolai S."
+      orcid: "https://orcid.org/0000-0002-1040-1292"
+    - family-names: Nevecheria
+      given-names: "Artem P."
+      orcid: "https://orcid.org/0000-0001-6736-4691"
+    - family-names: Andreev
+      given-names: "Stepan N."
+      orcid: "https://orcid.org/0000-0003-3588-2894"
+    - family-names: Qin
+      given-names: "Qing-Hua"
+      orcid: "https://orcid.org/0000-0003-0948-784X"
+  doi: "10.0000/ARTICLE-DOI-TO-BE-INSERTED"   # PLACEHOLDER: DOI of the article

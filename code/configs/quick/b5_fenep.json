@@ -1,0 +1,18 @@
+{
+ "description": "Reduced configuration of b5_fenep.json for scripts/smoke_test.py: one case, 48 collocation nodes, 150 + 20 optimiser iterations, one seed, reference on 128/256 steps. The numbers obtained with it are not reported anywhere.",
+ "law": "fenep",
+ "flow": "uniaxial",
+ "b": 50.0,
+ "Theta": 2.0,
+ "Wi": [2.0],
+ "alphas": [0.6],
+ "variants": [["sym", "fro"], ["sym", "comp"], ["sym", "rel"], ["logm", "nat"], ["bfactor", "fro"], ["bfactor", "nat"], ["blogm", "nat"]],
+ "mesh": {"N": 48},
+ "network": {"width": 32, "depth": 3},
+ "hard_ic": {"beta": 5.0},
+ "scale": {"N": 32},
+ "optimizer": {"adam_iters": 150, "lr": 0.002, "lbfgs_iters": 20},
+ "reference": {"N": 128},
+ "seeds": [0],
+ "test": {"n_uniform": 40, "n_layer": 10, "layer": [1e-06, 0.01]}
+}

@@ -1,0 +1,162 @@
+2026-10-11T23:56:38 [B7 main] 160 jobs, 0 already done, 160 to run, 6 workers
+2026-10-11T23:56:55 [B7 main] 1/160 nls_xz_n0_r1 13.5 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=1.75s
+2026-10-11T23:56:55 [B7 main] 2/160 nls_xz_n0_r0 13.9 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=1.81s
+2026-10-11T23:57:19 [B7 main] 3/160 pinn_xz_n0_lin_w100_r0 38.2 s ok alpha=0.5987 Gd=0.9887 Gp=0.5281 wall=36s
+2026-10-11T23:57:20 [B7 main] 4/160 pinn_xz_n0_lin_w100_r1 38.9 s ok alpha=0.5999 Gd=1.0095 Gp=0.4912 wall=37s
+2026-10-11T23:57:22 [B7 main] 5/160 pinn_xz_n0_add_w100_r0 40.4 s ok alpha=0.6007 Gd=1.0051 Gp=0.4869 wall=38s
+2026-10-11T23:57:23 [B7 main] 6/160 pinn_xz_n0_factor_w100_r0 42.0 s ok alpha=0.5780 Gd=0.7255 Gp=0.5261 wall=40s
+2026-10-11T23:57:34 [B7 main] 7/160 nls_xz_n0_r2 14.3 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=1.78s
+2026-10-11T23:57:34 [B7 main] 8/160 pinn_xz_n0_factor_w100_r1 39.6 s ok alpha=0.5760 Gd=0.6793 Gp=0.5451 wall=38s
+2026-10-11T23:57:37 [B7 main] 9/160 pinn_xz_n0_add_w100_r1 42.0 s ok alpha=0.6027 Gd=1.0055 Gp=0.5205 wall=40s
+2026-10-11T23:57:47 [B7 main] 10/160 nls_xz_n0_r3 13.9 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=1.83s
+2026-10-11T23:57:57 [B7 main] 11/160 pinn_xz_n0_lin_w100_r2 36.3 s ok alpha=0.0546 Gd=0.3464 Gp=0.2705 wall=36s
+2026-10-11T23:58:01 [B7 main] 12/160 pinn_xz_n0_factor_w100_r2 39.9 s ok alpha=0.5746 Gd=0.6566 Gp=0.5559 wall=40s
+2026-10-11T23:58:03 [B7 main] 13/160 pinn_xz_n0_add_w100_r2 39.7 s ok alpha=0.6008 Gd=0.9969 Gp=0.5053 wall=40s
+2026-10-11T23:58:13 [B7 main] 14/160 nls_xz_n0_r4 16.1 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=3.22s
+2026-10-11T23:58:15 [B7 main] 15/160 pinn_xz_n0_factor_w100_r3 38.1 s ok alpha=0.5756 Gd=0.6808 Gp=0.5492 wall=38s
+2026-10-11T23:58:16 [B7 main] 16/160 pinn_xz_n0_lin_w100_r3 42.3 s ok alpha=0.0500 Gd=0.0000 Gp=0.4052 wall=42s
+2026-10-11T23:58:29 [B7 main] 17/160 pinn_xz_n0_add_w100_r3 41.2 s ok alpha=0.0500 Gd=1.4409 Gp=0.0855 wall=41s
+2026-10-11T23:58:32 [B7 main] 18/160 nls_xz_n0_r5 17.0 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=3.19s
+2026-10-11T23:58:38 [B7 main] 19/160 pinn_xz_n0_lin_w100_r4 36.9 s ok alpha=0.6003 Gd=1.0115 Gp=0.4925 wall=37s
+2026-10-11T23:58:42 [B7 main] 20/160 pinn_xz_n0_factor_w100_r4 39.2 s ok alpha=0.5753 Gd=0.6911 Gp=0.5268 wall=39s
+2026-10-11T23:58:52 [B7 main] 21/160 nls_xz_n0_r6 14.1 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=1.71s
+2026-10-11T23:58:53 [B7 main] 22/160 pinn_xz_n0_add_w100_r4 40.7 s ok alpha=0.6006 Gd=1.0110 Gp=0.4935 wall=41s
+2026-10-11T23:58:58 [B7 main] 23/160 pinn_xz_n0_lin_w100_r5 41.1 s ok alpha=0.0500 Gd=0.0000 Gp=0.2885 wall=41s
+2026-10-11T23:59:08 [B7 main] 24/160 pinn_xz_n0_factor_w100_r5 39.5 s ok alpha=0.5704 Gd=0.6270 Gp=0.5441 wall=40s
+2026-10-11T23:59:12 [B7 main] 25/160 nls_xz_n0_r7 14.5 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=2.00s
+2026-10-11T23:59:15 [B7 main] 26/160 pinn_xz_n0_add_w100_r5 42.7 s ok alpha=0.0500 Gd=1.5685 Gp=0.0139 wall=43s
+2026-10-11T23:59:22 [B7 main] 27/160 pinn_xz_n0_lin_w100_r6 39.9 s ok alpha=0.0500 Gd=0.0002 Gp=0.7177 wall=40s
+2026-10-11T23:59:34 [B7 main] 28/160 pinn_xz_n0_factor_w100_r6 41.3 s ok alpha=0.5758 Gd=0.6866 Gp=0.5225 wall=41s
+2026-10-11T23:59:36 [B7 main] 29/160 pinn_xz_n0_add_w100_r6 42.9 s ok alpha=0.0500 Gd=1.5352 Gp=0.0885 wall=43s
+2026-10-11T23:59:41 [B7 main] 30/160 nls_xz_n0_r8 19.2 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=3.12s
+2026-10-11T23:59:49 [B7 main] 31/160 pinn_xz_n0_lin_w100_r7 41.1 s ok alpha=0.6006 Gd=1.0089 Gp=0.5009 wall=41s
+2026-10-11T23:59:57 [B7 main] 32/160 pinn_xz_n0_factor_w100_r7 44.5 s ok alpha=0.5782 Gd=0.6946 Gp=0.5507 wall=45s
+2026-10-11T23:59:57 [B7 main] 33/160 pinn_xz_n0_add_w100_r7 42.4 s ok alpha=0.6013 Gd=1.0080 Gp=0.5010 wall=42s
+2026-10-12T00:00:10 [B7 main] 34/160 nls_xz_n0_r9 20.3 s alpha=0.5988 Gd=1.0033 Gp=0.4986 wall=3.43s
+2026-10-12T00:00:20 [B7 main] 35/160 pinn_xz_n0_lin_w100_r8 46.0 s ok alpha=0.6005 Gd=1.0108 Gp=0.4934 wall=46s
+2026-10-12T00:00:20 [B7 main] 36/160 pinn_xz_n0_factor_w100_r8 43.9 s ok alpha=0.5801 Gd=0.7227 Gp=0.5336 wall=44s
+2026-10-12T00:00:31 [B7 main] 37/160 pinn_xz_n0_add_w100_r8 49.7 s ok alpha=0.5989 Gd=1.0003 Gp=0.5097 wall=50s
+2026-10-12T00:00:35 [B7 main] 38/160 nls_xz_n0.01_r0 14.9 s alpha=0.6008 Gd=0.9494 Gp=0.5262 wall=1.95s
+2026-10-12T00:00:36 [B7 main] 39/160 pinn_xz_n0_lin_w100_r9 38.9 s ok alpha=0.6000 Gd=1.0146 Gp=0.4855 wall=39s
+2026-10-12T00:00:37 [B7 main] 40/160 pinn_xz_n0_factor_w100_r9 40.3 s ok alpha=0.5796 Gd=0.7197 Gp=0.5413 wall=40s
+2026-10-12T00:00:50 [B7 main] 41/160 nls_xz_n0.01_r1 14.0 s alpha=0.5977 Gd=1.0733 Gp=0.4678 wall=1.76s
+2026-10-12T00:00:50 [B7 main] 42/160 pinn_xz_n0_add_w100_r9 40.9 s ok alpha=0.6000 Gd=1.0005 Gp=0.4954 wall=41s
+2026-10-12T00:00:59 [B7 main] 43/160 pinn_xz_n0.01_lin_w10_r0 38.7 s ok alpha=0.6029 Gd=0.9845 Gp=0.4977 wall=39s
+2026-10-12T00:01:09 [B7 main] 44/160 pinn_xz_n0.01_factor_w10_r0 37.7 s ok alpha=0.5666 Gd=0.0001 Gp=0.8059 wall=38s
+2026-10-12T00:01:11 [B7 main] 45/160 nls_xz_n0.01_r2 12.6 s alpha=0.5935 Gd=0.9983 Gp=0.4928 wall=1.63s
+2026-10-12T00:01:13 [B7 main] 46/160 pinn_xz_n0.01_add_w10_r0 38.7 s ok alpha=0.6067 Gd=0.9346 Gp=0.5171 wall=39s
+2026-10-12T00:01:14 [B7 main] 47/160 pinn_xz_n0.01_lin_w10_r1 36.3 s ok alpha=0.6027 Gd=1.0433 Gp=0.4745 wall=36s
+2026-10-12T00:01:27 [B7 main] 48/160 pinn_xz_n0.01_factor_w10_r1 37.8 s ok alpha=0.5650 Gd=0.3392 Gp=0.6864 wall=38s
+2026-10-12T00:01:28 [B7 main] 49/160 pinn_xz_n0.01_add_w10_r1 37.8 s ok alpha=0.6094 Gd=1.0826 Gp=0.4403 wall=38s
+2026-10-12T00:01:31 [B7 main] 50/160 nls_xz_n0.01_r3 17.2 s alpha=0.6032 Gd=1.0144 Gp=0.4800 wall=2.66s
+2026-10-12T00:01:45 [B7 main] 51/160 pinn_xz_n0.01_lin_w10_r2 35.9 s ok alpha=0.0500 Gd=1.1578 Gp=0.0031 wall=36s
+2026-10-12T00:01:49 [B7 main] 52/160 pinn_xz_n0.01_factor_w10_r2 37.7 s ok alpha=0.2275 Gd=1.2623 Gp=0.0055 wall=38s
+2026-10-12T00:01:52 [B7 main] 53/160 pinn_xz_n0.01_add_w10_r2 38.7 s ok alpha=0.6011 Gd=0.9576 Gp=0.4994 wall=39s
+2026-10-12T00:01:59 [B7 main] 54/160 nls_xz_n0.01_r4 14.3 s alpha=0.6014 Gd=1.0045 Gp=0.5046 wall=1.84s
+2026-10-12T00:02:05 [B7 main] 55/160 pinn_xz_n0.01_factor_w10_r3 37.1 s ok alpha=0.1789 Gd=1.2476 Gp=0.0069 wall=37s
+2026-10-12T00:02:11 [B7 main] 56/160 pinn_xz_n0.01_add_w10_r3 40.0 s ok alpha=0.0500 Gd=1.2454 Gp=0.0001 wall=40s
+2026-10-12T00:02:12 [B7 main] 57/160 pinn_xz_n0.01_lin_w10_r3 44.5 s ok alpha=0.0500 Gd=1.1602 Gp=0.0062 wall=44s
+2026-10-12T00:02:20 [B7 main] 58/160 nls_xz_n0.01_r5 14.9 s alpha=0.6073 Gd=1.0538 Gp=0.4384 wall=1.96s
+2026-10-12T00:02:26 [B7 main] 59/160 pinn_xz_n0.01_lin_w10_r4 36.4 s ok alpha=0.6028 Gd=0.9576 Gp=0.5312 wall=36s
+2026-10-12T00:02:30 [B7 main] 60/160 pinn_xz_n0.01_factor_w10_r4 37.9 s ok alpha=0.5624 Gd=0.2705 Gp=0.7089 wall=38s
+2026-10-12T00:02:37 [B7 main] 61/160 pinn_xz_n0.01_add_w10_r4 38.1 s ok alpha=0.5997 Gd=0.9616 Gp=0.5321 wall=38s
+2026-10-12T00:02:40 [B7 main] 62/160 nls_xz_n0.01_r6 14.0 s alpha=0.5949 Gd=0.9525 Gp=0.5061 wall=1.82s
+2026-10-12T00:02:47 [B7 main] 63/160 pinn_xz_n0.01_lin_w10_r5 35.8 s ok alpha=0.0500 Gd=1.1545 Gp=0.0206 wall=36s
+2026-10-12T00:02:56 [B7 main] 64/160 pinn_xz_n0.01_factor_w10_r5 44.4 s ok alpha=0.2164 Gd=1.2980 Gp=0.0005 wall=44s
+2026-10-12T00:03:03 [B7 main] 65/160 nls_xz_n0.01_r7 16.2 s alpha=0.6037 Gd=1.0029 Gp=0.4934 wall=2.69s
+2026-10-12T00:03:04 [B7 main] 66/160 pinn_xz_n0.01_add_w10_r5 44.0 s ok alpha=0.0500 Gd=1.2152 Gp=0.0003 wall=44s
+2026-10-12T00:03:10 [B7 main] 67/160 pinn_xz_n0.01_lin_w10_r6 40.4 s ok alpha=0.0500 Gd=1.1180 Gp=0.0117 wall=40s
+2026-10-12T00:03:15 [B7 main] 68/160 pinn_xz_n0.01_factor_w10_r6 37.8 s ok alpha=0.1821 Gd=1.1328 Gp=0.0680 wall=38s
+2026-10-12T00:03:23 [B7 main] 69/160 nls_xz_n0.01_r8 12.9 s alpha=0.5993 Gd=1.0522 Gp=0.4654 wall=1.60s
+2026-10-12T00:03:25 [B7 main] 70/160 pinn_xz_n0.01_add_w10_r6 45.8 s ok alpha=0.0500 Gd=1.2110 Gp=0.0000 wall=46s
+2026-10-12T00:03:34 [B7 main] 71/160 pinn_xz_n0.01_lin_w10_r7 37.8 s ok alpha=0.6093 Gd=0.9776 Gp=0.5096 wall=38s
+2026-10-12T00:03:42 [B7 main] 72/160 pinn_xz_n0.01_factor_w10_r7 39.2 s ok alpha=0.2734 Gd=1.2975 Gp=0.0000 wall=39s
+2026-10-12T00:03:44 [B7 main] 73/160 pinn_xz_n0.01_add_w10_r7 39.7 s ok alpha=0.6130 Gd=1.0104 Gp=0.4836 wall=40s
+2026-10-12T00:03:50 [B7 main] 74/160 nls_xz_n0.01_r9 15.8 s alpha=0.5916 Gd=1.0439 Gp=0.4749 wall=1.94s
+2026-10-12T00:03:55 [B7 main] 75/160 pinn_xz_n0.01_lin_w10_r8 40.0 s ok alpha=0.6015 Gd=0.9849 Gp=0.5093 wall=40s
+2026-10-12T00:04:07 [B7 main] 76/160 pinn_xz_n0.01_factor_w10_r8 43.3 s ok alpha=0.5653 Gd=0.4247 Gp=0.6560 wall=43s
+2026-10-12T00:04:09 [B7 main] 77/160 pinn_xz_n0.01_add_w10_r8 43.6 s ok alpha=0.6169 Gd=1.0037 Gp=0.5158 wall=44s
+2026-10-12T00:04:18 [B7 main] 78/160 nls_xz_n0.05_r0 22.9 s alpha=0.6056 Gd=0.7430 Gp=0.6307 wall=3.02s
+2026-10-12T00:04:25 [B7 main] 79/160 pinn_xz_n0.01_lin_w10_r9 42.4 s ok alpha=0.5914 Gd=0.9879 Gp=0.5263 wall=42s
+2026-10-12T00:04:29 [B7 main] 80/160 pinn_xz_n0.01_factor_w10_r9 44.6 s ok alpha=0.5576 Gd=0.0000 Gp=0.8029 wall=45s
+2026-10-12T00:04:45 [B7 main] 81/160 pinn_xz_n0.01_add_w10_r9 54.9 s ok alpha=0.6004 Gd=0.9658 Gp=0.5222 wall=55s
+2026-10-12T00:04:47 [B7 main] 82/160 nls_xz_n0.05_r1 22.9 s alpha=0.5947 Gd=1.3524 Gp=0.3442 wall=3.83s
+2026-10-12T00:04:49 [B7 main] 83/160 pinn_xz_n0.05_lin_w100_r0 42.0 s ok alpha=0.6063 Gd=0.7578 Gp=0.4623 wall=42s
+2026-10-12T00:04:52 [B7 main] 84/160 pinn_xz_n0.05_factor_w100_r0 43.3 s ok alpha=0.5586 Gd=0.0448 Gp=0.5893 wall=43s
+2026-10-12T00:05:01 [B7 main] 85/160 pinn_xz_n0.05_add_w100_r0 43.5 s ok alpha=0.6029 Gd=0.7524 Gp=0.4403 wall=43s
+2026-10-12T00:05:02 [B7 main] 86/160 nls_xz_n0.05_r2 13.2 s alpha=0.5714 Gd=0.9769 Gp=0.4699 wall=1.80s
+2026-10-12T00:05:09 [B7 main] 87/160 pinn_xz_n0.05_lin_w100_r1 40.5 s ok alpha=0.5909 Gd=1.3699 Gp=0.1951 wall=41s
+2026-10-12T00:05:23 [B7 main] 88/160 pinn_xz_n0.05_factor_w100_r1 38.1 s ok alpha=0.5412 Gd=0.6599 Gp=0.3424 wall=38s
+2026-10-12T00:05:26 [B7 main] 89/160 pinn_xz_n0.05_add_w100_r1 38.7 s ok alpha=0.5912 Gd=1.3899 Gp=0.1672 wall=39s
+2026-10-12T00:05:29 [B7 main] 90/160 pinn_xz_n0.05_lin_w100_r2 36.8 s ok alpha=0.0585 Gd=0.4275 Gp=0.2165 wall=37s
+2026-10-12T00:05:30 [B7 main] 91/160 nls_xz_n0.05_r3 20.7 s alpha=0.6244 Gd=1.0438 Gp=0.4164 wall=2.61s
+2026-10-12T00:05:39 [B7 main] 92/160 pinn_xz_n0.05_factor_w100_r2 38.0 s ok alpha=0.5278 Gd=0.3257 Gp=0.4527 wall=38s
+2026-10-12T00:05:39 [B7 main] 93/160 pinn_xz_n0.05_add_w100_r2 37.6 s ok alpha=0.5711 Gd=0.9972 Gp=0.4000 wall=38s
+2026-10-12T00:05:50 [B7 main] 94/160 nls_xz_n0.05_r4 20.0 s alpha=0.6100 Gd=1.0116 Gp=0.5270 wall=3.05s
+2026-10-12T00:05:59 [B7 main] 95/160 pinn_xz_n0.05_lin_w100_r3 35.9 s ok alpha=0.0552 Gd=0.1276 Gp=0.2829 wall=36s
+2026-10-12T00:06:03 [B7 main] 96/160 pinn_xz_n0.05_factor_w100_r3 36.8 s ok alpha=0.5546 Gd=0.1220 Gp=0.5132 wall=37s
+2026-10-12T00:06:07 [B7 main] 97/160 pinn_xz_n0.05_add_w100_r3 37.6 s ok alpha=0.0502 Gd=1.3304 Gp=0.2058 wall=38s
+2026-10-12T00:06:16 [B7 main] 98/160 pinn_xz_n0.05_factor_w100_r4 37.1 s ok alpha=0.5765 Gd=0.4539 Gp=0.5092 wall=37s
+2026-10-12T00:06:18 [B7 main] 99/160 nls_xz_n0.05_r5 19.1 s alpha=0.6415 Gd=1.2388 Gp=0.2162 wall=2.57s
+2026-10-12T00:06:18 [B7 main] 100/160 pinn_xz_n0.05_lin_w100_r4 38.9 s ok alpha=0.6177 Gd=1.0333 Gp=0.4539 wall=39s
+2026-10-12T00:06:27 [B7 main] 101/160 pinn_xz_n0.05_add_w100_r4 37.2 s ok alpha=0.6211 Gd=1.0560 Gp=0.4756 wall=37s
+2026-10-12T00:06:35 [B7 main] 102/160 nls_xz_n0.05_r6 17.6 s alpha=0.5769 Gd=0.7492 Gp=0.5377 wall=2.28s
+2026-10-12T00:06:38 [B7 main] 103/160 pinn_xz_n0.05_lin_w100_r5 35.4 s ok alpha=0.0500 Gd=0.0000 Gp=0.0016 wall=35s
+2026-10-12T00:06:43 [B7 main] 104/160 pinn_xz_n0.05_factor_w100_r5 36.8 s ok alpha=0.5991 Gd=0.6491 Gp=0.3628 wall=37s
+2026-10-12T00:06:54 [B7 main] 105/160 pinn_xz_n0.05_add_w100_r5 37.6 s ok alpha=0.0500 Gd=1.7107 Gp=0.0680 wall=38s
+2026-10-12T00:07:01 [B7 main] 106/160 pinn_xz_n0.05_lin_w100_r6 43.0 s ok alpha=0.0510 Gd=0.0286 Gp=0.3993 wall=43s
+2026-10-12T00:07:02 [B7 main] 107/160 nls_xz_n0.05_r7 23.9 s alpha=0.6203 Gd=1.0036 Gp=0.4704 wall=3.70s
+2026-10-12T00:07:04 [B7 main] 108/160 pinn_xz_n0.05_factor_w100_r6 37.0 s ok alpha=0.5141 Gd=0.0002 Gp=0.6573 wall=37s
+2026-10-12T00:07:16 [B7 main] 109/160 nls_xz_n0.05_r8 13.7 s alpha=0.6013 Gd=1.2531 Gp=0.3303 wall=1.75s
+2026-10-12T00:07:19 [B7 main] 110/160 pinn_xz_n0.05_lin_w100_r7 35.5 s ok alpha=0.6274 Gd=1.0312 Gp=0.4792 wall=36s
+2026-10-12T00:07:23 [B7 main] 111/160 pinn_xz_n0.05_add_w100_r6 47.6 s ok alpha=0.0500 Gd=1.0316 Gp=0.0862 wall=48s
+2026-10-12T00:07:33 [B7 main] 112/160 pinn_xz_n0.05_factor_w100_r7 39.2 s ok alpha=0.5983 Gd=0.5872 Gp=0.5289 wall=39s
+2026-10-12T00:07:37 [B7 main] 113/160 nls_xz_n0.05_r9 14.3 s alpha=0.5597 Gd=1.2125 Gp=0.3748 wall=1.85s
+2026-10-12T00:07:48 [B7 main] 114/160 pinn_xz_n0.05_add_w100_r7 47.0 s ok alpha=0.6298 Gd=1.0469 Gp=0.4879 wall=47s
+2026-10-12T00:07:50 [B7 main] 115/160 pinn_xz_n0.05_lin_w100_r8 46.3 s ok alpha=0.5980 Gd=1.2248 Gp=0.3397 wall=46s
+2026-10-12T00:07:52 [B7 main] 116/160 pinn_xz_n0.05_factor_w100_r8 36.3 s ok alpha=0.5692 Gd=0.8837 Gp=0.3923 wall=36s
+2026-10-12T00:08:01 [B7 main] 117/160 pinn_xz_n0.05_add_w100_r8 42.3 s ok alpha=0.5989 Gd=1.2288 Gp=0.3180 wall=42s
+2026-10-12T00:08:06 [B7 main] 118/160 nls_pop_n0.01_r0 16.0 s alpha=0.5971 Gd=0.7443 Gp=0.3143 wall=2.08s
+2026-10-12T00:08:08 [B7 main] 119/160 pinn_xz_n0.05_lin_w100_r9 34.9 s ok alpha=0.5657 Gd=1.1535 Gp=0.3609 wall=35s
+2026-10-12T00:08:14 [B7 main] 120/160 pinn_xz_n0.05_factor_w100_r9 36.4 s ok alpha=0.5351 Gd=0.7170 Gp=0.4013 wall=36s
+2026-10-12T00:08:24 [B7 main] 121/160 nls_pop_n0.01_r1 15.7 s alpha=0.6019 Gd=0.9908 Gp=0.3749 wall=1.92s
+2026-10-12T00:08:25 [B7 main] 122/160 pinn_xz_n0.05_add_w100_r9 37.0 s ok alpha=0.5693 Gd=1.2187 Gp=0.3130 wall=37s
+2026-10-12T00:08:27 [B7 main] 123/160 pinn_pop_n0.01_lin_w100_r0 34.4 s ok alpha=0.5966 Gd=0.6316 Gp=0.0613 wall=34s
+2026-10-12T00:08:38 [B7 main] 124/160 pinn_pop_n0.01_factor_w100_r0 36.6 s ok alpha=0.5659 Gd=0.0000 Gp=0.0006 wall=37s
+2026-10-12T00:08:44 [B7 main] 125/160 nls_pop_n0.01_r2 17.0 s alpha=0.5921 Gd=0.9184 Gp=0.3731 wall=2.31s
+2026-10-12T00:08:44 [B7 main] 126/160 pinn_pop_n0.01_add_w100_r0 37.2 s ok alpha=0.6027 Gd=0.7896 Gp=0.3038 wall=37s
+2026-10-12T00:08:50 [B7 main] 127/160 pinn_pop_n0.01_lin_w100_r1 36.0 s ok alpha=0.6033 Gd=0.9448 Gp=0.2073 wall=36s
+2026-10-12T00:09:01 [B7 main] 128/160 pinn_pop_n0.01_factor_w100_r1 37.1 s ok alpha=0.5604 Gd=0.0000 Gp=0.0000 wall=37s
+2026-10-12T00:09:03 [B7 main] 129/160 pinn_pop_n0.01_add_w100_r1 37.8 s ok alpha=0.6060 Gd=1.0259 Gp=0.3428 wall=38s
+2026-10-12T00:09:08 [B7 main] 130/160 nls_pop_n0.01_r3 18.3 s alpha=0.5943 Gd=1.0202 Gp=0.7938 wall=3.35s
+2026-10-12T00:09:14 [B7 main] 131/160 pinn_pop_n0.01_lin_w100_r2 36.1 s ok alpha=0.0500 Gd=0.8649 Gp=803.2828 wall=36s
+2026-10-12T00:09:24 [B7 main] 132/160 pinn_pop_n0.01_add_w100_r2 40.6 s ok alpha=0.5895 Gd=0.7715 Gp=0.0000 wall=41s
+2026-10-12T00:09:30 [B7 main] 133/160 nls_pop_n0.01_r4 15.7 s alpha=0.5961 Gd=0.9009 Gp=0.5301 wall=2.11s
+2026-10-12T00:09:31 [B7 main] 134/160 pinn_pop_n0.01_factor_w100_r2 47.1 s ok alpha=0.5539 Gd=0.0000 Gp=0.0000 wall=47s
+2026-10-12T00:09:38 [B7 main] 135/160 pinn_pop_n0.01_factor_w100_r3 35.2 s ok alpha=0.5543 Gd=0.0864 Gp=0.0000 wall=35s
+2026-10-12T00:09:40 [B7 main] 136/160 pinn_pop_n0.01_lin_w100_r3 39.3 s ok alpha=0.0504 Gd=0.8692 Gp=775.9744 wall=39s
+2026-10-12T00:09:46 [B7 main] 137/160 pinn_pop_n0.01_add_w100_r3 38.5 s ok alpha=0.0545 Gd=1.0008 Gp=698.3025 wall=38s
+2026-10-12T00:09:52 [B7 main] 138/160 nls_pop_n0.01_r5 14.1 s alpha=0.6039 Gd=0.9338 Gp=0.6043 wall=1.79s
+2026-10-12T00:09:57 [B7 main] 139/160 pinn_pop_n0.01_lin_w100_r4 32.8 s ok alpha=0.6002 Gd=0.9039 Gp=0.6138 wall=33s
+2026-10-12T00:10:03 [B7 main] 140/160 pinn_pop_n0.01_factor_w100_r4 33.2 s ok alpha=0.5591 Gd=0.0462 Gp=0.0000 wall=33s
+2026-10-12T00:10:05 [B7 main] 141/160 pinn_pop_n0.01_add_w100_r4 34.7 s ok alpha=0.6022 Gd=0.9864 Gp=0.8825 wall=35s
+2026-10-12T00:10:14 [B7 main] 142/160 pinn_pop_n0.01_lin_w100_r5 34.1 s ok alpha=0.0500 Gd=0.0008 Gp=0.1023 wall=34s
+2026-10-12T00:10:17 [B7 main] 143/160 nls_pop_n0.01_r6 19.5 s alpha=0.5900 Gd=0.8300 Gp=0.2741 wall=2.61s
+2026-10-12T00:10:22 [B7 main] 144/160 pinn_pop_n0.01_factor_w100_r5 36.0 s ok alpha=0.5638 Gd=0.0732 Gp=0.0000 wall=36s
+2026-10-12T00:10:30 [B7 main] 145/160 pinn_pop_n0.01_add_w100_r5 37.9 s ok alpha=0.0500 Gd=0.0000 Gp=0.0438 wall=38s
+2026-10-12T00:10:35 [B7 main] 146/160 nls_pop_n0.01_r7 18.0 s alpha=0.5976 Gd=0.8834 Gp=0.3405 wall=2.26s
+2026-10-12T00:10:43 [B7 main] 147/160 pinn_pop_n0.01_factor_w100_r6 37.1 s ok alpha=0.5555 Gd=0.0002 Gp=0.0006 wall=37s
+2026-10-12T00:10:47 [B7 main] 148/160 pinn_pop_n0.01_lin_w100_r6 43.9 s ok alpha=0.0501 Gd=0.7709 Gp=1063.0155 wall=44s
+2026-10-12T00:10:55 [B7 main] 149/160 nls_pop_n0.01_r8 12.4 s alpha=0.5981 Gd=1.0012 Gp=0.4505 wall=1.68s
+2026-10-12T00:10:55 [B7 main] 150/160 pinn_pop_n0.01_add_w100_r6 40.7 s ok alpha=0.0532 Gd=0.9091 Gp=919.8720 wall=41s
+2026-10-12T00:10:58 [B7 main] 151/160 pinn_pop_n0.01_lin_w100_r7 35.4 s ok alpha=0.5935 Gd=0.8030 Gp=0.1226 wall=35s
+2026-10-12T00:11:05 [B7 main] 152/160 pinn_pop_n0.01_factor_w100_r7 34.9 s ok alpha=0.5637 Gd=0.1267 Gp=0.0000 wall=35s
+2026-10-12T00:11:10 [B7 main] 153/160 pinn_pop_n0.01_add_w100_r7 35.6 s ok alpha=0.5986 Gd=0.9432 Gp=0.5014 wall=36s
+2026-10-12T00:11:18 [B7 main] 154/160 nls_pop_n0.01_r9 19.6 s alpha=0.6064 Gd=1.0644 Gp=0.5130 wall=2.59s
+2026-10-12T00:11:22 [B7 main] 155/160 pinn_pop_n0.01_lin_w100_r8 35.1 s ok alpha=0.6002 Gd=1.0623 Gp=0.7412 wall=35s
+2026-10-12T00:11:33 [B7 main] 156/160 pinn_pop_n0.01_factor_w100_r8 38.1 s ok alpha=0.5555 Gd=0.0000 Gp=0.0000 wall=38s
+2026-10-12T00:11:35 [B7 main] 157/160 pinn_pop_n0.01_add_w100_r8 39.4 s ok alpha=0.6014 Gd=1.1117 Gp=0.9035 wall=39s
+2026-10-12T00:11:51 [B7 main] 158/160 pinn_pop_n0.01_lin_w100_r9 45.7 s ok alpha=0.6073 Gd=0.9401 Gp=0.0594 wall=46s
+2026-10-12T00:11:51 [B7 main] 159/160 pinn_pop_n0.01_factor_w100_r9 40.5 s ok alpha=0.5653 Gd=0.0000 Gp=0.0000 wall=40s
+2026-10-12T00:11:57 [B7 main] 160/160 pinn_pop_n0.01_add_w100_r9 39.6 s ok alpha=0.6060 Gd=0.9100 Gp=0.1427 wall=40s
+2026-10-12T00:11:58 [B7 main] finished: 160 run, 0 skipped, 0 FAILED, wall 920.6 s

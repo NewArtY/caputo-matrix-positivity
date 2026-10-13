@@ -1,0 +1,17 @@
+flow,Wi,alpha,mesh,implicit: predicted bound on max step,implicit: N with loss of PD,prediction confirmed,explicit: first-step bound (shear),explicit: N with loss of PD
+shear,10,0.6,graded,none (unconditional),none,True,0.00657,"4, 8"
+shear,10,0.6,uniform,none (unconditional),none,True,0.00657,"4, 8, 16, 32, 64, 128"
+shear,10,0.9,graded,none (unconditional),none,True,0.0205,"4, 8, 16, 32"
+shear,10,0.9,uniform,none (unconditional),none,True,0.0205,"4, 8, 16, 32"
+shear,100,0.6,graded,none (unconditional),none,True,0.000142,"4, 8, 16, 32, 64"
+shear,100,0.6,uniform,none (unconditional),none,True,0.000142,"4, 8, 16, 32, 64, 128, 256, 512, 1024"
+shear,100,0.9,graded,none (unconditional),none,True,0.00158,"4, 8, 16, 32, 64, 128, 256"
+shear,100,0.9,uniform,none (unconditional),none,True,0.00158,"4, 8, 16, 32, 64, 128, 256, 512, 1024"
+uniaxial,1.5,0.6,graded,0.192,"4, 8",True,0.311,none
+uniaxial,1.5,0.6,uniform,0.192,4,True,0.311,none
+uniaxial,1.5,0.9,graded,0.245,4,True,0.337,none
+uniaxial,1.5,0.9,uniform,0.245,4,True,0.337,none
+uniaxial,3,0.6,graded,0.0417,"4, 8, 16, 32",True,0.0978,none
+uniaxial,3,0.6,uniform,0.0417,"4, 8, 16",True,0.0978,"4, 8"
+uniaxial,3,0.9,graded,0.0884,"4, 8",True,0.156,4
+uniaxial,3,0.9,uniform,0.0884,"4, 8",True,0.156,4

@@ -1,0 +1,52 @@
+{
+ "timestamp_utc": "2026-10-13T07:52:05Z",
+ "command": "aggregate_b5.py",
+ "python": "3.14.3",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "torch": "2.10.0+cpu",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "blas": "scipy-openblas 0.3.31.dev",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "cpu": "13th Gen Intel(R) Core(TM) i7-13620H",
+ "logical_cpus": 16,
+ "ram_gb": 15.7,
+ "blas_threads": "1",
+ "source_sha256_16": {
+  "code/fracsp/__init__.py": "0daf3c73968308ba",
+  "code/fracsp/dirac.py": "4e7df00a2e046628",
+  "code/fracsp/dirac_cutoff.py": "20f86201ed615abf",
+  "code/fracsp/exact.py": "e0f6dd869518be0f",
+  "code/fracsp/layers.py": "dd6719e5e76155c6",
+  "code/fracsp/mittag.py": "cb91941ac7e48e99",
+  "code/fracsp/operators.py": "36849dcd8853dd3d",
+  "code/fracsp/pinn.py": "b2522136eec04772",
+  "code/fracsp/reference.py": "7ae76a46829a9536",
+  "code/fracsp/spd.py": "f1da1b08bf87de9e",
+  "scripts/aggregate_b5.py": "e684cd2c558eab97",
+  "code/experiments/det_common.py": "043fa9aa83b4dc36"
+ },
+ "title": "Implicit L1 stepper on the collocation mesh (N = 128), linear law",
+ "note": "e_F: relative Frobenius error; the test-grid value uses the piecewise-linear interpolant of the nodal values.",
+ "raw_sources": [
+  "results/raw/B5_conformation/forward/stepper_<case>.json"
+ ],
+ "rows": 12,
+ "columns": [
+  "flow",
+  "Wi",
+  "alpha",
+  "max Frobenius norm of C",
+  "max cond(C)",
+  "min eig C (exact)",
+  "min eig (C - I) (exact)",
+  "e_F test grid",
+  "e_F nodes",
+  "max pointwise rel. err.",
+  "log-Euclid rms",
+  "min eig (L1)",
+  "wall, ms"
+ ]
+}

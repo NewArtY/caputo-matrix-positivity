@@ -1,0 +1,50 @@
+{
+ "timestamp_utc": "2026-10-13T07:52:06Z",
+ "command": "aggregate_b5.py",
+ "python": "3.14.3",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "torch": "2.10.0+cpu",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "blas": "scipy-openblas 0.3.31.dev",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "cpu": "13th Gen Intel(R) Core(TM) i7-13620H",
+ "logical_cpus": 16,
+ "ram_gb": 15.7,
+ "blas_threads": "1",
+ "source_sha256_16": {
+  "code/fracsp/__init__.py": "0daf3c73968308ba",
+  "code/fracsp/dirac.py": "4e7df00a2e046628",
+  "code/fracsp/dirac_cutoff.py": "20f86201ed615abf",
+  "code/fracsp/exact.py": "e0f6dd869518be0f",
+  "code/fracsp/layers.py": "dd6719e5e76155c6",
+  "code/fracsp/mittag.py": "cb91941ac7e48e99",
+  "code/fracsp/operators.py": "36849dcd8853dd3d",
+  "code/fracsp/pinn.py": "b2522136eec04772",
+  "code/fracsp/reference.py": "7ae76a46829a9536",
+  "code/fracsp/spd.py": "f1da1b08bf87de9e",
+  "scripts/aggregate_b5.py": "e684cd2c558eab97",
+  "code/experiments/det_common.py": "043fa9aa83b4dc36"
+ },
+ "title": "FENE-P benchmark: the Newton iterates behind the references, stepper baselines and a-priori scales are the admissible solution",
+ "note": "N = 64: a-priori scales; N = 128: stepper baseline and collocation mesh; N = 2048 and 4096: reference. The last column compares the stored reference with the Richardson extrapolate recomputed with the root solver and is the same for the four meshes of a case.",
+ "raw_sources": [
+  "results/raw/B5_conformation/fenep/reference_fenep_uniaxial_<case>.npz",
+  "results/raw/B5_conformation/positivity/fenep_step.json"
+ ],
+ "rows": 16,
+ "columns": [
+  "Wi",
+  "alpha",
+  "N (graded mesh)",
+  "left-hand side of the step bound of the linear law",
+  "Newton iterates admissible",
+  "smallest eigenvalue",
+  "largest tr C / b",
+  "relative difference Newton - root solver",
+  "safeguarded solver identical to Newton",
+  "stored reference file against the root solver (relative difference)"
+ ]
+}

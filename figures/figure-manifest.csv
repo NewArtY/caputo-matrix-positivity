@@ -1,0 +1,28 @@
+figure,script,data,width_mm,height_mm,fonts_embedded
+figures/final/Figure_01.pdf,scripts/plot_final.py,figures/data/Neural_B2_runs.csv; figures/data/Neural_B2_stepper.csv,165.0,44.0,yes
+figures/final/Figure_02.pdf,scripts/plot_final.py,figures/data/Neural_B2_error_curves.csv,165.0,44.0,yes
+figures/final/Figure_03.pdf,scripts/plot_final.py,figures/data/Neural_B6_runs.csv; figures/data/Neural_B6_stepper.csv; figures/data/Neural_B6_curves.csv,165.0,44.0,yes
+figures/final/Figure_04.pdf,scripts/plot_final.py,figures/data/B5_fenep_curves.csv,165.0,44.0,yes
+figures/final/Figure_05.pdf,scripts/plot_final.py,figures/data/Neural_surrogate_grid.csv; figures/data/Neural_surrogate_stepper.csv; tables/data/Table_surrogate.csv; tables/data/Table_surrogate_breakeven.csv,165.0,44.0,yes
+figures/final/Figure_06.pdf,scripts/plot_final.py,figures/data/FigDet_tail_rays.csv; figures/data/FigDet_B4_cutoff.csv; tables/data/Table_Dirac_tail.csv,165.0,44.0,yes
+figures/final/Figure_07.pdf,scripts/plot_final.py,figures/data/FigDet_B4_current_traces.csv; figures/data/FigDet_B4_cutoff.csv; tables/data/Table_Dirac_B4_fits.csv,165.0,44.0,yes
+figures/candidates/FigDet_E_verification.pdf,scripts/plot_deterministic.py,tables/data/Table_E1_E3.csv,190.0,63.6,yes
+figures/candidates/FigDet_SOE.pdf,scripts/plot_deterministic.py,tables/data/Table_SOE.csv; tables/data/Table_SOE_kernel.csv; tables/data/Table_SOE_residual.csv; tables/data/Table_SOE_dirac_chunk.csv,189.0,118.3,yes
+figures/candidates/FigDet_Dirac_B3.pdf,scripts/plot_deterministic.py,figures/data/FigDet_B3_trajectories.csv; figures/data/FigDet_B3_convergence.csv,189.0,62.1,yes
+figures/candidates/FigDet_Dirac_current.pdf,scripts/plot_deterministic.py,figures/data/FigDet_B4_current_traces.csv; figures/data/FigDet_B4_cutoff.csv; tables/data/Table_Dirac_B4.csv,189.0,123.4,yes
+figures/candidates/FigDet_Dirac_tail.pdf,scripts/plot_deterministic.py,tables/data/Table_Dirac_tail.csv; figures/data/FigDet_B4_cutoff.csv; figures/data/FigDet_tail_constant_vs_tf.csv,189.0,123.4,yes
+figures/candidates/FigDet_Dirac_maps.pdf,scripts/plot_deterministic.py,figures/data/FigDet_B4_maps_zeta1.npz,163.7,76.2,yes
+figures/candidates/Neural_B2_factorial.pdf,scripts/plot_neural.py,figures/data/Neural_B2_runs.csv; figures/data/Neural_B2_stepper.csv,189.0,171.4,yes
+figures/candidates/Neural_B2_effects.pdf,scripts/plot_neural.py,tables/data/Table_B2_paired.csv,189.0,115.6,yes
+figures/candidates/Neural_B2_effects_distance_to_L1.pdf,scripts/plot_neural.py,tables/data/Table_B2_paired.csv,189.0,115.6,yes
+figures/candidates/Neural_B2_initial_layer.pdf,scripts/plot_neural.py,figures/data/Neural_B2_error_curves.csv,188.8,112.2,yes
+figures/candidates/Neural_B6_positivity.pdf,scripts/plot_neural.py,figures/data/Neural_B6_runs.csv; figures/data/Neural_B6_stepper.csv; figures/data/Neural_B6_curves.csv,187.9,160.5,yes
+figures/candidates/Neural_B7_estimates.pdf,scripts/plot_neural.py,figures/data/Neural_B7_estimates.csv; tables/data/Table_B7_estimates.csv,189.0,71.1,yes
+figures/candidates/Neural_B1_design.pdf,scripts/plot_neural.py,figures/data/Neural_B1_inverse_runs.csv; tables/data/Table_B1_design.csv,189.0,76.5,yes
+figures/candidates/Neural_surrogate.pdf,scripts/plot_neural.py,figures/data/Neural_surrogate_grid.csv; figures/data/Neural_surrogate_stepper.csv; tables/data/Table_surrogate.csv,167.8,68.6,yes
+figures/candidates/B5_model_eigenvalues.pdf,scripts/plot_b5.py,figures/data/B5_model_eigenvalues.csv,188.7,62.1,yes
+figures/candidates/B5_forward_errors_a0.6.pdf,scripts/plot_b5.py,figures/data/B5_forward_runs.csv; figures/data/B5_forward_stepper.csv,189.0,122.7,yes
+figures/candidates/B5_forward_errors_a0.9.pdf,scripts/plot_b5.py,figures/data/B5_forward_runs.csv; figures/data/B5_forward_stepper.csv,189.0,122.7,yes
+figures/candidates/B5_forward_min_eig.pdf,scripts/plot_b5.py,figures/data/B5_forward_min_eig_curves.csv,189.0,68.3,yes
+figures/candidates/B5_inverse_estimates.pdf,scripts/plot_b5.py,figures/data/B5_inverse_estimates.csv; figures/data/B5_inverse_crb.csv,188.0,118.9,yes
+figures/candidates/B5_fenep_trajectories.pdf,scripts/plot_b5.py,figures/data/B5_fenep_curves.csv,186.9,73.9,yes

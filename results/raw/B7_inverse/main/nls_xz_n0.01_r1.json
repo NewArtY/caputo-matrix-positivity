@@ -1,0 +1,396 @@
+{
+ "fits": {
+  "N128_interp": {
+   "alpha_hat": 0.5976187119128685,
+   "Gdown_hat": 1.0736754473355166,
+   "Gphi_hat": 0.4676863634603042,
+   "rel_err_rms": 0.056628930904601145,
+   "cost": 0.0037709689856274165,
+   "rms_misfit": 0.011211555029860067,
+   "wall": 1.7491536000743508,
+   "n_solves": 451,
+   "n_starts": 8,
+   "starts_reaching_best": 8,
+   "all_converged": true,
+   "sd_estimate": [
+    0.004647909144062756,
+    0.039757583975987235,
+    0.023829802789306406
+   ],
+   "n_nodes": 128,
+   "data_points_changed_by_projection": 0,
+   "min_eig_nodes": -1.3877787807814457e-17,
+   "state_rel_fro": 0.010291060007026079,
+   "state_max_fro": 0.01067284896402841,
+   "state_tau_max_fro": 0.0495,
+   "state_rel_fro_u1000": 0.010291038191883881,
+   "state_rel_inc_layer": 0.02779036253770032,
+   "state_rel_fro_proj": 0.010291060007026087,
+   "state_max_fro_proj": 0.010672848964028238,
+   "state_min_eig": -1.3877787807814457e-17,
+   "state_tau_min_eig": 0.0,
+   "state_neg_time_frac": 0.0,
+   "state_neg_log_frac": 0.0,
+   "state_max_negativity": 1.3877787807814457e-17,
+   "state_int_negativity": 6.938893903907228e-30,
+   "state_max_trace_defect": 6.661426042045254e-16,
+   "state_max_herm_defect": 2.655224719882135e-16
+  },
+  "N128_interp_proj": {
+   "alpha_hat": 0.5976187119128685,
+   "Gdown_hat": 1.0736754473355166,
+   "Gphi_hat": 0.4676863634603042,
+   "rel_err_rms": 0.056628930904601145,
+   "cost": 0.0037709689856274165,
+   "rms_misfit": 0.011211555029860067,
+   "wall": 1.7491536000743508,
+   "n_solves": 451,
+   "n_starts": 8,
+   "starts_reaching_best": 8,
+   "all_converged": true,
+   "sd_estimate": [
+    0.004647909144062756,
+    0.039757583975987235,
+    0.023829802789306406
+   ],
+   "n_nodes": 128,
+   "data_points_changed_by_projection": 0,
+   "min_eig_nodes": -1.3877787807814457e-17,
+   "state_rel_fro": 0.010291060007026079,
+   "state_max_fro": 0.01067284896402841,
+   "state_tau_max_fro": 0.0495,
+   "state_rel_fro_u1000": 0.010291038191883881,
+   "state_rel_inc_layer": 0.02779036253770032,
+   "state_rel_fro_proj": 0.010291060007026087,
+   "state_max_fro_proj": 0.010672848964028238,
+   "state_min_eig": -1.3877787807814457e-17,
+   "state_tau_min_eig": 0.0,
+   "state_neg_time_frac": 0.0,
+   "state_neg_log_frac": 0.0,
+   "state_max_negativity": 1.3877787807814457e-17,
+   "state_int_negativity": 6.938893903907228e-30,
+   "state_max_trace_defect": 6.661426042045254e-16,
+   "state_max_herm_defect": 2.655224719882135e-16,
+   "identical_to_unprojected": true
+  },
+  "N128": {
+   "alpha_hat": 0.5977343060687812,
+   "Gdown_hat": 1.0733247040755378,
+   "Gphi_hat": 0.4677668583119128,
+   "rel_err_rms": 0.05641120833784679,
+   "cost": 0.0037651259208377782,
+   "rms_misfit": 0.011202865587038847,
+   "wall": 1.7604491000529379,
+   "n_solves": 449,
+   "n_starts": 8,
+   "starts_reaching_best": 8,
+   "all_converged": true,
+   "sd_estimate": [
+    0.0046425514323890395,
+    0.039728909996174636,
+    0.023810076914464223
+   ],
+   "n_nodes": 158,
+   "data_points_changed_by_projection": 0,
+   "min_eig_nodes": -1.3877787807814457e-17,
+   "state_rel_fro": 0.010248275093841477,
+   "state_max_fro": 0.010512545744333272,
+   "state_tau_max_fro": 0.0495,
+   "state_rel_fro_u1000": 0.010248255556012904,
+   "state_rel_inc_layer": 0.02732315660695513,
+   "state_rel_fro_proj": 0.010248275093841477,
+   "state_max_fro_proj": 0.01051254574433328,
+   "state_min_eig": -1.3877787807814457e-17,
+   "state_tau_min_eig": 0.0,
+   "state_neg_time_frac": 0.0,
+   "state_neg_log_frac": 0.0,
+   "state_max_negativity": 1.3877787807814457e-17,
+   "state_int_negativity": 6.938893903907228e-30,
+   "state_max_trace_defect": 4.443008800957869e-16,
+   "state_max_herm_defect": 4.1232894009696055e-16
+  },
+  "N128_proj": {
+   "alpha_hat": 0.5977343060687812,
+   "Gdown_hat": 1.0733247040755378,
+   "Gphi_hat": 0.4677668583119128,
+   "rel_err_rms": 0.05641120833784679,
+   "cost": 0.0037651259208377782,
+   "rms_misfit": 0.011202865587038847,
+   "wall": 1.7604491000529379,
+   "n_solves": 449,
+   "n_starts": 8,
+   "starts_reaching_best": 8,
+   "all_converged": true,
+   "sd_estimate": [
+    0.0046425514323890395,
+    0.039728909996174636,
+    0.023810076914464223
+   ],
+   "n_nodes": 158,
+   "data_points_changed_by_projection": 0,
+   "min_eig_nodes": -1.3877787807814457e-17,
+   "state_rel_fro": 0.010248275093841477,
+   "state_max_fro": 0.010512545744333272,
+   "state_tau_max_fro": 0.0495,
+   "state_rel_fro_u1000": 0.010248255556012904,
+   "state_rel_inc_layer": 0.02732315660695513,
+   "state_rel_fro_proj": 0.010248275093841477,
+   "state_max_fro_proj": 0.01051254574433328,
+   "state_min_eig": -1.3877787807814457e-17,
+   "state_tau_min_eig": 0.0,
+   "state_neg_time_frac": 0.0,
+   "state_neg_log_frac": 0.0,
+   "state_max_negativity": 1.3877787807814457e-17,
+   "state_int_negativity": 6.938893903907228e-30,
+   "state_max_trace_defect": 4.443008800957869e-16,
+   "state_max_herm_defect": 4.1232894009696055e-16,
+   "identical_to_unprojected": true
+  },
+  "N512": {
+   "alpha_hat": 0.5987902069021149,
+   "Gdown_hat": 1.0705230554879503,
+   "Gphi_hat": 0.4689690263029796,
+   "rel_err_rms": 0.05425019884270341,
+   "cost": 0.0037389880101029466,
+   "rms_misfit": 0.01116391211314825,
+   "wall": 10.468605799833313,
+   "n_solves": 457,
+   "n_starts": 8,
+   "starts_reaching_best": 8,
+   "all_converged": true,
+   "sd_estimate": [
+    0.004625413487666355,
+    0.039606568463198245,
+    0.02373280667510892
+   ],
+   "n_nodes": 542,
+   "data_points_changed_by_projection": 0,
+   "min_eig_nodes": -1.3877787807814457e-17,
+   "state_rel_fro": 0.010080456115897578,
+   "state_max_fro": 0.010051838591943266,
+   "state_tau_max_fro": 0.0545,
+   "state_rel_fro_u1000": 0.010080491343746263,
+   "state_rel_inc_layer": 0.025888624731830158,
+   "state_rel_fro_proj": 0.010080456115897578,
+   "state_max_fro_proj": 0.010051838591943318,
+   "state_min_eig": -1.3877787807814457e-17,
+   "state_tau_min_eig": 0.0,
+   "state_neg_time_frac": 0.0,
+   "state_neg_log_frac": 0.0,
+   "state_max_negativity": 1.3877787807814457e-17,
+   "state_int_negativity": 6.938893903907228e-30,
+   "state_max_trace_defect": 1.5543277230005127e-15,
+   "state_max_herm_defect": 3.971840745146752e-16
+  },
+  "N512_proj": {
+   "alpha_hat": 0.5987902069021149,
+   "Gdown_hat": 1.0705230554879503,
+   "Gphi_hat": 0.4689690263029796,
+   "rel_err_rms": 0.05425019884270341,
+   "cost": 0.0037389880101029466,
+   "rms_misfit": 0.01116391211314825,
+   "wall": 10.468605799833313,
+   "n_solves": 457,
+   "n_starts": 8,
+   "starts_reaching_best": 8,
+   "all_converged": true,
+   "sd_estimate": [
+    0.004625413487666355,
+    0.039606568463198245,
+    0.02373280667510892
+   ],
+   "n_nodes": 542,
+   "data_points_changed_by_projection": 0,
+   "min_eig_nodes": -1.3877787807814457e-17,
+   "state_rel_fro": 0.010080456115897578,
+   "state_max_fro": 0.010051838591943266,
+   "state_tau_max_fro": 0.0545,
+   "state_rel_fro_u1000": 0.010080491343746263,
+   "state_rel_inc_layer": 0.025888624731830158,
+   "state_rel_fro_proj": 0.010080456115897578,
+   "state_max_fro_proj": 0.010051838591943318,
+   "state_min_eig": -1.3877787807814457e-17,
+   "state_tau_min_eig": 0.0,
+   "state_neg_time_frac": 0.0,
+   "state_neg_log_frac": 0.0,
+   "state_max_negativity": 1.3877787807814457e-17,
+   "state_int_negativity": 6.938893903907228e-30,
+   "state_max_trace_defect": 1.5543277230005127e-15,
+   "state_max_herm_defect": 3.971840745146752e-16,
+   "identical_to_unprojected": true
+  }
+ },
+ "theta_starts": [
+  [
+   0.8965059883694597,
+   2.027930716963935,
+   0.9335555981088952
+  ],
+  [
+   0.7677494103459612,
+   0.3495226656633468,
+   0.7229109428441921
+  ],
+  [
+   0.6041002209561357,
+   0.6279339069143667,
+   0.34292033475966127
+  ],
+  [
+   0.5452920397152291,
+   0.798988514193311,
+   0.15231624670753932
+  ],
+  [
+   0.9182110310563443,
+   2.05464549258822,
+   0.7867398484105744
+  ],
+  [
+   0.9272320610355858,
+   2.8650424209283973,
+   0.47417611500960166
+  ],
+  [
+   0.4485109078580961,
+   1.9455956819057263,
+   0.336614348233863
+  ],
+  [
+   0.5456218169558951,
+   0.9090074153050178,
+   0.496737446788289
+  ]
+ ],
+ "status": "ok",
+ "benchmark": "B7",
+ "peak_rss_mb": 324.5,
+ "stage": "main",
+ "name": "nls_xz_n0.01_r1",
+ "method": "nls",
+ "design": "xz",
+ "noise": 0.01,
+ "real": 1,
+ "timestamp_utc": "2026-10-11T21:00:50+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b7_inverse.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b7_inverse.json": "36b91d2977860bc7",
+  "b7_inverse.py": "926e7d97855d7acb"
+ },
+ "seed": 1,
+ "config": {
+  "job": {
+   "stage": "main",
+   "method": "nls",
+   "design": "xz",
+   "noise": 0.01,
+   "real": 1,
+   "name": "nls_xz_n0.01_r1"
+  },
+  "alpha_true": 0.6,
+  "phys_true": {
+   "Omega": 6.283185307179586,
+   "Gdown": 1.0,
+   "Gphi": 0.5
+  },
+  "design": {
+   "rho0_bloch": [
+    0.6,
+    0.0,
+    0.8
+   ],
+   "observables": [
+    "sx",
+    "sz"
+   ],
+   "noise_sd": [
+    0.0,
+    0.01,
+    0.05
+   ],
+   "note": "pure initial state; <sigma_x> and <sigma_z> are measured, <sigma_y> is not"
+  },
+  "n_obs": 30,
+  "obs_seed": 2024,
+  "init": {
+   "alpha": [
+    0.3,
+    0.95
+   ],
+   "Gdown_log_uniform": [
+    0.3,
+    3.0
+   ],
+   "Gphi_log_uniform": [
+    0.15,
+    1.5
+   ]
+  },
+  "mesh": {
+   "N": 128,
+   "r": 3.0,
+   "grading": "tau_n = (n/N)^r (alpha is unknown)"
+  },
+  "test": {
+   "n_uniform": 1000,
+   "log_min": -12,
+   "per_decade": 40
+  },
+  "config_file": "configs/b7_inverse.json",
+  "nls": {
+   "starts": 8,
+   "bounds": {
+    "alpha": [
+     0.05,
+     1.0
+    ],
+    "Gdown": [
+     0.001,
+     50.0
+    ],
+    "Gphi": [
+     0.001,
+     50.0
+    ]
+   },
+   "meshes": {
+    "N128_interp": {
+     "N": 128,
+     "obs_nodes": false,
+     "note": "the mesh of the networks, piecewise-linear interpolation to the observation times"
+    },
+    "N128": {
+     "N": 128,
+     "obs_nodes": true,
+     "note": "the graded mesh with the observation times added as nodes"
+    },
+    "N512": {
+     "N": 512,
+     "obs_nodes": true,
+     "note": "refined mesh: the L1 error is about (1/4)^(2 - alpha) of that at N = 128"
+    }
+   },
+   "projection": "optional: noisy data projected on the admissible set before the fit (xz: the pair (sx, sz) on the unit disc; pop: the population on [0, 1])"
+  }
+ }
+}

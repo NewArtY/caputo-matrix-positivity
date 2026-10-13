@@ -1,0 +1,35 @@
+{
+ "description": "Reduced configuration of b2_density.json for scripts/smoke_test.py: two orders, 32 collocation nodes, 150 + 20 optimiser iterations, one seed. The numbers obtained with it are not reported anywhere.",
+ "phys": {"Omega": 6.283185307179586, "Gdown": 1.0, "Gphi": 0.5},
+ "alphas": [0.6, 0.9],
+ "initial_states_bloch": {
+  "mixed": [0.3, 0.2, 0.4],
+  "nearly_pure": [0.0, 0.0446766381904458, 0.9980004999998747],
+  "pure": [0.0, 0.0, 1.0]
+ },
+ "mesh": {"N": 32},
+ "network": {"width": 32, "depth": 3, "activation": "tanh", "beta": 5.0},
+ "optimizer": {"adam_iters": 150, "lr": 0.002, "schedule": "cosine to 5%", "lbfgs_iters": 20},
+ "seeds": [0],
+ "maps": {
+  "hard": ["unc", "herm", "lin", "factor", "add"],
+  "hard_pure_only": ["gate2", "gate2b"],
+  "soft": ["unc", "herm", "lin", "factor"]
+ },
+ "gates": ["exp", "pow"],
+ "soft_ic": {
+  "weights": [1.0, 10.0],
+  "pilot_seeds": [100],
+  "selection": "per (map, alpha): weight with the smallest geometric mean of rel_fro over the three states and the pilot seeds",
+  "untuned_reference": {"weight": 1.0, "maps": ["unc", "factor"], "alphas": [0.6]}
+ },
+ "extras": {
+  "bloch_head": {"map": "bloch", "ic": "hard", "gate": "pow"},
+  "singular_feature": {"maps": ["lin", "factor", "add"], "ic": "hard", "gate": "pow", "alphas": [0.6]},
+  "long_budget": {"maps": ["unc", "herm", "lin", "factor", "add"], "ic": "hard", "gate": "pow", "alphas": [0.6],
+                  "seeds": [0], "adam_iters": 300, "lbfgs_iters": 40}
+ },
+ "stepper": {"N": [16, 32, 64], "timing_repeats": 2},
+ "test": {"n_uniform": 100, "log_min": -6, "per_decade": 5},
+ "eig_tol": 1e-12
+}

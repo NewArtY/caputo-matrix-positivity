@@ -1,0 +1,19 @@
+{
+ "description": "Reduced configuration of b5_inverse.json for scripts/smoke_test.py: one order, 10 observation times, 32 collocation nodes, 150 + 20 optimiser iterations, two seeds, two least-squares starts. The numbers obtained with it are not reported anywhere.",
+ "law": "ucm",
+ "flow": "shear",
+ "strain_total": 20.0,
+ "alphas_true": [0.6],
+ "ell_true": 0.25,
+ "observations": {"n_times": 10, "noise_levels": [0.0, 0.05], "noise_seed_offset": 5000},
+ "init": {"alpha_range": [0.4, 0.95], "ell_range": [0.05, 1.0], "seed_offset": 10000},
+ "mesh": {"N": 32, "grading_r": 2.0},
+ "network": {"width": 32, "depth": 3},
+ "hard_ic": {"beta": 5.0},
+ "variants": [["factor", "fro"], ["sym", "fro"], ["logm", "nat"], ["sym", "comp"]],
+ "data_weight": 100.0,
+ "optimizer": {"adam_iters": 150, "lr": 0.002, "lbfgs_iters": 20},
+ "nls": {"meshes_N": [32, 64], "n_starts": 2, "bounds_alpha": [0.3, 1.0], "bounds_ell": [0.02, 2.0]},
+ "seeds": [0, 1],
+ "test": {"n_uniform": 40, "n_layer": 10, "layer": [1e-06, 0.01]}
+}

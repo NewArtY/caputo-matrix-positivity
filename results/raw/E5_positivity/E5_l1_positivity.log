@@ -1,0 +1,13 @@
+[     9.2s] E5 21/216 tasks
+[    11.6s] E5 42/216 tasks
+[    14.2s] E5 63/216 tasks
+[    14.9s] E5 84/216 tasks
+[    15.8s] E5 105/216 tasks
+[    17.1s] E5 126/216 tasks
+[    18.3s] E5 147/216 tasks
+[    19.5s] E5 168/216 tasks
+[    21.5s] E5 189/216 tasks
+[    23.9s] E5 210/216 tasks
+[    23.9s] E5 216/216 tasks
+[    28.8s] 216 configurations: worst min_eig = -5.319e-16; worst Choi (solution map) = -1.409e-15; worst Choi (one step) = -2.113e-15; worst min_eig SOE = -4.140e-16; smallest convex weight = 0.000e+00; max trace defect = 1.66e-13
+[    28.8s] done

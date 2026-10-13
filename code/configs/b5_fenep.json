@@ -1,0 +1,93 @@
+{
+ "description": "B5 additional experiment: start-up of uniaxial extension, Caputo time-fractional FENE-P conformation tensor (Peterlin closure of the time-fractional FENE dumbbell model), C(0) = I; admissible set {C > 0, tr C < b}",
+ "law": "fenep",
+ "flow": "uniaxial",
+ "b": 50.0,
+ "Theta": 2.0,
+ "Wi": [
+  2.0,
+  5.0
+ ],
+ "alphas": [
+  0.6,
+  0.9
+ ],
+ "variants": [
+  [
+   "sym",
+   "fro"
+  ],
+  [
+   "sym",
+   "comp"
+  ],
+  [
+   "sym",
+   "rel"
+  ],
+  [
+   "logm",
+   "nat"
+  ],
+  [
+   "bfactor",
+   "fro"
+  ],
+  [
+   "bfactor",
+   "nat"
+  ],
+  [
+   "blogm",
+   "nat"
+  ]
+ ],
+ "variant_definitions": {
+  "outputs": "sym: X = C0 + s g Sym(N); logm: X = expm(log C0 + log(1+s) g Sym(N)); bfactor: X = b S/(1 + tr S), S = T T^T, T = T0 + sqrt(s_S) g N; blogm: X = b S/(1 + tr S), S = expm(log S0 + log(1+s_S) g Sym(N)); S0 = C0/(b - tr C0)",
+  "losses": "fro: |R|_F^2/s^2; comp: sum_ij (R_ij/s_ij)^2; rel: |R|_F^2/|X|_F^2; nat: tr(X^-1 R X^-1 R)"
+ },
+ "mesh": {
+  "N": 128,
+  "grading": "r = (2 - alpha)/alpha"
+ },
+ "network": {
+  "width": 32,
+  "depth": 3,
+  "activation": "tanh",
+  "inputs": "(tau, tau^alpha)",
+  "outputs": 9
+ },
+ "hard_ic": {
+  "gate": "g = 1 - exp(-beta tau^alpha)",
+  "beta": 5.0
+ },
+ "scale": {
+  "rule": "from the implicit L1 + Newton solution on a 64-step graded mesh: s = max |C - C0|_F, s_ij component-wise (floored at 1), s_S = max |S - S0|_F with S = C/(b - tr C)",
+  "N": 64
+ },
+ "optimizer": {
+  "adam_iters": 4000,
+  "lr": 0.002,
+  "schedule": "cosine to 5%",
+  "lbfgs_iters": 500
+ },
+ "reference": {
+  "N": 2048,
+  "definition": "implicit L1 + Newton on graded meshes with N and 2N steps, one Richardson step of order 2 - alpha"
+ },
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "test": {
+  "n_uniform": 400,
+  "n_layer": 100,
+  "layer": [
+   1e-06,
+   0.01
+  ]
+ }
+}

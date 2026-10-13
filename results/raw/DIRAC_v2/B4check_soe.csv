@@ -1,0 +1,20 @@
+# timestamp_utc: 2026-10-11T21:06:04Z
+# command: dirac_reference.py B4check
+# python: 3.14.3
+# numpy: 2.4.2
+# scipy: 1.18.1
+# torch: 2.10.0+cpu
+# mpmath: 1.3.0
+# fracsp: 0.1.0
+# blas: scipy-openblas 0.3.31.dev
+# platform: Windows-11-10.0.26200-SP0
+# machine: AMD64
+# cpu: 13th Gen Intel(R) Core(TM) i7-13620H
+# logical_cpus: 16
+# ram_gb: 15.7
+# blas_threads: 1
+# source_sha256_16: {"code/fracsp/__init__.py": "567de9449b4747da", "code/fracsp/dirac.py": "4e7df00a2e046628", "code/fracsp/exact.py": "e0f6dd869518be0f", "code/fracsp/layers.py": "dd6719e5e76155c6", "code/fracsp/mittag.py": "cb91941ac7e48e99", "code/fracsp/operators.py": "36849dcd8853dd3d", "code/fracsp/pinn.py": "b2522136eec04772", "code/fracsp/reference.py": "7ae76a46829a9536", "code/experiments/dirac_reference.py": "15125459ca79acac", "code/configs/dirac.json": "bab85346c17fab1a", "code/experiments/det_common.py": "043fa9aa83b4dc36"}
+# note: full-history (tabulated weights) versus SOE implicit L1 on an 8 x 8 midpoint grid, kappa_max = 3, valley K, zeta = 1; differences over 257 output times
+alpha,N,n_wave_vectors,M,soe_rel_kernel_err,max_abs_diff_bloch,max_abs_diff_nc_final,max_rel_diff_nc_final,wall_full_s,wall_soe_s
+0.9,4096,64,105,7.2898e-11,3.6870e-12,8.8707e-13,2.8291e-12,1.40,0.92
+0.8,4096,64,112,7.3123e-11,5.5122e-12,3.2446e-13,1.8016e-12,1.41,1.01

@@ -1,0 +1,7 @@
+zeta=0 alpha=1: max|B|=0.073751, relative change under halving of the step 0.0e+00
+zeta=0 alpha=0.9: max|B|=0.047774, relative change under halving of the step 9.1e-06, C_alpha(t_f; 90 deg)=0.1737194 (fracsp.dirac.tail_constant: 0.1737194)
+zeta=0 alpha=0.8: max|B|=0.094496, relative change under halving of the step 9.0e-06, C_alpha(t_f; 90 deg)=0.2463577 (fracsp.dirac.tail_constant: 0.2463577)
+zeta=1 alpha=1: max|B|=0.052150, relative change under halving of the step 0.0e+00
+zeta=1 alpha=0.9: max|B|=0.040482, relative change under halving of the step 8.3e-06, C_alpha(t_f; 90 deg)=0.0868597 (fracsp.dirac.tail_constant: 0.0868597)
+zeta=1 alpha=0.8: max|B|=0.050024, relative change under halving of the step 1.2e-05, C_alpha(t_f; 90 deg)=0.1231789 (fracsp.dirac.tail_constant: 0.1231789)
+wrote current_cutoff_coefficient.csv (6150 rows) in 47 s

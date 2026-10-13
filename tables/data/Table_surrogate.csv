@@ -1,0 +1,12 @@
+method,seed,status,n_params,train_wall_s,train_cpu_s,final_loss,rel_fro_median,rel_fro_mean,rel_fro_max,max_fro_max,min_eig_test_grid,min_eig_random_params,frac_random_params_with_negative_eig,frac_random_points_with_negative_eig,max_negativity,max_trace_defect,max_herm_defect,inference_ms_per_query,inference_ms_per_query_single,inference_ms_per_query_final_time,stepper_N_equal_accuracy,stepper_ms_per_query,stepper_rel_fro_median_at_N,break_even_queries,break_even_queries_final_time_only,cost_source,n_training_parameter_points,n_test_parameter_points,n_test_times,n_random_parameter_points,adam_iters,lbfgs_iters
+surrogate add,0,ok,13256,580.318,541.688,0.00629893,0.00405277,0.00634633,0.0390253,0.0448135,0,0,0,0,0,4.44089e-16,0,0.277026,0.47065,0.0017602,64,0.5923,0.00395827,1.84068e+06,982690,timing pass,256,64,198,2000,12000,300
+surrogate add,1,ok,13256,540.253,519.578,0.0063464,0.00631804,0.00855908,0.0423258,0.0402504,0,0,0,0,0,4.44089e-16,0,0.277026,0.47065,0.0017602,64,0.5923,0.00395827,1.7136e+06,914845,timing pass,256,64,198,2000,12000,300
+surrogate add,2,ok,13256,546.02,530.125,0.00650462,0.00472265,0.00728414,0.0387258,0.0404507,0,0,0,0,0,4.44089e-16,0,0.277026,0.47065,0.0017602,64,0.5923,0.00395827,1.73189e+06,924611,timing pass,256,64,198,2000,12000,300
+surrogate lin,0,ok,13256,583.77,559.797,0.00445654,0.00389479,0.00507588,0.0328025,0.0307925,0,0,0,0,0,1.11022e-16,0,0.277026,0.47065,0.0017602,128,1.24505,0.00151016,603053,469536,timing pass,256,64,198,2000,12000,300
+surrogate lin,1,ok,13256,569.107,549.5,0.00438264,0.00402568,0.00539056,0.0319087,0.0349838,0,0,0,0,0,2.22045e-16,0,0.277026,0.47065,0.0017602,64,0.5923,0.00395827,1.80512e+06,963707,timing pass,256,64,198,2000,12000,300
+surrogate lin,2,ok,13256,540.84,525.328,0.00451356,0.00368982,0.00535108,0.0319803,0.0335417,0,0,0,0,0,1.11022e-16,0,0.277026,0.47065,0.0017602,128,1.24505,0.00151016,558705,435007,timing pass,256,64,198,2000,12000,300
+l1_stepper N=16,,ok,,,,,0.0259727,,0.0859538,,,,,,,,,,,,,0.2753,,,,timing pass,,,,,,
+l1_stepper N=32,,ok,,,,,0.0102745,,0.0433044,,,,,,,,,,,,,0.36815,,,,timing pass,,,,,,
+l1_stepper N=64,,ok,,,,,0.00395827,,0.0204327,,,,,,,,,,,,,0.5923,,,,timing pass,,,,,,
+l1_stepper N=128,,ok,,,,,0.00151016,,0.00928709,,,,,,,,,,,,,1.24505,,,,timing pass,,,,,,
+l1_stepper N=256,,ok,,,,,0.000572793,,0.00413409,,,,,,,,,,,,,2.9169,,,,timing pass,,,,,,

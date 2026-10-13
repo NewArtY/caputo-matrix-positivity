@@ -1,0 +1,32 @@
+{
+  "description": "E4: sum-of-exponentials (SOE) history. (a) kernel error and number of modes; (b) work-precision study of the implicit L1 time stepper (full history / SOE, uniform / graded mesh) on the fractional Bloch system of B2; (c) torch residual operator; (d) cost per step for a Dirac momentum chunk (smooth solution, uniform mesh).",
+  "kernel": {
+    "alphas": [0.3, 0.5, 0.6, 0.8, 0.9, 0.95],
+    "tols": [1e-4, 1e-6, 1e-8, 1e-10, 1e-12],
+    "T_over_delta": [1e3, 1e4, 1e5, 1e6],
+    "T_list": [1.0, 10.0, 60.0],
+    "n_check": 4000,
+    "dirac_windows": [[0.8, 60.0, 4096], [0.9, 60.0, 4096], [0.95, 60.0, 16384], [0.6, 10.0, 32768]]
+  },
+  "solver": {
+    "alpha": 0.6,
+    "phys": {"Omega": 6.283185307179586, "Gdown": 1.0, "Gphi": 0.5},
+    "T": 10.0,
+    "K": 16,
+    "initial_state_seed": 123,
+    "soe_tol": 1e-10,
+    "grading_r": 2.3333333333333335,
+    "uniform_N": [1024, 2048, 4096, 8192, 16384, 32768, 65536],
+    "uniform_row_N_max": 32768,
+    "graded_N": [64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384],
+    "graded_table_N_max": 4096,
+    "repeats": 5,
+    "repeats_slow": 3,
+    "slow_threshold_s": 8.0,
+    "warmup_N": 1024,
+    "memory_N": [1024, 4096, 16384],
+    "timing_protocol": "one fresh process per (solver, N); BLAS pinned to one thread; one untimed warm-up solve with min(N, warmup_N) steps; then `repeats` timed solves (`repeats_slow` if a solve takes longer than slow_threshold_s); wall time by time.perf_counter around the solver call only; tracemalloc is NOT active during timing; all nodes are stored in every run"
+  },
+  "residual": {"alpha": 0.6, "N_list": [512, 2048, 8192], "channels": 8, "soe_tol": 1e-10, "repeats": 5},
+  "dirac_step_cost": {"alpha": 0.8, "K": 256, "N_list": [2048, 4096, 8192, 16384], "repeats": 3, "soe_tol": 1e-10}
+}

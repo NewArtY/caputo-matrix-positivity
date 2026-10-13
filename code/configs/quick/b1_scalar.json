@@ -1,0 +1,21 @@
+{
+ "description": "Reduced configuration of b1_scalar.json for scripts/smoke_test.py: 32 collocation nodes, 150 + 20 optimiser iterations, one seed. The numbers obtained with it are not reported anywhere.",
+ "lambda": 4.0,
+ "alphas_true": [0.5, 0.8],
+ "mesh": {"N": 32, "r": 3.0},
+ "mesh_sensitivity": {"r": [1.5], "seeds": [0]},
+ "network": {"width": 32, "depth": 3, "activation": "tanh", "beta": 5.0},
+ "inputs": ["plain", "singular"],
+ "gates": ["exp", "pow"],
+ "optimizer": {"adam_iters": 150, "lr": 0.002, "schedule": "cosine to 5%", "lbfgs_iters": 20},
+ "seeds": [0],
+ "inverse": {
+  "n_obs": 20,
+  "obs_seed": 2024,
+  "noise_sd": [0.0, 0.01],
+  "alpha_init_range": [0.2, 0.95],
+  "data_weight": 100.0
+ },
+ "discrete_optimum": {"alpha_bounds": [0.06, 0.999]},
+ "test": {"n_uniform": 100, "log_min": -6, "per_decade": 5}
+}

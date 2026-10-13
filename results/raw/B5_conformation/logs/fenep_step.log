@@ -1,0 +1,21 @@
+648 + 504 runs in 46 s; wrote results/raw/B5_conformation/positivity/fenep_step.json
+sweep: 648 runs, 450 with steps above the bound of the linear law
+  Newton, full steps: inadmissible 358, no convergence 60; failures on meshes above the bound 391, within the bound 27; admissible although above the bound: 59; first inadmissible iterate with tr C >= b in 63 runs
+  Newton, steps halved so that tr C < b: inadmissible 298, no convergence 40; failures on meshes above the bound 338, within the bound 0; admissible although above the bound: 112; first inadmissible iterate with tr C >= b in 0 runs
+  root solver: admissible 648/648, smallest eigenvalue 0.003521, largest tr C / b 0.996501, tr C <= theta_* in 648, largest residual 2.4e-12
+  safeguarded: admissible 648/648, root solver used in 338 runs, largest difference to the root solver 7.6e-15
+general: 504 runs, 224 with steps above the bound of the linear law
+  Newton, full steps: inadmissible 207, no convergence 60; failures on meshes above the bound 224, within the bound 43; admissible although above the bound: 0; first inadmissible iterate with tr C >= b in 36 runs
+  Newton, steps halved so that tr C < b: inadmissible 162, no convergence 56; failures on meshes above the bound 218, within the bound 0; admissible although above the bound: 6; first inadmissible iterate with tr C >= b in 0 runs
+  root solver: admissible 504/504, smallest eigenvalue 0.01489, largest tr C / b 0.976154, tr C <= theta_* in 504, largest residual 6.6e-14
+  safeguarded: admissible 504/504, root solver used in 218 runs, largest difference to the root solver 3.8e-15
+case: step / bound = 2.87; first step, real solutions (C11, C22, tr C, admissible):
+    f = -39.8719: -0.3671, 25.77292, 51.1788, False
+    f = 0.9374: -1.1835, 0.52133, -0.1408, False
+    f = 19.7485: 46.9018, 0.35914, 47.6201, True
+  Newton (steps halved): C11 = -1.1835 at the first step, smallest eigenvalue -1.1835, e_F = 1.001; full steps: 253 iterates with a negative eigenvalue, largest difference to the halved variant 0.0e+00; admissible iterates: smallest eigenvalue 0.0217, largest trace 48.8170 (theta_* = 48.8268), e_F = 5.23e-02
+case2: left-hand side of the step bound 0.2523; Newton with full steps: first inadmissible iterate at step 9 (tr C >= b), C11 = 10.75702, C22 = 0.41166, tr C = 11.58034; admissible solution of that step: 8.89797, 0.36262, tr C = 9.62322; 504 of 512 iterates inadmissible; Newton with halved steps admissible: True
+stored Wi=2 alpha=0.6: Newton admissible on all meshes True, largest difference to the root solver 2.1e-15, stored reference against root solver 2.5e-15
+stored Wi=2 alpha=0.9: Newton admissible on all meshes True, largest difference to the root solver 2.1e-14, stored reference against root solver 4.5e-14
+stored Wi=5 alpha=0.6: Newton admissible on all meshes True, largest difference to the root solver 6.4e-15, stored reference against root solver 9.0e-15
+stored Wi=5 alpha=0.9: Newton admissible on all meshes True, largest difference to the root solver 9.3e-15, stored reference against root solver 1.1e-14

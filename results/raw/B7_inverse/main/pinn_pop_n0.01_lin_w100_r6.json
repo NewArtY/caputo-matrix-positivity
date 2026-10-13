@@ -1,0 +1,206 @@
+{
+ "map": "lin",
+ "weight": 100.0,
+ "theta_init": [
+  0.3219793059739871,
+  0.5955332305707189,
+  0.6917276626568185
+ ],
+ "alpha_hat": 0.05010860821980965,
+ "Gdown_hat": 0.770885968782326,
+ "Gphi_hat": 1063.0155484011375,
+ "rel_err_rms": 1226.887397008635,
+ "status": "ok",
+ "history": [
+  [
+   0,
+   62.453233016044116
+  ],
+  [
+   500,
+   0.5713757879674852
+  ],
+  [
+   1000,
+   0.3682121662482568
+  ],
+  [
+   1500,
+   0.29820616576815673
+  ],
+  [
+   2000,
+   0.2702064013419425
+  ],
+  [
+   2500,
+   0.2516366256407413
+  ],
+  [
+   3000,
+   0.23830315800041196
+  ],
+  [
+   3500,
+   0.2306349341908424
+  ]
+ ],
+ "final_terms": {
+  "phys": 0.04726016548900658,
+  "data": 0.04863822086960416
+ },
+ "t_adam": 39.335942399920896,
+ "t_lbfgs": 4.549449400044978,
+ "lbfgs_evals": 591,
+ "wall": 43.88539179996587,
+ "cpu": 43.0,
+ "final_residual": 0.04726016548900658,
+ "final_data_misfit": 0.0004863822086960416,
+ "n_params": 2443,
+ "state_rel_fro": 0.15378361328318574,
+ "state_max_fro": 0.3633397310143886,
+ "state_tau_max_fro": 7.079457843841373e-05,
+ "state_rel_fro_u1000": 0.15378220748775456,
+ "state_rel_inc_layer": 5.529957147756041,
+ "state_rel_fro_proj": 0.15378361328318574,
+ "state_max_fro_proj": 0.36333973101438855,
+ "state_min_eig": 0.0,
+ "state_tau_min_eig": 0.0,
+ "state_neg_time_frac": 0.0,
+ "state_neg_log_frac": 0.0,
+ "state_max_negativity": 0.0,
+ "state_int_negativity": 0.0,
+ "state_max_trace_defect": 1.1102230246251565e-16,
+ "state_max_herm_defect": 0.0,
+ "benchmark": "B7",
+ "peak_rss_mb": 327.74609375,
+ "stage": "main",
+ "name": "pinn_pop_n0.01_lin_w100_r6",
+ "method": "pinn",
+ "design": "pop",
+ "noise": 0.01,
+ "real": 6,
+ "timestamp_utc": "2026-10-11T21:10:47+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b7_inverse.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b7_inverse.json": "36b91d2977860bc7",
+  "b7_inverse.py": "926e7d97855d7acb"
+ },
+ "seed": 6,
+ "config": {
+  "job": {
+   "stage": "main",
+   "method": "pinn",
+   "design": "pop",
+   "noise": 0.01,
+   "real": 6,
+   "map": "lin",
+   "weight": 100.0,
+   "adam_iters": 4000,
+   "lbfgs_iters": 500,
+   "name": "pinn_pop_n0.01_lin_w100_r6"
+  },
+  "alpha_true": 0.6,
+  "phys_true": {
+   "Omega": 6.283185307179586,
+   "Gdown": 1.0,
+   "Gphi": 0.5
+  },
+  "design": {
+   "rho0_bloch": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "observables": [
+    "pe"
+   ],
+   "noise_sd": [
+    0.01
+   ],
+   "note": "populations only (rho_ee), pure excited initial state; the dephasing rate is weakly identifiable"
+  },
+  "n_obs": 30,
+  "obs_seed": 2024,
+  "init": {
+   "alpha": [
+    0.3,
+    0.95
+   ],
+   "Gdown_log_uniform": [
+    0.3,
+    3.0
+   ],
+   "Gphi_log_uniform": [
+    0.15,
+    1.5
+   ]
+  },
+  "mesh": {
+   "N": 128,
+   "r": 3.0,
+   "grading": "tau_n = (n/N)^r (alpha is unknown)"
+  },
+  "test": {
+   "n_uniform": 1000,
+   "log_min": -12,
+   "per_decade": 40
+  },
+  "config_file": "configs/b7_inverse.json",
+  "pinn": {
+   "maps": [
+    "lin",
+    "factor",
+    "add"
+   ],
+   "gate": "pow",
+   "network": {
+    "width": 32,
+    "depth": 3,
+    "activation": "tanh",
+    "beta": 5.0
+   },
+   "optimizer": {
+    "adam_iters": 4000,
+    "lr": 0.002,
+    "schedule": "cosine to 5%",
+    "lbfgs_iters": 500
+   },
+   "parametrisation": "alpha = 0.05 + 0.95 sigmoid(a), rates = exp(u); the current alpha is used in the L1 weights and in the gate",
+   "data_weights": [
+    10.0,
+    100.0,
+    1000.0
+   ],
+   "pilot": {
+    "realisations": [
+     100,
+     101,
+     102
+    ],
+    "map": "add",
+    "selection": "per (design, noise level): the weight with the smallest median over the pilot realisations of the root-mean-square relative parameter error; the selected weight is used for all maps"
+   }
+  }
+ }
+}

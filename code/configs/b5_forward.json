@@ -1,0 +1,136 @@
+{
+ "description": "B5 forward: start-up of steady shear and of uniaxial extension, Caputo time-fractional upper-convected Maxwell (Hookean dumbbell) conformation tensor, C(0) = I; dimensionless time tau = t/T in [0,1], Theta = T/lambda, tau_c = lambda",
+ "law": "ucm",
+ "cases": [
+  {
+   "flow": "shear",
+   "Wi": 1.0,
+   "Theta": 4.0
+  },
+  {
+   "flow": "shear",
+   "Wi": 10.0,
+   "Theta": 4.0
+  },
+  {
+   "flow": "shear",
+   "Wi": 100.0,
+   "Theta": 4.0
+  },
+  {
+   "flow": "uniaxial",
+   "Wi": 0.3,
+   "Theta": 2.0
+  },
+  {
+   "flow": "uniaxial",
+   "Wi": 1.0,
+   "Theta": 2.0
+  },
+  {
+   "flow": "uniaxial",
+   "Wi": 1.5,
+   "Theta": 2.0
+  }
+ ],
+ "frames": {
+  "aligned": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "rotated": [
+   30.0,
+   20.0,
+   40.0
+  ],
+  "definition": "Q = Rz(a) Ry(b) Rx(c), angles in degrees; Ghat' = Q Ghat Q^T, C' = Q C Q^T"
+ },
+ "alphas": [
+  0.6,
+  0.9
+ ],
+ "variants": [
+  [
+   "sym",
+   "fro"
+  ],
+  [
+   "sym",
+   "comp"
+  ],
+  [
+   "factor",
+   "fro"
+  ],
+  [
+   "factor",
+   "nat"
+  ],
+  [
+   "anchor",
+   "fro"
+  ],
+  [
+   "logm",
+   "fro"
+  ],
+  [
+   "logm",
+   "nat"
+  ]
+ ],
+ "variant_definitions": {
+  "outputs": "sym: X = C0 + s g Sym(N) (component-wise s_ij with loss comp); factor: X = T T^T, T = T0 + sqrt(s) g N; anchor: X = C0 + s g N N^T; logm: X = expm(log C0 + log(1+s) g Sym(N))",
+  "losses": "fro: |R|_F^2/s^2; comp: sum_ij (R_ij/s_ij)^2; rel: |R|_F^2/|X|_F^2; nat: tr(X^-1 R X^-1 R)"
+ },
+ "mesh": {
+  "N": 128,
+  "grading": "r = (2 - alpha)/alpha"
+ },
+ "network": {
+  "width": 32,
+  "depth": 3,
+  "activation": "tanh",
+  "inputs": "(tau, tau^alpha)",
+  "outputs": 9
+ },
+ "hard_ic": {
+  "gate": "g = 1 - exp(-beta tau^alpha)",
+  "beta": 5.0
+ },
+ "scale": {
+  "rule": "s = max_n |C^n - C0|_F and s_ij = max(max_n |C_ij^n - C0_ij|, 1) of the implicit L1 solution on a 64-step graded mesh",
+  "N": 64
+ },
+ "optimizer": {
+  "adam_iters": 4000,
+  "lr": 0.002,
+  "schedule": "cosine to 5%",
+  "lbfgs_iters": 500
+ },
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "test": {
+  "n_uniform": 400,
+  "n_layer": 100,
+  "layer": [
+   1e-06,
+   0.01
+  ],
+  "definition": "400 uniform midpoints (j-0.5)/400 plus 100 log-spaced points in [1e-6, 1e-2]"
+ },
+ "pd_tolerance": 0.0,
+ "variants_extra": [
+  [
+   "sym",
+   "rel"
+  ]
+ ],
+ "variants_extra_note": "run separately with --variants sym-rel (scale-free residual for the unconstrained output, added after the pilot study)"
+}

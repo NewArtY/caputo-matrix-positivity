@@ -1,0 +1,181 @@
+stage,group,metric,a,b,n_pairs,wins_a,gmean_ratio_a_over_b,median_ratio_a_over_b,min_ratio,max_ratio,p_wilcoxon
+main,all,rel_fro,factor/hard-pow,lin/hard-pow,40,23,0.977585,0.980448,0.472058,1.67929,0.404938
+main,all,rel_fro,factor/hard-exp,lin/hard-exp,40,26,0.958557,0.898839,0.574571,2.29059,0.320308
+main,all,rel_fro,add/hard-pow,lin/hard-pow,40,11,1.65844,1.19257,0.836385,6.79503,0.00010101
+main,all,rel_fro,gate2/hard-pow,lin/hard-pow,40,6,1.52681,1.15963,0.834673,4.37501,2.82294e-07
+main,all,rel_fro,gate2b/hard-pow,lin/hard-pow,40,24,1.01682,0.97269,0.698317,2.73519,0.476208
+main,all,rel_fro,lin/hard-pow,unc/hard-pow,40,30,0.852853,0.914804,0.351428,1.27588,0.00010101
+main,all,rel_fro,herm/hard-pow,unc/hard-pow,40,30,0.862214,0.930778,0.402447,1.21537,0.000508038
+main,all,rel_fro,factor/hard-pow,unc/hard-pow,40,32,0.833736,0.867542,0.351044,1.37087,6.26827e-05
+main,all,rel_fro,add/hard-pow,factor/hard-pow,40,9,1.69646,1.24803,0.914127,4.44916,1.40519e-06
+main,all,rel_fro,gate2/hard-pow,factor/hard-pow,40,3,1.56182,1.24612,0.948557,4.19368,3.76531e-10
+main,all,rel_fro,gate2b/hard-pow,factor/hard-pow,40,18,1.04014,1.02098,0.477563,3.45023,0.501375
+main,all,rel_fro,lin/hard-pow,lin/hard-exp,40,40,0.400568,0.444364,0.101749,0.993357,1.81899e-12
+main,all,rel_fro,factor/hard-pow,factor/hard-exp,40,22,0.40852,0.564333,0.0980055,1.11628,0.00239223
+main,all,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,40,20,0.932226,0.990333,0.389936,1.50383,0.389993
+main,all,node_rms_fro_to_l1,factor/hard-exp,lin/hard-exp,40,24,0.493698,0.5637,0.0773478,1.90938,0.00251291
+main,all,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,40,12,1.59062,1.48612,0.496035,5.2795,0.000193346
+main,all,node_rms_fro_to_l1,gate2/hard-pow,lin/hard-pow,40,3,1.71818,1.5655,0.712965,4.39488,9.74978e-10
+main,all,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,40,14,1.05648,1.0882,0.525112,2.52879,0.301062
+main,all,node_rms_fro_to_l1,lin/hard-pow,unc/hard-pow,40,32,0.786254,0.796097,0.391284,1.13833,3.48989e-07
+main,all,node_rms_fro_to_l1,herm/hard-pow,unc/hard-pow,40,30,0.808414,0.787676,0.484296,1.32363,2.67371e-06
+main,all,node_rms_fro_to_l1,factor/hard-pow,unc/hard-pow,40,33,0.732967,0.766991,0.398346,1.28784,2.82294e-07
+main,all,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,40,9,1.70626,1.94839,0.604218,3.91571,8.69366e-07
+main,all,node_rms_fro_to_l1,gate2/hard-pow,factor/hard-pow,40,3,1.8431,1.79061,0.617479,3.846,3.76531e-10
+main,all,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,40,17,1.13328,1.16088,0.593211,2.77593,0.0268527
+main,all,node_rms_fro_to_l1,lin/hard-pow,lin/hard-exp,40,40,0.301266,0.293946,0.109605,0.946527,1.81899e-12
+main,all,node_rms_fro_to_l1,factor/hard-pow,factor/hard-exp,40,22,0.568865,0.448955,0.111274,5.20001,0.00695519
+main,qutrit alpha=0.5,rel_fro,factor/hard-pow,lin/hard-pow,10,9,0.761757,0.790076,0.472058,1.12293,0.00976562
+main,qutrit alpha=0.5,rel_fro,factor/hard-exp,lin/hard-exp,10,2,1.22186,1.23671,0.924675,1.62766,0.00976562
+main,qutrit alpha=0.5,rel_fro,add/hard-pow,lin/hard-pow,10,0,2.3051,2.37853,1.28237,3.40863,0.00195312
+main,qutrit alpha=0.5,rel_fro,gate2/hard-pow,lin/hard-pow,10,1,1.80615,1.85095,0.834673,3.31522,0.00390625
+main,qutrit alpha=0.5,rel_fro,gate2b/hard-pow,lin/hard-pow,10,4,1.19415,1.10523,0.826585,2.73519,0.193359
+main,qutrit alpha=0.5,rel_fro,lin/hard-pow,unc/hard-pow,10,8,0.77622,0.829691,0.351428,1.27588,0.0644531
+main,qutrit alpha=0.5,rel_fro,herm/hard-pow,unc/hard-pow,10,7,0.775664,0.691294,0.529491,1.21537,0.0371094
+main,qutrit alpha=0.5,rel_fro,factor/hard-pow,unc/hard-pow,10,10,0.591291,0.632508,0.351044,0.756087,0.00195312
+main,qutrit alpha=0.5,rel_fro,add/hard-pow,factor/hard-pow,10,0,3.02603,3.17376,1.99993,4.17654,0.00195312
+main,qutrit alpha=0.5,rel_fro,gate2/hard-pow,factor/hard-pow,10,0,2.37103,2.26839,1.30172,4.18189,0.00195312
+main,qutrit alpha=0.5,rel_fro,gate2b/hard-pow,factor/hard-pow,10,0,1.56762,1.54831,1.07987,3.45023,0.00195312
+main,qutrit alpha=0.5,rel_fro,lin/hard-pow,lin/hard-exp,10,10,0.249409,0.264372,0.181427,0.325202,0.00195312
+main,qutrit alpha=0.5,rel_fro,factor/hard-pow,factor/hard-exp,10,10,0.155492,0.149019,0.122281,0.223689,0.00195312
+main,qutrit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,10,7,0.861933,0.838883,0.597785,1.21139,0.0839844
+main,qutrit alpha=0.5,node_rms_fro_to_l1,factor/hard-exp,lin/hard-exp,10,2,1.17576,1.1117,0.924538,1.58909,0.0136719
+main,qutrit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,10,0,2.35252,2.45582,1.37012,3.42908,0.00195312
+main,qutrit alpha=0.5,node_rms_fro_to_l1,gate2/hard-pow,lin/hard-pow,10,1,1.92989,1.95598,0.978507,3.07759,0.00390625
+main,qutrit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,10,1,1.24066,1.18043,0.821726,2.52879,0.0273438
+main,qutrit alpha=0.5,node_rms_fro_to_l1,lin/hard-pow,unc/hard-pow,10,8,0.746589,0.788124,0.391284,1.11828,0.00976562
+main,qutrit alpha=0.5,node_rms_fro_to_l1,herm/hard-pow,unc/hard-pow,10,7,0.763126,0.708965,0.530385,1.06075,0.0273438
+main,qutrit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,unc/hard-pow,10,10,0.64351,0.670319,0.431796,0.829269,0.00195312
+main,qutrit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,10,0,2.72936,2.77797,2.0507,3.57766,0.00195312
+main,qutrit alpha=0.5,node_rms_fro_to_l1,gate2/hard-pow,factor/hard-pow,10,0,2.23903,2.29218,1.46455,3.37837,0.00195312
+main,qutrit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,10,1,1.43939,1.42369,0.954217,2.77593,0.00390625
+main,qutrit alpha=0.5,node_rms_fro_to_l1,lin/hard-pow,lin/hard-exp,10,10,0.220378,0.236312,0.166863,0.274854,0.00195312
+main,qutrit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,factor/hard-exp,10,10,0.161556,0.157463,0.12239,0.205665,0.00195312
+main,qutrit alpha=0.8,rel_fro,factor/hard-pow,lin/hard-pow,10,5,1.00744,1.00354,0.940512,1.0831,0.769531
+main,qutrit alpha=0.8,rel_fro,factor/hard-exp,lin/hard-exp,10,10,0.835637,0.843317,0.700735,0.916848,0.00195312
+main,qutrit alpha=0.8,rel_fro,add/hard-pow,lin/hard-pow,10,5,0.992477,0.996353,0.92225,1.07391,0.769531
+main,qutrit alpha=0.8,rel_fro,gate2/hard-pow,lin/hard-pow,10,2,1.04085,1.03443,0.977954,1.148,0.0371094
+main,qutrit alpha=0.8,rel_fro,gate2b/hard-pow,lin/hard-pow,10,3,1.01476,1.02987,0.93015,1.06639,0.322266
+main,qutrit alpha=0.8,rel_fro,lin/hard-pow,unc/hard-pow,10,7,0.964875,0.959953,0.862112,1.06233,0.160156
+main,qutrit alpha=0.8,rel_fro,herm/hard-pow,unc/hard-pow,10,7,0.972795,0.956093,0.887192,1.11359,0.275391
+main,qutrit alpha=0.8,rel_fro,factor/hard-pow,unc/hard-pow,10,7,0.972055,0.949914,0.903482,1.09007,0.275391
+main,qutrit alpha=0.8,rel_fro,add/hard-pow,factor/hard-pow,10,7,0.985147,0.985229,0.931449,1.06336,0.322266
+main,qutrit alpha=0.8,rel_fro,gate2/hard-pow,factor/hard-pow,10,2,1.03316,1.0437,0.948557,1.09279,0.0644531
+main,qutrit alpha=0.8,rel_fro,gate2b/hard-pow,factor/hard-pow,10,3,1.00727,1.02098,0.906473,1.0518,0.375
+main,qutrit alpha=0.8,rel_fro,lin/hard-pow,lin/hard-exp,10,10,0.878076,0.876219,0.721235,0.993357,0.00195312
+main,qutrit alpha=0.8,rel_fro,factor/hard-pow,factor/hard-exp,10,0,1.05861,1.05252,1.01024,1.11628,0.00195312
+main,qutrit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,10,3,1.04276,1.08195,0.747145,1.48876,0.556641
+main,qutrit alpha=0.8,node_rms_fro_to_l1,factor/hard-exp,lin/hard-exp,10,10,0.179012,0.200186,0.0773478,0.274607,0.00195312
+main,qutrit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,10,6,0.936624,0.980536,0.634245,1.27276,0.431641
+main,qutrit alpha=0.8,node_rms_fro_to_l1,gate2/hard-pow,lin/hard-pow,10,1,1.35378,1.34652,0.919279,2.32448,0.00585938
+main,qutrit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,10,1,1.31134,1.2565,0.981254,1.84081,0.00390625
+main,qutrit alpha=0.8,node_rms_fro_to_l1,lin/hard-pow,unc/hard-pow,10,7,0.795187,0.752651,0.546712,1.13366,0.0488281
+main,qutrit alpha=0.8,node_rms_fro_to_l1,herm/hard-pow,unc/hard-pow,10,8,0.813688,0.822556,0.526662,1.32363,0.0371094
+main,qutrit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,unc/hard-pow,10,8,0.829188,0.80718,0.562918,1.28784,0.0488281
+main,qutrit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,10,7,0.898216,0.873109,0.604218,1.45479,0.375
+main,qutrit alpha=0.8,node_rms_fro_to_l1,gate2/hard-pow,factor/hard-pow,10,3,1.29827,1.4681,0.617479,1.8194,0.105469
+main,qutrit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,10,2,1.25756,1.32527,0.832312,1.61451,0.0136719
+main,qutrit alpha=0.8,node_rms_fro_to_l1,lin/hard-pow,lin/hard-exp,10,10,0.498506,0.489357,0.328537,0.761814,0.00195312
+main,qutrit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,factor/hard-exp,10,0,2.90384,2.89205,1.76178,5.20001,0.00195312
+main,two_qubit alpha=0.5,rel_fro,factor/hard-pow,lin/hard-pow,10,0,1.30442,1.39227,1.0215,1.67929,0.00195312
+main,two_qubit alpha=0.5,rel_fro,factor/hard-exp,lin/hard-exp,10,4,1.25772,1.30264,0.605704,2.29059,0.193359
+main,two_qubit alpha=0.5,rel_fro,add/hard-pow,lin/hard-pow,10,0,3.45814,3.58354,1.41866,6.79503,0.00195312
+main,two_qubit alpha=0.5,rel_fro,gate2/hard-pow,lin/hard-pow,10,0,2.81265,2.8149,1.53721,4.37501,0.00195312
+main,two_qubit alpha=0.5,rel_fro,gate2b/hard-pow,lin/hard-pow,10,7,0.957072,0.945767,0.698317,1.39635,0.625
+main,two_qubit alpha=0.5,rel_fro,lin/hard-pow,unc/hard-pow,10,8,0.733502,0.735842,0.528536,1.24705,0.0195312
+main,two_qubit alpha=0.5,rel_fro,herm/hard-pow,unc/hard-pow,10,8,0.767075,0.78083,0.402447,1.14866,0.0488281
+main,two_qubit alpha=0.5,rel_fro,factor/hard-pow,unc/hard-pow,10,5,0.956794,0.963561,0.567679,1.37087,0.769531
+main,two_qubit alpha=0.5,rel_fro,add/hard-pow,factor/hard-pow,10,0,2.6511,2.55221,1.35385,4.44916,0.00195312
+main,two_qubit alpha=0.5,rel_fro,gate2/hard-pow,factor/hard-pow,10,1,2.15624,2.14424,0.977418,4.19368,0.00390625
+main,two_qubit alpha=0.5,rel_fro,gate2b/hard-pow,factor/hard-pow,10,10,0.733715,0.745985,0.477563,0.957149,0.00195312
+main,two_qubit alpha=0.5,rel_fro,lin/hard-pow,lin/hard-exp,10,10,0.158891,0.153353,0.101749,0.225529,0.00195312
+main,two_qubit alpha=0.5,rel_fro,factor/hard-pow,factor/hard-exp,10,10,0.16479,0.173626,0.0980055,0.342593,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,10,0,1.29127,1.35663,1.10244,1.50383,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,factor/hard-exp,lin/hard-exp,10,2,1.2892,1.30106,0.820605,1.90938,0.0136719
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,10,0,3.25707,3.39358,1.93181,5.2795,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,gate2/hard-pow,lin/hard-pow,10,0,2.71705,2.61037,1.61007,4.39488,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,10,3,1.03351,1.04451,0.807212,1.26914,0.375
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,lin/hard-pow,unc/hard-pow,10,9,0.746391,0.755067,0.557963,1.13833,0.00585938
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,herm/hard-pow,unc/hard-pow,10,7,0.798461,0.782047,0.484296,1.12401,0.0371094
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,unc/hard-pow,10,5,0.963789,0.969059,0.645633,1.25494,0.769531
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,10,0,2.52238,2.49206,1.66949,3.91571,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,gate2/hard-pow,factor/hard-pow,10,0,2.10417,2.15585,1.12905,3.846,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,10,10,0.800382,0.838406,0.593211,0.938365,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,lin/hard-pow,lin/hard-exp,10,10,0.161667,0.162904,0.109605,0.213672,0.00195312
+main,two_qubit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,factor/hard-exp,10,10,0.161926,0.168598,0.111274,0.246929,0.00195312
+main,two_qubit alpha=0.8,rel_fro,factor/hard-pow,lin/hard-pow,10,9,0.912356,0.921751,0.816339,1.01407,0.00390625
+main,two_qubit alpha=0.8,rel_fro,factor/hard-exp,lin/hard-exp,10,10,0.657426,0.655956,0.574571,0.811325,0.00195312
+main,two_qubit alpha=0.8,rel_fro,add/hard-pow,lin/hard-pow,10,6,0.956186,0.952925,0.836385,1.10905,0.275391
+main,two_qubit alpha=0.8,rel_fro,gate2/hard-pow,lin/hard-pow,10,3,1.02774,1.03934,0.852255,1.17139,0.232422
+main,two_qubit alpha=0.8,rel_fro,gate2b/hard-pow,lin/hard-pow,10,10,0.921748,0.919955,0.869894,0.998427,0.00195312
+main,two_qubit alpha=0.8,rel_fro,lin/hard-pow,unc/hard-pow,10,7,0.963029,0.973958,0.864473,1.04732,0.105469
+main,two_qubit alpha=0.8,rel_fro,herm/hard-pow,unc/hard-pow,10,8,0.954832,0.949751,0.836476,1.06964,0.0644531
+main,two_qubit alpha=0.8,rel_fro,factor/hard-pow,unc/hard-pow,10,10,0.878625,0.857866,0.824168,0.969667,0.00195312
+main,two_qubit alpha=0.8,rel_fro,add/hard-pow,factor/hard-pow,10,2,1.04804,1.06512,0.914127,1.15049,0.105469
+main,two_qubit alpha=0.8,rel_fro,gate2/hard-pow,factor/hard-pow,10,0,1.12647,1.12964,1.03004,1.25135,0.00195312
+main,two_qubit alpha=0.8,rel_fro,gate2b/hard-pow,factor/hard-pow,10,5,1.01029,1.0153,0.900875,1.09784,0.492188
+main,two_qubit alpha=0.8,rel_fro,lin/hard-pow,lin/hard-exp,10,10,0.739881,0.732321,0.607191,0.989076,0.00195312
+main,two_qubit alpha=0.8,rel_fro,factor/hard-pow,factor/hard-exp,10,2,1.02678,1.03603,0.929591,1.09865,0.160156
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,10,10,0.650747,0.694992,0.389936,0.975887,0.00195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,factor/hard-exp,lin/hard-exp,10,10,0.21894,0.193736,0.136003,0.387224,0.00195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,10,6,0.891942,0.951251,0.496035,1.61193,0.492188
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,gate2/hard-pow,lin/hard-pow,10,1,1.22772,1.29369,0.712965,1.47876,0.0644531
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,10,9,0.740899,0.739456,0.525112,1.16972,0.00585938
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,lin/hard-pow,unc/hard-pow,10,8,0.862452,0.933494,0.63172,1.0446,0.0195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,herm/hard-pow,unc/hard-pow,10,8,0.861444,0.839789,0.64094,1.18992,0.0371094
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,unc/hard-pow,10,10,0.561237,0.519939,0.398346,0.894361,0.00195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,10,2,1.37064,1.46393,0.778164,2.48573,0.0195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,gate2/hard-pow,factor/hard-pow,10,0,1.88664,1.71933,1.49903,2.77835,0.00195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,10,4,1.13854,1.10607,0.625256,1.86111,0.322266
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,lin/hard-pow,lin/hard-exp,10,10,0.463808,0.413561,0.314363,0.946527,0.00195312
+main,two_qubit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,factor/hard-exp,10,2,1.37856,1.3552,0.81627,2.0389,0.0136719
+long,all,rel_fro,factor/hard-pow,lin/hard-pow,12,9,0.911882,0.987754,0.315043,1.73398,0.203613
+long,all,rel_fro,add/hard-pow,lin/hard-pow,12,6,1.22428,1.00159,0.794079,2.2709,0.339355
+long,all,rel_fro,gate2b/hard-pow,lin/hard-pow,12,8,0.862875,0.989622,0.325389,1.17217,0.203613
+long,all,rel_fro,add/hard-pow,factor/hard-pow,12,1,1.34259,1.02123,0.99918,2.71821,0.00244141
+long,all,rel_fro,gate2b/hard-pow,factor/hard-pow,12,3,0.946258,1.00722,0.653112,1.37022,0.677246
+long,all,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,12,10,0.402952,0.378922,0.0891123,1.44954,0.00488281
+long,all,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,12,7,0.759991,0.754432,0.217436,2.05795,0.266113
+long,all,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,12,10,0.75546,0.782806,0.373948,1.18247,0.012207
+long,all,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,12,1,1.88606,1.99716,0.930448,2.99208,0.000976562
+long,all,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,12,3,1.87481,1.57258,0.643334,6.06209,0.0639648
+long,qutrit alpha=0.5,rel_fro,factor/hard-pow,lin/hard-pow,3,3,0.583754,0.636233,0.315043,0.992437,
+long,qutrit alpha=0.5,rel_fro,add/hard-pow,lin/hard-pow,3,1,1.46101,1.72942,0.794079,2.2709,
+long,qutrit alpha=0.5,rel_fro,gate2b/hard-pow,lin/hard-pow,3,2,0.692788,0.87178,0.325389,1.17217,
+long,qutrit alpha=0.5,rel_fro,add/hard-pow,factor/hard-pow,3,0,2.50279,2.52054,2.28821,2.71821,
+long,qutrit alpha=0.5,rel_fro,gate2b/hard-pow,factor/hard-pow,3,0,1.18678,1.1811,1.03284,1.37022,
+long,qutrit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,3,3,0.520252,0.55108,0.304353,0.839555,
+long,qutrit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,3,1,1.45057,1.64352,0.902417,2.05795,
+long,qutrit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,3,3,0.638594,0.734459,0.373948,0.948192,
+long,qutrit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,3,0,2.78821,2.96504,2.45124,2.98236,
+long,qutrit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,3,0,1.22747,1.22867,1.1294,1.33276,
+long,qutrit alpha=0.8,rel_fro,factor/hard-pow,lin/hard-pow,3,2,0.995867,0.998104,0.986186,1.00339,
+long,qutrit alpha=0.8,rel_fro,add/hard-pow,lin/hard-pow,3,2,0.996155,0.998279,0.985377,1.00491,
+long,qutrit alpha=0.8,rel_fro,gate2b/hard-pow,lin/hard-pow,3,2,0.999355,0.998939,0.991462,1.00773,
+long,qutrit alpha=0.8,rel_fro,add/hard-pow,factor/hard-pow,3,1,1.00029,1.00018,0.99918,1.00151,
+long,qutrit alpha=0.8,rel_fro,gate2b/hard-pow,factor/hard-pow,3,0,1.0035,1.00432,1.00084,1.00535,
+long,qutrit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,3,3,0.31164,0.336401,0.210795,0.426818,
+long,qutrit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,3,3,0.478942,0.438613,0.397132,0.630715,
+long,qutrit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,3,3,0.816472,0.791982,0.773736,0.888211,
+long,qutrit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,3,1,1.53685,1.30384,0.930448,2.99208,
+long,qutrit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,3,0,2.61992,2.64034,1.85555,3.67057,
+long,two_qubit alpha=0.5,rel_fro,factor/hard-pow,lin/hard-pow,3,1,1.21381,1.15646,0.89182,1.73398,
+long,two_qubit alpha=0.5,rel_fro,add/hard-pow,lin/hard-pow,3,0,1.57263,1.50735,1.43053,1.8037,
+long,two_qubit alpha=0.5,rel_fro,gate2b/hard-pow,lin/hard-pow,3,2,0.80656,0.755301,0.59599,1.16561,
+long,two_qubit alpha=0.5,rel_fro,add/hard-pow,factor/hard-pow,3,0,1.29561,1.30341,1.04021,1.60406,
+long,two_qubit alpha=0.5,rel_fro,gate2b/hard-pow,factor/hard-pow,3,3,0.664486,0.668285,0.653112,0.672214,
+long,two_qubit alpha=0.5,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,3,1,1.13075,1.06977,0.932337,1.44954,
+long,two_qubit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,3,0,1.55031,1.44668,1.42626,1.80588,
+long,two_qubit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,3,2,0.791248,0.765966,0.599804,1.07825,
+long,two_qubit alpha=0.5,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,3,0,1.37105,1.35232,1.24583,1.52976,
+long,two_qubit alpha=0.5,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,3,3,0.699758,0.716009,0.643334,0.743856,
+long,two_qubit alpha=0.8,rel_fro,factor/hard-pow,lin/hard-pow,3,3,0.979877,0.978886,0.971502,0.989325,
+long,two_qubit alpha=0.8,rel_fro,add/hard-pow,lin/hard-pow,3,3,0.981566,0.981436,0.973508,0.989821,
+long,two_qubit alpha=0.8,rel_fro,gate2b/hard-pow,lin/hard-pow,3,2,0.992739,0.987787,0.98222,1.0084,
+long,two_qubit alpha=0.8,rel_fro,add/hard-pow,factor/hard-pow,3,0,1.00172,1.00206,1.0005,1.0026,
+long,two_qubit alpha=0.8,rel_fro,gate2b/hard-pow,factor/hard-pow,3,0,1.01313,1.01103,1.00909,1.01928,
+long,two_qubit alpha=0.8,node_rms_fro_to_l1,factor/hard-pow,lin/hard-pow,3,3,0.143807,0.171095,0.0891123,0.19506,
+long,two_qubit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,lin/hard-pow,3,3,0.309736,0.279686,0.217436,0.488624,
+long,two_qubit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,lin/hard-pow,3,2,0.789525,0.999335,0.416482,1.18247,
+long,two_qubit alpha=0.8,node_rms_fro_to_l1,add/hard-pow,factor/hard-pow,3,0,2.15383,2.44003,1.63468,2.50499,
+long,two_qubit alpha=0.8,node_rms_fro_to_l1,gate2b/hard-pow,factor/hard-pow,3,0,5.49015,5.84081,4.67368,6.06209,

@@ -1,0 +1,130 @@
+{
+ "stepper": {
+  "16": {
+   "ms_per_query_median": 0.27529988437891006,
+   "ms_per_query_min": 0.26100012473762035
+  },
+  "32": {
+   "ms_per_query_median": 0.36815006751567125,
+   "ms_per_query_min": 0.3494999837130308
+  },
+  "64": {
+   "ms_per_query_median": 0.5923000862821937,
+   "ms_per_query_min": 0.5642999894917011
+  },
+  "128": {
+   "ms_per_query_median": 1.2450499925762415,
+   "ms_per_query_min": 1.141499960795045
+  },
+  "256": {
+   "ms_per_query_median": 2.916899975389242,
+   "ms_per_query_min": 2.7848000172525644
+  }
+ },
+ "n_test_times": 198,
+ "inference_ms_per_query_batched": 0.27702579996548593,
+ "inference_ms_per_query_single": 0.4706500330939889,
+ "inference_ms_per_query_final_time_batched": 0.001760199898853898,
+ "timestamp_utc": "2026-10-11T23:24:02+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b2_timing.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b2_surrogate.json": "228ce91167c1572f",
+  "b2_surrogate.py": "449a278b582ab322",
+  "b2_timing.py": "6c65c1ab191bec29"
+ },
+ "seed": null,
+ "config": {
+  "description": "Use-case check: parametric surrogate rho(tau; alpha, Gamma_down) of the driven two-level system (pure excited initial state), trained once by the L1 residual on a pool of parameter points (no data) and evaluated over the parameter range against the exact solution and the implicit L1 time stepper",
+  "phys": {
+   "Omega": 6.283185307179586,
+   "Gphi": 0.5
+  },
+  "rho0_bloch": [
+   0.0,
+   0.0,
+   1.0
+  ],
+  "ranges": {
+   "alpha": [
+    0.4,
+    0.8
+   ],
+   "Gdown": [
+    0.5,
+    2.0
+   ]
+  },
+  "train": {
+   "pool": 256,
+   "pool_seed": 7,
+   "pool_sampling": "scrambled Sobol points in the parameter rectangle",
+   "N": 128,
+   "grading": "each parameter point has its own mesh tau_n = (n/N)^r, r = (2 - alpha)/alpha",
+   "batch": 32,
+   "adam_iters": 12000,
+   "lr": 0.002,
+   "schedule": "cosine to 5%",
+   "lbfgs_iters": 300,
+   "lbfgs_note": "L-BFGS on the whole pool"
+  },
+  "network": {
+   "width": 64,
+   "depth": 4,
+   "activation": "tanh",
+   "beta": 5.0,
+   "inputs": "tau and the two parameters scaled to [-1, 1]"
+  },
+  "maps": [
+   "add",
+   "lin"
+  ],
+  "gate": "pow",
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "test": {
+   "n_alpha": 8,
+   "n_Gdown": 8,
+   "grid": "tensor grid of the parameter rectangle including its boundary (64 points, none of them in the training pool)",
+   "n_uniform": 100,
+   "log_min": -8,
+   "per_decade": 12,
+   "random_params": 2000,
+   "random_seed": 11,
+   "inference_batch": 1000
+  },
+  "stepper": {
+   "N": [
+    16,
+    32,
+    64,
+    128,
+    256
+   ],
+   "timing_repeats": 5
+  },
+  "eig_tol": 1e-12
+ }
+}

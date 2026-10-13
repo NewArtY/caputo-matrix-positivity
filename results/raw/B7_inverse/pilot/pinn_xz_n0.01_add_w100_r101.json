@@ -1,0 +1,209 @@
+{
+ "map": "add",
+ "weight": 100.0,
+ "theta_init": [
+  0.7174422653202455,
+  0.5533371392053106,
+  0.2977757202870865
+ ],
+ "alpha_hat": 0.6045650413149773,
+ "Gdown_hat": 0.9575292297481325,
+ "Gphi_hat": 0.5163422489506568,
+ "rel_err_rms": 0.03125129604116431,
+ "status": "ok",
+ "history": [
+  [
+   0,
+   42.23424256892335
+  ],
+  [
+   500,
+   0.08573741101223463
+  ],
+  [
+   1000,
+   0.04837862874479304
+  ],
+  [
+   1500,
+   0.04133357622769922
+  ],
+  [
+   2000,
+   0.03832995041803952
+  ],
+  [
+   2500,
+   0.036349170405212794
+  ],
+  [
+   3000,
+   0.03497425075030919
+  ],
+  [
+   3500,
+   0.03412565521695788
+  ]
+ ],
+ "final_terms": {
+  "phys": 0.006221977716054528,
+  "data": 0.008647154686151912
+ },
+ "t_adam": 40.99743969994597,
+ "t_lbfgs": 5.693851799936965,
+ "lbfgs_evals": 546,
+ "wall": 46.69129149988294,
+ "cpu": 46.28125,
+ "final_residual": 0.006221977716054528,
+ "final_data_misfit": 8.647154686151911e-05,
+ "n_params": 2443,
+ "state_rel_fro": 0.008890570443167966,
+ "state_max_fro": 0.013363945760239576,
+ "state_tau_max_fro": 0.0825,
+ "state_rel_fro_u1000": 0.008890842112676033,
+ "state_rel_inc_layer": 0.044196207372829824,
+ "state_rel_fro_proj": 0.00889057044316796,
+ "state_max_fro_proj": 0.013363945760239622,
+ "state_min_eig": -1.3877787807814457e-17,
+ "state_tau_min_eig": 0.0,
+ "state_neg_time_frac": 0.0,
+ "state_neg_log_frac": 0.0,
+ "state_max_negativity": 1.3877787807814457e-17,
+ "state_int_negativity": 6.938893903907228e-30,
+ "state_max_trace_defect": 4.440892098500626e-16,
+ "state_max_herm_defect": 0.0,
+ "benchmark": "B7",
+ "peak_rss_mb": 315.21484375,
+ "stage": "pilot",
+ "name": "pinn_xz_n0.01_add_w100_r101",
+ "method": "pinn",
+ "design": "xz",
+ "noise": 0.01,
+ "real": 101,
+ "timestamp_utc": "2026-10-11T20:54:42+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b7_inverse.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b7_inverse.json": "36b91d2977860bc7",
+  "b7_inverse.py": "926e7d97855d7acb"
+ },
+ "seed": 101,
+ "config": {
+  "job": {
+   "stage": "pilot",
+   "method": "pinn",
+   "design": "xz",
+   "noise": 0.01,
+   "real": 101,
+   "map": "add",
+   "weight": 100.0,
+   "adam_iters": 4000,
+   "lbfgs_iters": 500,
+   "name": "pinn_xz_n0.01_add_w100_r101"
+  },
+  "alpha_true": 0.6,
+  "phys_true": {
+   "Omega": 6.283185307179586,
+   "Gdown": 1.0,
+   "Gphi": 0.5
+  },
+  "design": {
+   "rho0_bloch": [
+    0.6,
+    0.0,
+    0.8
+   ],
+   "observables": [
+    "sx",
+    "sz"
+   ],
+   "noise_sd": [
+    0.0,
+    0.01,
+    0.05
+   ],
+   "note": "pure initial state; <sigma_x> and <sigma_z> are measured, <sigma_y> is not"
+  },
+  "n_obs": 30,
+  "obs_seed": 2024,
+  "init": {
+   "alpha": [
+    0.3,
+    0.95
+   ],
+   "Gdown_log_uniform": [
+    0.3,
+    3.0
+   ],
+   "Gphi_log_uniform": [
+    0.15,
+    1.5
+   ]
+  },
+  "mesh": {
+   "N": 128,
+   "r": 3.0,
+   "grading": "tau_n = (n/N)^r (alpha is unknown)"
+  },
+  "test": {
+   "n_uniform": 1000,
+   "log_min": -12,
+   "per_decade": 40
+  },
+  "config_file": "configs/b7_inverse.json",
+  "pinn": {
+   "maps": [
+    "lin",
+    "factor",
+    "add"
+   ],
+   "gate": "pow",
+   "network": {
+    "width": 32,
+    "depth": 3,
+    "activation": "tanh",
+    "beta": 5.0
+   },
+   "optimizer": {
+    "adam_iters": 4000,
+    "lr": 0.002,
+    "schedule": "cosine to 5%",
+    "lbfgs_iters": 500
+   },
+   "parametrisation": "alpha = 0.05 + 0.95 sigmoid(a), rates = exp(u); the current alpha is used in the L1 weights and in the gate",
+   "data_weights": [
+    10.0,
+    100.0,
+    1000.0
+   ],
+   "pilot": {
+    "realisations": [
+     100,
+     101,
+     102
+    ],
+    "map": "add",
+    "selection": "per (design, noise level): the weight with the smallest median over the pilot realisations of the root-mean-square relative parameter error; the selected weight is used for all maps"
+   }
+  }
+ }
+}

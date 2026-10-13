@@ -1,0 +1,4 @@
+flow,Wi,alpha,frame,output / residual norm,budget factor,runs,"median e_F, %","min e_F, %","max e_F, %",runs not PD,"median e_F at budget 1 (same seeds), %","median wall, s"
+shear,100,0.6,rotated,exp(Psi) / affine-invariant,3,3,23.69,6.15,87.79,0,97903.33,73
+shear,100,0.6,rotated,unconstrained / Frobenius,3,3,109.39,85.58,117.36,3,109.17,43
+shear,100,0.6,rotated,unconstrained / relative,3,3,51466.41,25293.90,62735.15,3,5151.87,44

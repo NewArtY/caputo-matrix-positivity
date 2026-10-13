@@ -1,0 +1,77 @@
+item,quantity,value
+parameters,Wi,20
+parameters,alpha,0.6
+parameters,b,50
+parameters,Theta,2
+parameters,N,256
+mesh,step_over_lambda,0.0078125
+mesh,step_bound_linear_law,0.00272148
+mesh,step_over_bound,2.87069
+mesh,step_condition_lhs,1.88274
+mesh,theta_star,48.8268
+first step,w_11 in units of c / lambda,20.7144
+first step,f_c,19.2856
+"first step, real solution 1",f,-39.8719
+"first step, real solution 1",C11,-0.367062
+"first step, real solution 1",C22,25.7729
+"first step, real solution 1",trace,51.1788
+"first step, real solution 1",admissible,False
+"first step, real solution 2",f,0.93736
+"first step, real solution 2",C11,-1.18346
+"first step, real solution 2",C22,0.521333
+"first step, real solution 2",trace,-0.140799
+"first step, real solution 2",admissible,False
+"first step, real solution 3",f,19.7485
+"first step, real solution 3",C11,46.9018
+"first step, real solution 3",C22,0.359136
+"first step, real solution 3",trace,47.6201
+"first step, real solution 3",admissible,True
+"Newton iteration, halved steps",C11_first_step,-1.18346
+"Newton iteration, halved steps",C22_first_step,0.521333
+"Newton iteration, halved steps",min_eig,-1.18346
+"Newton iteration, halved steps",max_tr_over_b,0.0242583
+"Newton iteration, halved steps",C11_final,-0.0333707
+"Newton iteration, halved steps",e_F,1.00102
+"Newton iteration, halved steps",max_residual,8.11211e-17
+"Newton iteration, halved steps",C11 at t / lambda = 0.0078125,-1.18346
+"Newton iteration, halved steps",C11 at t / lambda = 0.015625,0.494684
+"Newton iteration, halved steps",C11 at t / lambda = 0.0625,-0.021322
+"Newton iteration, halved steps",C11 at t / lambda = 0.25,-0.0523931
+"Newton iteration, halved steps",C11 at t / lambda = 1,-0.0373496
+"Newton iteration, halved steps",C11 at t / lambda = 2,-0.0333707
+admissible iterates (root solver),C11_first_step,46.9018
+admissible iterates (root solver),C22_first_step,0.359136
+admissible iterates (root solver),min_eig,0.0216679
+admissible iterates (root solver),max_tr_over_b,0.976339
+admissible iterates (root solver),C11_final,48.7736
+admissible iterates (root solver),e_F,0.0522867
+admissible iterates (root solver),max_residual,7.84759e-15
+admissible iterates (root solver),C11 at t / lambda = 0.0078125,46.9018
+admissible iterates (root solver),C11 at t / lambda = 0.015625,48.2388
+admissible iterates (root solver),C11 at t / lambda = 0.0625,48.6256
+admissible iterates (root solver),C11 at t / lambda = 0.25,48.7253
+admissible iterates (root solver),C11 at t / lambda = 1,48.7639
+admissible iterates (root solver),C11 at t / lambda = 2,48.7736
+"Newton iteration, halved steps",steps_with_negative_eigenvalue,253
+"Newton iteration, full steps",C11_first_step,-1.18346
+"Newton iteration, full steps",C22_first_step,0.521333
+"Newton iteration, full steps",min_eig,-1.18346
+"Newton iteration, full steps",max_tr_over_b,0.0242583
+"Newton iteration, full steps",C11_final,-0.0333707
+"Newton iteration, full steps",e_F,1.00102
+"Newton iteration, full steps",max_residual,8.11211e-17
+"Newton iteration, full steps",max_abs_diff_to_limited_newton,0
+"Newton iteration, full steps",steps_with_negative_eigenvalue,253
+admissible iterates (root solver),max_tr,48.817
+safeguarded solver,steps solved by the root solver,1
+safeguarded solver,rel_diff_to_root,2.9e-16
+"reference (graded meshes, root solver)",steps,2048 and 4096
+"reference (graded meshes, root solver)",rel_diff_N_2N,0.000238698
+"reference (graded meshes, root solver)",min_eig,0.0216652
+"reference (graded meshes, root solver)",max_tr,48.817
+"reference (graded meshes, root solver)",C11 at t / lambda = 0.0078125,45.8192
+"reference (graded meshes, root solver)",C11 at t / lambda = 0.015625,48.2748
+"reference (graded meshes, root solver)",C11 at t / lambda = 0.0625,48.6263
+"reference (graded meshes, root solver)",C11 at t / lambda = 0.25,48.7253
+"reference (graded meshes, root solver)",C11 at t / lambda = 1,48.7639
+"reference (graded meshes, root solver)",C11 at t / lambda = 2,48.7736

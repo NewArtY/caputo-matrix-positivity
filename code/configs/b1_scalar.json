@@ -1,0 +1,54 @@
+{
+ "description": "B1 scalar Caputo relaxation D^alpha u = -lambda u, u(0)=1, tau in [0,1] (T_r = tau_c); 2 x 2 design {network input: tau | (tau, tau^alpha)} x {gate of the hard initial condition: 1-exp(-beta tau) | 1-exp(-beta tau^alpha)}, forward and inverse (identification of alpha) on one common mesh",
+ "lambda": 4.0,
+ "alphas_true": [0.3, 0.5, 0.8],
+ "mesh": {
+  "N": 128,
+  "r": 3.0,
+  "grading": "tau_n = (n/N)^r, the same mesh for the forward and the inverse problem (alpha is unknown in the latter)"
+ },
+ "mesh_sensitivity": {
+  "r": [1.5, 2.3333333333333335, 5.0],
+  "seeds": [0, 1, 2, 3, 4],
+  "note": "inverse problem, noise-free data"
+ },
+ "network": {
+  "width": 32,
+  "depth": 3,
+  "activation": "tanh",
+  "beta": 5.0
+ },
+ "inputs": ["plain", "singular"],
+ "gates": ["exp", "pow"],
+ "first_campaign_variants": {"plain": "input plain, gate exp", "singular": "input singular, gate pow"},
+ "optimizer": {
+  "adam_iters": 4000,
+  "lr": 0.002,
+  "schedule": "cosine to 5%",
+  "lbfgs_iters": 500
+ },
+ "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+ "inverse": {
+  "n_obs": 20,
+  "obs_seed": 2024,
+  "obs_times": "sorted uniform sample of [0.02, 1]",
+  "noise_sd": [0.0, 0.01],
+  "noise_seed": "1000 + seed",
+  "alpha_param": "alpha = 0.05 + 0.95*sigmoid(a)",
+  "alpha_init_range": [0.2, 0.95],
+  "data_weight": 100.0
+ },
+ "discrete_optimum": {
+  "alpha_bounds": [0.06, 0.999],
+  "definitions": {
+   "alpha_res": "argmin over alpha of the mean squared L1 residual of the exact solution (order alpha_true) on the mesh",
+   "alpha_ls": "argmin over alpha of the data misfit of the L1 time-stepper solution (piecewise-linear interpolation to the observation times): the classical least-squares estimate",
+   "alpha_joint": "argmin over alpha and over all nodal values of the training objective (mean squared residual + data_weight * mean squared misfit) with a piecewise-linear trial function: what a perfect optimiser with a perfectly flexible network would return"
+  }
+ },
+ "test": {
+  "n_uniform": 1000,
+  "log_min": -12,
+  "per_decade": 40
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "timestamp_utc": "2026-10-13T07:49:57Z",
+ "command": "aggregate_deterministic.py all",
+ "python": "3.14.3",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "torch": "2.10.0+cpu",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "blas": "scipy-openblas 0.3.31.dev",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "cpu": "13th Gen Intel(R) Core(TM) i7-13620H",
+ "logical_cpus": 16,
+ "ram_gb": 15.7,
+ "blas_threads": "1",
+ "source_sha256_16": {
+  "code/fracsp/__init__.py": "0daf3c73968308ba",
+  "code/fracsp/dirac.py": "4e7df00a2e046628",
+  "code/fracsp/dirac_cutoff.py": "20f86201ed615abf",
+  "code/fracsp/exact.py": "e0f6dd869518be0f",
+  "code/fracsp/layers.py": "dd6719e5e76155c6",
+  "code/fracsp/mittag.py": "cb91941ac7e48e99",
+  "code/fracsp/operators.py": "36849dcd8853dd3d",
+  "code/fracsp/pinn.py": "b2522136eec04772",
+  "code/fracsp/reference.py": "7ae76a46829a9536",
+  "code/fracsp/spd.py": "f1da1b08bf87de9e",
+  "scripts/aggregate_deterministic.py": "689f35f41eadf511",
+  "code/experiments/det_common.py": "043fa9aa83b4dc36"
+ },
+ "raw_sources": [
+  "results/raw/DIRAC_v2/B3_summary.csv"
+ ],
+ "note": "B3: n_c(t_f) versus N for the implicit L1 scheme (SOE history) and the product-trapezoidal rule. abs_err_vs_reference: against the product-trapezoid Richardson extrapolate from N = 16384, 32768 (alpha < 1; its own error estimate is err_PI of Table_Dirac_B3.csv) or DOP853 (alpha = 1); richardson_with_previous: extrapolate from (N/2, N) with order 2-alpha (L1) or 2 (product trapezoid); abs_err_of_richardson: its error against the same reference; observed_order from three consecutive N",
+ "rows": 100,
+ "columns": [
+  "a0",
+  "alpha",
+  "method",
+  "N",
+  "nc_final",
+  "abs_err_vs_reference",
+  "richardson_with_previous",
+  "abs_err_of_richardson",
+  "observed_order"
+ ]
+}

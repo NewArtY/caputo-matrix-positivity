@@ -1,0 +1,51 @@
+{
+ "description": "Use-case check: parametric surrogate rho(tau; alpha, Gamma_down) of the driven two-level system (pure excited initial state), trained once by the L1 residual on a pool of parameter points (no data) and evaluated over the parameter range against the exact solution and the implicit L1 time stepper",
+ "phys": {
+  "Omega": 6.283185307179586,
+  "Gphi": 0.5
+ },
+ "rho0_bloch": [0.0, 0.0, 1.0],
+ "ranges": {
+  "alpha": [0.4, 0.8],
+  "Gdown": [0.5, 2.0]
+ },
+ "train": {
+  "pool": 256,
+  "pool_seed": 7,
+  "pool_sampling": "scrambled Sobol points in the parameter rectangle",
+  "N": 128,
+  "grading": "each parameter point has its own mesh tau_n = (n/N)^r, r = (2 - alpha)/alpha",
+  "batch": 32,
+  "adam_iters": 12000,
+  "lr": 0.002,
+  "schedule": "cosine to 5%",
+  "lbfgs_iters": 300,
+  "lbfgs_note": "L-BFGS on the whole pool"
+ },
+ "network": {
+  "width": 64,
+  "depth": 4,
+  "activation": "tanh",
+  "beta": 5.0,
+  "inputs": "tau and the two parameters scaled to [-1, 1]"
+ },
+ "maps": ["add", "lin"],
+ "gate": "pow",
+ "seeds": [0, 1, 2],
+ "test": {
+  "n_alpha": 8,
+  "n_Gdown": 8,
+  "grid": "tensor grid of the parameter rectangle including its boundary (64 points, none of them in the training pool)",
+  "n_uniform": 100,
+  "log_min": -8,
+  "per_decade": 12,
+  "random_params": 2000,
+  "random_seed": 11,
+  "inference_batch": 1000
+ },
+ "stepper": {
+  "N": [16, 32, 64, 128, 256],
+  "timing_repeats": 5
+ },
+ "eig_tol": 1e-12
+}

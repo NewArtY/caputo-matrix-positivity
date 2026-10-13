@@ -1,0 +1,146 @@
+{
+ "benchmark": "B1",
+ "stage": "main",
+ "name": "inverse_a0.3_in-singular_g-pow_n0.01_r3_s6",
+ "mode": "inverse",
+ "input": "singular",
+ "gate": "pow",
+ "alpha_true": 0.3,
+ "seed": 6,
+ "noise": 0.01,
+ "mesh_r": 3.0,
+ "N": 128,
+ "alpha_init": 0.6036232636039573,
+ "alpha_hat": 0.30743503594418825,
+ "alpha_err": 0.007435035944188262,
+ "rel_l2": 0.012159792324556532,
+ "max_abs": 0.019754886842255348,
+ "tau_max_abs": 5.308844442309879e-05,
+ "rel_l2_u1000": 0.012142942055773638,
+ "final_residual": 0.0020881899212433688,
+ "final_data_misfit": 0.00011092109130039592,
+ "n_params": 2241,
+ "peak_rss_mb": 309.41015625,
+ "status": "ok",
+ "history": [
+  [
+   0,
+   98.9262541018753
+  ],
+  [
+   500,
+   0.11058662859840088
+  ],
+  [
+   1000,
+   0.03805387367601991
+  ],
+  [
+   1500,
+   0.02311014448321578
+  ],
+  [
+   2000,
+   0.019088989904619297
+  ],
+  [
+   2500,
+   0.01767207671205577
+  ],
+  [
+   3000,
+   0.01706672578386625
+  ],
+  [
+   3500,
+   0.016791364720827557
+  ]
+ ],
+ "final_terms": {
+  "phys": 0.0020881899212433688,
+  "data": 0.011092109130039591
+ },
+ "t_adam": 14.648976700147614,
+ "t_lbfgs": 2.6184995998628438,
+ "lbfgs_evals": 626,
+ "wall": 17.267476300010458,
+ "cpu": 17.21875,
+ "timestamp_utc": "2026-10-11T21:19:54+00:00",
+ "python": "3.14.3",
+ "torch": "2.10.0+cpu",
+ "numpy": "2.4.2",
+ "scipy": "1.18.1",
+ "mpmath": "1.3.0",
+ "fracsp": "0.1.0",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+ "cpu_count": 16,
+ "torch_threads": 1,
+ "dtype": "float64",
+ "driver": "b1_scalar.py",
+ "code_sha256": {
+  "__init__.py": "567de9449b4747da",
+  "dirac.py": "4e7df00a2e046628",
+  "exact.py": "e0f6dd869518be0f",
+  "layers.py": "dd6719e5e76155c6",
+  "mittag.py": "cb91941ac7e48e99",
+  "operators.py": "36849dcd8853dd3d",
+  "pinn.py": "b2522136eec04772",
+  "reference.py": "7ae76a46829a9536",
+  "b1_scalar.json": "a7202e9ac84a413d",
+  "b1_floor.py": "a9c83f4d6aa06f19",
+  "b1_scalar.py": "fb7531bfde42e9a8"
+ },
+ "config": {
+  "job": {
+   "stage": "main",
+   "mode": "inverse",
+   "alpha": 0.3,
+   "input": "singular",
+   "gate": "pow",
+   "seed": 6,
+   "noise": 0.01,
+   "r": 3.0,
+   "N": 128,
+   "adam_iters": 4000,
+   "lbfgs_iters": 500,
+   "name": "inverse_a0.3_in-singular_g-pow_n0.01_r3_s6"
+  },
+  "lambda": 4.0,
+  "network": {
+   "width": 32,
+   "depth": 3,
+   "activation": "tanh",
+   "beta": 5.0
+  },
+  "inverse": {
+   "n_obs": 20,
+   "obs_seed": 2024,
+   "obs_times": "sorted uniform sample of [0.02, 1]",
+   "noise_sd": [
+    0.0,
+    0.01
+   ],
+   "noise_seed": "1000 + seed",
+   "alpha_param": "alpha = 0.05 + 0.95*sigmoid(a)",
+   "alpha_init_range": [
+    0.2,
+    0.95
+   ],
+   "data_weight": 100.0
+  },
+  "test": {
+   "n_uniform": 1000,
+   "log_min": -12,
+   "per_decade": 40
+  },
+  "optimizer": {
+   "adam_iters": 4000,
+   "lr": 0.002,
+   "schedule": "cosine to 5%",
+   "lbfgs_iters": 500
+  },
+  "config_file": "configs/b1_scalar.json"
+ }
+}

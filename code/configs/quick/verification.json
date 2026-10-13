@@ -1,0 +1,13 @@
+{
+  "description": "Reduced configuration of verification.json (E1-E3, E5) for scripts/smoke_test.py: small meshes, few orders. The numbers obtained with it are not reported anywhere.",
+  "E1_l1_operator": {"alphas": [0.5, 0.8], "T": 1.0, "N_list": [16, 32, 64]},
+  "E2_alpha_gradient": {
+    "alphas": [0.4, 0.8], "N_list": [32], "fd_step": 1e-6,
+    "nonuniform": {"gradings": [3.0, "(2-alpha)/alpha"], "N_list": [32], "mp_dps": 60, "mp_step": 1e-20}
+  },
+  "E3_mittag_leffler": {"alphas": [0.5, 0.8], "lambda": 1.0, "T": 5.0, "N_list": [32, 64, 256]},
+  "E5_positivity": {
+    "dims": [2, 3], "alphas": [0.6, 1.0], "strengths": [1.0, 10.0], "kinds": ["smooth", "switch", "eigen"],
+    "N": 40, "T": 1.0, "n_pure": 2, "n_mixed": 1, "seed": 20261011, "soe_tol": 1e-10
+  }
+}
