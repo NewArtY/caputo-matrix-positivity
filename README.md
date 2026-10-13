@@ -5,7 +5,7 @@ Artem P. Nevecheria (Department of Mathematical and Computer Methods, Kuban Stat
 Stepan N. Andreev (Joint-Stock Company "Center for Research and Development", Moscow 101000, Russia; ORCID 0000-0003-3588-2894),
 Qing-Hua Qin (Institute of Advanced Interdisciplinary Technology, Shenzhen MSU-BIT University, Shenzhen 518172, China; ORCID 0000-0003-0948-784X).
 
-DOI of this archive: `<DOI OF THE ARCHIVE TO BE INSERTED>`. DOI of the article: `<DOI OF THE ARTICLE TO BE INSERTED>`.
+DOI of this archive: `10.5281/zenodo.23346554`. DOI of the article: `<DOI OF THE ARTICLE TO BE INSERTED>`.
 
 This archive contains the source code, the configurations, every raw numerical result, the tables and the
 figures of the article. Subject: Caputo time-fractional evolution equations whose state is a positive-semidefinite

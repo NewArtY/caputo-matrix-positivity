@@ -30,8 +30,8 @@ authors:
     affiliation: "Institute of Advanced Interdisciplinary Technology, Shenzhen MSU-BIT University, Shenzhen 518172, China"
     orcid: "https://orcid.org/0000-0003-0948-784X"
 version: "1.0.0"
-date-released: "2026-01-01"            # PLACEHOLDER: date of the deposit
-doi: "10.5281/zenodo.0000000"          # PLACEHOLDER: DOI of this archive, assigned by Zenodo
+date-released: "2026-10-13"
+doi: "10.5281/zenodo.23346554"
 license:
   - MIT                                # source code
   - CC-BY-4.0                          # data and figures
