@@ -23,12 +23,8 @@ authors:
     orcid: "https://orcid.org/0000-0001-6736-4691"
   - family-names: Andreev
     given-names: "Stepan N."
-    affiliation: "Joint-Stock Company \"Center for Research and Development\", Moscow 101000, Russia"
+    affiliation: "Moscow Center for Advanced Studies, Moscow 123592, Russia"
     orcid: "https://orcid.org/0000-0003-3588-2894"
-  - family-names: Qin
-    given-names: "Qing-Hua"
-    affiliation: "Institute of Advanced Interdisciplinary Technology, Shenzhen MSU-BIT University, Shenzhen 518172, China"
-    orcid: "https://orcid.org/0000-0003-0948-784X"
 version: "1.0.0"
 date-released: "2026-10-13"
 doi: "10.5281/zenodo.23346554"
@@ -58,7 +54,4 @@ preferred-citation:
     - family-names: Andreev
       given-names: "Stepan N."
       orcid: "https://orcid.org/0000-0003-3588-2894"
-    - family-names: Qin
-      given-names: "Qing-Hua"
-      orcid: "https://orcid.org/0000-0003-0948-784X"
-  doi: "10.0000/ARTICLE-DOI-TO-BE-INSERTED"   # PLACEHOLDER: DOI of the article
+    doi: "10.0000/ARTICLE-DOI-TO-BE-INSERTED"   # PLACEHOLDER: DOI of the article

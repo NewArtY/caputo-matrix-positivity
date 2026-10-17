@@ -2,8 +2,7 @@
 
 Nikolai S. Akintsov (School of Artificial Intelligence and Computer Science, Nantong University, Nantong 226019, China; ORCID 0000-0002-1040-1292),
 Artem P. Nevecheria (Department of Mathematical and Computer Methods, Kuban State University, Krasnodar 350040, Russia; ORCID 0000-0001-6736-4691),
-Stepan N. Andreev (Joint-Stock Company "Center for Research and Development", Moscow 101000, Russia; ORCID 0000-0003-3588-2894),
-Qing-Hua Qin (Institute of Advanced Interdisciplinary Technology, Shenzhen MSU-BIT University, Shenzhen 518172, China; ORCID 0000-0003-0948-784X).
+Stepan N. Andreev (Moscow Center for Advanced Studies, Moscow 123592, Russia; ORCID 0000-0003-3588-2894).
 
 DOI of this archive: `10.5281/zenodo.23346554`. DOI of the article: `<DOI OF THE ARTICLE TO BE INSERTED>`.
 
